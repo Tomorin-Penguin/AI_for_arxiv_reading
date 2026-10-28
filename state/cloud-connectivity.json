@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-28T19:08:17+08:00",
+  "github_read_verified": true,
+  "github_write_verified": true,
+  "verification": "cloud connector write and read-back",
+  "first_formal_run": "2026-10-29",
+  "test_email_sent": false
+}
