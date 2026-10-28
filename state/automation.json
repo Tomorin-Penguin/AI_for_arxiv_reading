@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "mode": "cloud",
+  "activated_date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "first_run_date": "2026-10-29",
+  "reading": {
+    "automation_id": "6ae1d5d4b0d88190985f3671e1eb0542",
+    "time": "12:00",
+    "status": "ACTIVE"
+  },
+  "email": {
+    "automation_id": "6ae1d66b2a208190bd6b98923557d565",
+    "time": "14:00",
+    "status": "ACTIVE",
+    "recipient": "1468610627@qq.com"
+  },
+  "legacy_local": {
+    "automation_id": "arxiv-14",
+    "status": "PAUSED"
+  },
+  "verification": {
+    "cloud_github_read_write": "passed",
+    "cloud_gmail_search": "passed",
+    "email_send": "not_tested_no_test_email_requested",
+    "full_reading_pipeline": "first_scheduled_run_pending"
+  },
+  "cloud_connectivity_commit": "385f52dec26c2e0153e5d3349dce86e338cfd866"
+}

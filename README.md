@@ -6,7 +6,12 @@
 
 北京时间 **12:00 开始阅读，14:00 发送包含简报的邮件**，收件人为 **1468610627@qq.com**，通过已连接 Gmail 发送。首次正式执行为 **2026-10-29**，当天邮件只报道当天上午新公布的论文，不用前一天的文章替代。
 
-由当前 Codex 桌面任务的定时日程执行，GitHub 用于保存材料；并非 GitHub Actions 云端运行。当前方案不需要另配模型 API key。运行时需保持电脑与应用可用、GitHub/Gmail 连接有效；到点启动和邮件送达仍受调度与网络影响。
+由两个独立的 ChatGPT 云端定时任务执行，GitHub 保存全部长期材料和状态。本机可以关机或离线，不需要另配模型 API key。GitHub/Gmail 连接需保持有效；云端调度、额度和服务状态可能影响实际启动及送达时间。
+
+- [云端阅读任务：每天 12:00](https://chatgpt.com/scheduled?automationId=6ae1d5d4b0d88190985f3671e1eb0542&automationSource=cloud)
+- [云端邮件任务：每天 14:00](https://chatgpt.com/scheduled?automationId=6ae1d66b2a208190bd6b98923557d565&automationSource=cloud)
+
+云端日程使用 Asia/Shanghai 时区。原本地日程 `arxiv-14` 在迁移完成后停用，避免重复执行。
 
 14:00 邮件包含中文总简报、双语精选要点和完整报告链接。未读完时标明覆盖与待读数量，后续继续补齐仓库；不会把摘要初筛说成全文已读。
 
@@ -31,7 +36,7 @@
 
 ## 维护与检查
 
-脚本只需 Python 3.9+ 标准库。`collect.py` 校验 RSS 日期和类型并跨分类去重；`collect_listing.py` 在 RSS 延迟时校验公告页并构建临时清单；阅读与撰写由定时唤醒的 Codex 完成。
+脚本只需 Python 3.9+ 标准库。`collect.py` 校验 RSS 日期和类型并跨分类去重；`collect_listing.py` 在 RSS 延迟时校验公告页并构建临时清单；阅读与撰写由云端定时任务完成。脚本在云端临时环境运行；无代码环境时须执行等价校验。
 
 ```sh
 python3 -m unittest discover -s tests -v

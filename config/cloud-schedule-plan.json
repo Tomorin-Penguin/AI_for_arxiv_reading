@@ -17,5 +17,9 @@
   "no_new_papers": "send a short verified no-update message at 14:00",
   "execution": "ChatGPT cloud scheduled tasks; separate reading and email schedules; no dependency on local computer",
   "model_api_key_required": false,
-  "scheduler_status": "prepared_not_activated"
+  "scheduler_status": "active",
+  "reading_automation_id": "6ae1d5d4b0d88190985f3671e1eb0542",
+  "email_automation_id": "6ae1d66b2a208190bd6b98923557d565",
+  "legacy_local_automation_id": "arxiv-14",
+  "legacy_local_automation_status": "PAUSED"
 }
