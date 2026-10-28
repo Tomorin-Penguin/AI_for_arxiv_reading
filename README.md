@@ -1,47 +1,41 @@
-# AI_for_arxiv_reading
+# arXiv 每日阅读
 
-这个库用于存放每日 gr-qc 和 hep-th 预印本的双语阅读卡、中文总简报及面向个人研究兴趣的双语精选。
+**gr-qc · hep-th｜摘要翻译 · 双语阅读卡 · 中文日报 · 研究精选**
 
-## 每日安排
+每天北京时间 **12:00** 在云端开始阅读，**14:00** 将简报发送至 **1468610627@qq.com**。首次正式运行：**2026-10-29**。电脑离线时仍由云端执行，成果按日期保存在本仓库。
 
-北京时间 **12:00 开始阅读，14:00 发送包含简报的邮件**，收件人为 **1468610627@qq.com**，通过已连接 Gmail 发送。首次正式执行为 **2026-10-29**，当天邮件只报道当天上午新公布的论文，不用前一天的文章替代。
+## 从这里开始
 
-由两个独立的 ChatGPT 云端定时任务执行，GitHub 保存全部长期材料和状态。本机可以关机或离线，不需要另配模型 API key。GitHub/Gmail 连接需保持有效；云端调度、额度和服务状态可能影响实际启动及送达时间。
+| 想做什么 | 入口 |
+| --- | --- |
+| 阅读最新简报或查阅往期 | **[日报索引](reports/README.md)** |
+| 查看或调整科研偏好 | [兴趣与科研关联](config/interests.md) |
+| 查看时间、收件人和云端日程 | [运行配置](config/schedule.json) |
+| 了解阅读、筛选和邮件规则 | [执行规程](docs/workflow.md) |
+| 维护脚本与核对结果 | [维护说明](docs/maintenance.md) |
 
-- [云端阅读任务：每天 12:00](https://chatgpt.com/scheduled?automationId=6ae1d5d4b0d88190985f3671e1eb0542&automationSource=cloud)
-- [云端邮件任务：每天 14:00](https://chatgpt.com/scheduled?automationId=6ae1d66b2a208190bd6b98923557d565&automationSource=cloud)
+每期提供原文摘要及中文翻译、基于正文的独立中英概括、一份中文综合简报，以及“兴趣精选”“科研密切相关”两组双语推荐。全部新文与首次交叉收录均纳入，跨分类去重，修订稿单列。
 
-云端日程使用 Asia/Shanghai 时区。原本地日程 `arxiv-14` 在迁移完成后停用，避免重复执行。
+**当天邮件对应当天上午新公布的批次。** 未读完时如实列出正文已读、仅摘要、待读数量；测试数据与历史补读不充当当日成果。
 
-14:00 邮件包含中文总简报、双语精选要点和完整报告链接。未读完时标明覆盖与待读数量，后续继续补齐仓库；不会把摘要初筛说成全文已读。
+## 目录
 
-## 阅读内容
+| 目录 | 保存内容 |
+| --- | --- |
+| `reports/` | 按日期组织的简报、阅读卡和完成状态；日常阅读入口 |
+| `data/` | 当日官方论文清单、摘要元数据和去重统计 |
+| `config/` | 唯一运行配置、研究兴趣、两个云端任务的补充说明 |
+| `docs/` | 执行规程与维护说明 |
+| `templates/` | [逐篇阅读卡模板](templates/paper.md) |
+| `state/` | 已读版本记录与邮件防重记录 |
+| `scripts/`、`tests/` | 采集、校验工具及测试 |
+| `archive/` | [初始化与迁移记录](archive/setup-2026-10-28/README.md)，不参与正式日报 |
 
-1. 官方英文摘要和中文翻译，保留出处。
-2. 独立阅读概括，中英双语，说明方法、关键结果与适用条件。
-3. 当日中文综合简报及完整论文索引。
-4. “兴趣精选”和“科研密切相关”两组双语简报，解释具体联系与可开展的计算。
+## 云端任务
 
-基础范围为两个分类的全部新文与首次交叉收录，跨分类去重；修订稿单列，重点追踪高相关/已精选文章。当前关注二维 dilaton 引力、AdS₂/JT、记忆与时钟可观测量、全局因果结构、SYK 与全息；可直接调整 [兴趣配置](config/interests.md)。
+- [每日阅读 · 12:00](https://chatgpt.com/scheduled?automationId=6ae1d5d4b0d88190985f3671e1eb0542&automationSource=cloud)
+- [日报邮件 · 14:00](https://chatgpt.com/scheduled?automationId=6ae1d66b2a208190bd6b98923557d565&automationSource=cloud)
 
-## 导航
+时区为 `Asia/Shanghai`。原本地日程已暂停。实际启动和送达时间受云端服务、额度及 GitHub/Gmail 连接状态影响。
 
-- [每日执行规程](WORKFLOW.md)
-- [时间和邮件配置](config/schedule.json)
-- [逐篇阅读卡模板](templates/paper.md)
-- [报告索引](reports/README.md)
-- [2026-10-28 官方清单](data/2026-10-28/manifest.json)
-
-初始化已验证两份 RSS 共 185 条公告，合并为 153 个版本，其中 100 篇新文/交叉收录、53 篇修订。此统计只表示清单获取成功，不表示已完成当天阅读。按用户要求，这批数据仅用于测试，不会放进次日的日报邮件。正式日报从 2026-10-29 当天的新批次开始。
-
-## 维护与检查
-
-脚本只需 Python 3.9+ 标准库。`collect.py` 校验 RSS 日期和类型并跨分类去重；`collect_listing.py` 在 RSS 延迟时校验公告页并构建临时清单；阅读与撰写由云端定时任务完成。脚本在云端临时环境运行；无代码环境时须执行等价校验。
-
-```sh
-python3 -m unittest discover -s tests -v
-python3 scripts/collect.py --feed-dir work/feeds --date YYYY-MM-DD --output data/YYYY-MM-DD/manifest.json
-python3 scripts/validate_report.py reports/YYYY-MM-DD/status.json
-```
-
-断点、正文读取状态与发信记录分别保存在 `reports/` 和 `state/`。重跑不重复发送相同日期日报；抓取失败不会记作“无新论文”。
+`CLOUD_WORKFLOW.md` 是现有定时任务的固定入口，转向统一执行规程；完整规则只维护一份。
