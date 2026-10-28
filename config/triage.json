@@ -1,0 +1,10 @@
+{
+  "policy_version": "1.0",
+  "enabled": true,
+  "skip_max_interest": 2,
+  "skip_max_research": 2,
+  "skip_confidence": "high",
+  "priority_min_interest": 4,
+  "priority_min_research": 4,
+  "description": "Use the complete title and abstract to score relevance. Skip body reading only when both scores are low and confidence is high. Core-topic matches, transferable methods, explicit user requests, missing abstracts and uncertainty prevent skipping."
+}

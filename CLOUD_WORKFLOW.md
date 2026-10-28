@@ -2,7 +2,7 @@
 
 本文件保留给已启用的云端日程使用。**执行前必须读取 [docs/workflow.md](docs/workflow.md) 的完整规程**；此处仅提供导航，不替代规程。
 
-1. 读取 [运行配置](config/schedule.json) 和 [科研兴趣](config/interests.md)。
+1. 读取 [运行配置](config/schedule.json)、[科研兴趣](config/interests.md) 和 [预分类阈值](config/triage.json)。2026-10-28 用户新增预分类：只对保留的论文读正文；全体公告仍留清单，跳过者单列且不计作已读。
 2. 阅读阶段同时读取 [阅读说明](config/cloud-reading-prompt.txt)；邮件阶段读取 [邮件说明](config/cloud-email-prompt.txt)。
 3. 按规程读取当天 `data/`、`reports/` 和 `state/`；所有日期目录均以北京时间为准。
 

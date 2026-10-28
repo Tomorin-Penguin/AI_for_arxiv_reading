@@ -1,11 +1,14 @@
 # {{中文标题}} / {{English title}}
 
+本模板用于预分类后保留的正文队列；跳过项记录在 `triage.json` 和 `skipped.md`，不使用本模板冒充已读。
+
 - 作者：{{authors}}
 - arXiv：{{id}}v{{version}}；主分类：{{primary_category}}；本次收录：{{announcements}}
 - 公告日期：{{announcement_date}}；实际阅读日期：{{read_at}}
 - [摘要]({{abs_url}}) · [正文]({{html_or_pdf_url}}) · [许可]({{license_url}})
 - 阅读状态：{{body_reviewed / abstract_only / pending}}；已读范围：{{sections/pages}}
 - 兴趣 I：{{0–5及理由}}；科研 R：{{0–5及理由}}
+- 上述为正文评估的最终分数；预分类的暂定分数与理由另见本期 `triage.json`。
 
 ## 作者摘要 / Author abstract
 

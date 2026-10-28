@@ -8,6 +8,7 @@
 | --- | --- |
 | 时间、收件人、分类、云端任务 ID | [config/schedule.json](../config/schedule.json) |
 | 研究兴趣与筛选标准 | [config/interests.md](../config/interests.md) |
+| 预分类分流阈值 | [config/triage.json](../config/triage.json) |
 | 完整执行规则 | [docs/workflow.md](workflow.md) |
 | 日报导航 | [reports/README.md](../reports/README.md) |
 | 某日覆盖与阅读进度 | `reports/YYYY-MM-DD/status.json` |
@@ -18,7 +19,7 @@
 
 ## 稳定入口
 
-现有云端任务直接引用 `CLOUD_WORKFLOW.md`、`config/cloud-reading-prompt.txt`、`config/cloud-email-prompt.txt`、`config/schedule.json` 与 `config/interests.md`。这些入口路径保持稳定；完整规程位于 `docs/workflow.md`，入口文件会明确要求读取它。
+现有云端任务读取 `CLOUD_WORKFLOW.md`、`docs/workflow.md`、`config/schedule.json`、`config/triage.json` 与 `config/interests.md`。任务说明副本保存在 `config/cloud-reading-prompt.txt` 与 `config/cloud-email-prompt.txt`，修改后也要同步云端任务。这些入口路径保持稳定。
 
 正式成果继续使用如下约定；`YYYY-MM-DD` 为北京时间报告日期，不预建空日报：
 
@@ -27,6 +28,8 @@ data/YYYY-MM-DD/manifest.json
 reports/YYYY-MM-DD/
   daily-zh.md
   selected-bilingual.md
+  triage.json
+  skipped.md
   papers/<arxiv-id>vN.md
   status.json
   mail.html
@@ -46,7 +49,7 @@ python3 scripts/collect.py --feed-dir work/feeds --date YYYY-MM-DD --output data
 python3 scripts/validate_report.py reports/YYYY-MM-DD/status.json
 ```
 
-`collect.py` 校验 RSS 日期并去重；`collect_listing.py` 在 RSS 延迟时处理官方公告页。具体参数可用 `--help` 查看。邮件发送前使用 `validate_report.py` 的 `--for-mail` 选项，核对真实当前北京时间日期。
+`collect.py` 校验 RSS 日期并去重；`collect_listing.py` 在 RSS 延迟时处理官方公告页。`triage.py` 校验 AI 基于摘要作出的语义分流，不执行关键词分类；缺摘要、不确定、核心方向或方法迁移都受保留保护。具体参数可用 `--help` 查看。邮件发送前使用 `validate_report.py` 的 `--for-mail` 选项，核对真实当前北京时间日期，并自动检查同目录 triage.json、兴趣配置哈希和跳过依据。新报告用 schema_version=2，历史三状态报告仍可验证。
 
 校验失败要修复或如实报告，不能跳过后声称完成。云端没有代码执行能力时，按执行规程做等价的来源、覆盖、版本及发信防重检查。
 
