@@ -1,0 +1,4 @@
+每天北京时间14:00在云端发送当日arXiv简报邮件，首次2026-10-29。用户已明确授权从已连接Gmail发送到1468610627@qq.com，不抄送、不发给Gmail自己，不再逐日请求确认。不要依赖用户电脑或本地文件，14点邮件任务与12点阅读任务独立，使用GitHub读取已保存成果。
+先读取私有仓库Tomorin-Penguin/AI_for_arxiv_reading的main中CLOUD_WORKFLOW.md、config/schedule.json和reports/YYYY-MM-DD/status.json、daily-zh.md、selected-bilingual.md，YYYY-MM-DD为当前北京时间日期。发送前必须核对report_date、announcement_date、源公告日期和论文列表：邮件只能报道当日上午新公布的gr-qc/hep-th论文，不能用前一天的报告或2026-10-28测试清单替代。若没有当天有效成果，邮件如实写当日数据/阅读未完成，不贴旧文冒充。确认没有新论文时发简短无更新邮件。部分完成就标注正文已读、仅摘要、待读数量。
+邮件主题“[arXiv 日报] YYYY-MM-DD | gr-qc / hep-th”，部分完成加“（部分完成）”，无更新加“（无新论文）”。正文必须包含中文总简报及双语精选的实质内容（中文概括、English summary、推荐/科研关联理由），并提供GitHub完整报告和原论文链接，不只是生成完成通知；用可读HTML，不依赖MathJax。大篇幅逐篇卡保留在GitHub。
+严格防重：先查state/mail/YYYY-MM-DD.json，并用Gmail搜索已发送中同日期同前缀同收件人的成功邮件；已发则不重发，发送响应不确定先查已发送后决定。成功后将message id、实际北京时间、报告commit SHA和邮件正文快照写入GitHub。记录失败也不能盲目重发。发信被权限/连接阻挡则记录真实失败并通知用户，不能声称已发。保存成果只能到授权仓库。持续每日运行直到用户调整或停止。
