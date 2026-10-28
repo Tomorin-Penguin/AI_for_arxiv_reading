@@ -1,2 +1,2 @@
 # AI_for_arxiv_reading
-这个库是为了存放利用gpt阅读每日gr-qc和hep-th预印本并进行总结整理的
+这个库是为了存放利用gpt阅读每日gr-qc和hep-th预印本并进行总结整理的文件而建立的。
