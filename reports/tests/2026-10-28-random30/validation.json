@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-28T12:09:33.731045+00:00",
+  "unique_sample": 30,
+  "seed_reproduced": true,
+  "announcement_date": "2026-10-28",
+  "html_bodies_available": 30,
+  "body_reviewed": 30,
+  "abstract_only": 0,
+  "pending": 0,
+  "selected": 9,
+  "research_close": 1,
+  "cc_by_full_abstract_translations": 7,
+  "abstract_gists": 23,
+  "independent_checks": [
+    "finite-dimensional covariance shear",
+    "six scalar-Kasner exponent substitutions",
+    "M2 finite-term cancellation"
+  ],
+  "numerical_simulations_reproduced": false,
+  "formal_ledgers_untouched": true,
+  "repository_tests_passed": 12,
+  "date_and_coverage_validator_passed": true,
+  "internal_links_checked": 148,
+  "email_bilingual_cards": 9
+}

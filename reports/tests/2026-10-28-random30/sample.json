@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "run_type": "user_requested_random_test",
+  "report_date": "2026-10-28",
+  "announcement_date": "2026-10-28",
+  "sample_method": "uniform without replacement from sorted deduplicated new/cross union",
+  "random_seed": 3822907193017240599,
+  "population_size": 100,
+  "sample_size": 30,
+  "drawn_at_utc": "2026-10-28T11:40:14.191697+00:00",
+  "population_keys": [
+    "2607.27889v2",
+    "2610.28721v1",
+    "2610.33134v1",
+    "2610.35938v1",
+    "2610.35947v1",
+    "2610.35969v1",
+    "2610.35983v1",
+    "2610.36023v1",
+    "2610.36024v1",
+    "2610.36025v1",
+    "2610.36028v1",
+    "2610.36029v1",
+    "2610.36031v1",
+    "2610.36032v1",
+    "2610.36033v1",
+    "2610.36035v1",
+    "2610.36036v1",
+    "2610.36037v1",
+    "2610.36044v1",
+    "2610.36045v1",
+    "2610.36049v1",
+    "2610.36052v1",
+    "2610.36054v1",
+    "2610.36057v1",
+    "2610.36063v1",
+    "2610.36064v1",
+    "2610.36080v1",
+    "2610.36081v1",
+    "2610.36085v1",
+    "2610.36087v1",
+    "2610.36094v1",
+    "2610.36113v1",
+    "2610.36123v1",
+    "2610.36128v1",
+    "2610.36129v1",
+    "2610.36137v1",
+    "2610.36160v1",
+    "2610.36162v1",
+    "2610.36166v1",
+    "2610.36177v1",
+    "2610.36179v1",
+    "2610.36228v1",
+    "2610.36271v1",
+    "2610.36275v1",
+    "2610.36416v1",
+    "2610.36455v1",
+    "2610.36562v1",
+    "2610.36604v1",
+    "2610.36611v1",
+    "2610.36673v1",
+    "2610.36695v1",
+    "2610.36728v1",
+    "2610.36730v1",
+    "2610.36735v1",
+    "2610.36752v1",
+    "2610.36796v1",
+    "2610.36814v1",
+    "2610.36845v1",
+    "2610.36863v1",
+    "2610.36898v1",
+    "2610.36923v1",
+    "2610.36975v1",
+    "2610.36997v1",
+    "2610.37009v1",
+    "2610.37028v1",
+    "2610.37038v1",
+    "2610.37063v1",
+    "2610.37064v1",
+    "2610.37096v1",
+    "2610.37117v1",
+    "2610.37160v1",
+    "2610.37165v1",
+    "2610.37194v1",
+    "2610.37223v1",
+    "2610.37263v1",
+    "2610.37278v1",
+    "2610.37282v1",
+    "2610.37285v1",
+    "2610.37302v1",
+    "2610.37308v1",
+    "2610.37331v1",
+    "2610.37382v1",
+    "2610.37383v1",
+    "2610.37394v1",
+    "2610.37449v1",
+    "2610.37458v1",
+    "2610.37460v1",
+    "2610.37493v1",
+    "2610.37501v1",
+    "2610.37506v1",
+    "2610.37515v1",
+    "2610.37525v1",
+    "2610.37546v1",
+    "2610.37552v1",
+    "2610.37554v1",
+    "2610.37603v1",
+    "2610.37610v1",
+    "2610.37617v1",
+    "2610.37638v1",
+    "2610.37667v1"
+  ],
+  "sources": [
+    {
+      "category": "gr-qc",
+      "url": "https://rss.arxiv.org/rss/gr-qc",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "last_build_date": "Wed, 28 Oct 2026 04:00:17 +0000",
+      "sha256": "b5493d2f9cf971c9bc199ca10f8c3d90274ad790f4e44f876467d5b8a08009b9",
+      "count": 79
+    },
+    {
+      "category": "hep-th",
+      "url": "https://rss.arxiv.org/rss/hep-th",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "last_build_date": "Wed, 28 Oct 2026 04:00:15 +0000",
+      "sha256": "10d3ceeff44e544e65ede4c21daab9df5ce5d7b28ebd8b5621e0812746d392a4",
+      "count": 106
+    }
+  ],
+  "papers": [
+    {
+      "id": "2610.37009",
+      "version": 1,
+      "key": "2610.37009v1",
+      "title": "Momentum-space entanglement and mutual information in Kaluza-Klein reduction",
+      "authors": "Udaykrishna Thattarampilly, Yunlong Zheng",
+      "categories": [
+        "hep-th",
+        "quant-ph"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37009v1",
+      "html_url": "https://arxiv.org/html/2610.37009v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37009v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 1,
+      "reading_status": "body_reviewed",
+      "interest_score": 4,
+      "research_score": 3,
+      "abstract_gist_en": "Tracing out a massive KK tower can leave information in the reduced state that is not captured by a local low-energy amplitude expansion.",
+      "abstract_gist_zh": "积分掉重 KK 模后，低能振幅的局域展开未必刻画完整约化态。"
+    },
+    {
+      "id": "2610.36052",
+      "version": 1,
+      "key": "2610.36052v1",
+      "title": "The Harmonic Structure of Multiparticle Scattering: Amplitude Projection and Non-Renormalization",
+      "authors": "Nathaniel Craig, Brian Henning, Michael Stadlbauer",
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36052v1",
+      "html_url": "https://arxiv.org/html/2610.36052v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36052v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 2,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "A channel-harmonic organization of multiparticle cuts yields operator-mixing selection rules.",
+      "abstract_gist_zh": "利用多粒子割的谐波分解推导算符混合的选择规则。"
+    },
+    {
+      "id": "2610.36054",
+      "version": 1,
+      "key": "2610.36054v1",
+      "title": "Mesons, Confinement, and Complexity: A Krylov Space Perspective on the Long-Range Ising Chain",
+      "authors": "Xuhao Jiang, Jad C. Halimeh, N. S. Srivatsa",
+      "categories": [
+        "cond-mat.str-el",
+        "hep-lat",
+        "hep-th",
+        "quant-ph"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36054v1",
+      "html_url": "https://arxiv.org/html/2610.36054v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36054v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 3,
+      "reading_status": "body_reviewed",
+      "interest_score": 4,
+      "research_score": 2,
+      "abstract_gist_en": "State and operator Krylov measures probe meson confinement in a long-range Ising chain.",
+      "abstract_gist_zh": "用态与算符的 Krylov 量研究长程 Ising 链中的禁闭介子。"
+    },
+    {
+      "id": "2610.36064",
+      "version": 1,
+      "key": "2610.36064v1",
+      "title": "Axionic Quintessence in Heterotic String Theory",
+      "authors": "David Andriot, Margherita Putti, Leo Veissiere",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36064v1",
+      "html_url": "https://arxiv.org/html/2610.36064v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36064v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 4,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 1,
+      "abstract_gist_en": "Aligned instanton contributions are used to seek a sufficiently flat axion potential in heterotic compactifications.",
+      "abstract_gist_zh": "通过瞬子贡献的对齐构造足够平坦的杂化弦轴子势。"
+    },
+    {
+      "id": "2610.36029",
+      "version": 1,
+      "key": "2610.36029v1",
+      "title": "AlgebrasTQD: Computing Algebras and Interfaces in Twisted Quantum Doubles",
+      "authors": "Alison Warman",
+      "categories": [
+        "cond-mat.str-el",
+        "hep-th",
+        "math.QA",
+        "quant-ph"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36029v1",
+      "html_url": "https://arxiv.org/html/2610.36029v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36029v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 5,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 1,
+      "abstract_gist_en": "An exact-arithmetic GAP package classifies condensable algebras and related boundaries and interfaces.",
+      "abstract_gist_zh": "用 GAP 的精确算术分类可凝聚代数及相应边界和界面。"
+    },
+    {
+      "id": "2610.36673",
+      "version": 1,
+      "key": "2610.36673v1",
+      "title": "Atom as an Agent: Emergent Order by Collective Predictive Coding",
+      "authors": "Koji Hashimoto, Tadahiro Taniguchi",
+      "categories": [
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech",
+        "cs.AI",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36673v1",
+      "html_url": "https://arxiv.org/html/2610.36673v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36673v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 6,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 1,
+      "abstract_gist_en": "A shared latent-variable model learns collective order from local spin observations.",
+      "abstract_gist_zh": "由局域自旋观测学习共享潜变量，识别集体有序。"
+    },
+    {
+      "id": "2610.37160",
+      "version": 1,
+      "key": "2610.37160v1",
+      "title": "The Disordered Universe 2025: An Intro and a Vision",
+      "authors": "Paolo Benincasa, Guilherme Leite Pimentel",
+      "categories": [
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech",
+        "gr-qc",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37160v1",
+      "html_url": "https://arxiv.org/html/2610.37160v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37160v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 7,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "A summer-school overview connects cosmological observables, disorder and quantum information.",
+      "abstract_gist_zh": "暑期学校导论联结宇宙学观测量、无序与量子信息。"
+    },
+    {
+      "id": "2610.37278",
+      "version": 1,
+      "key": "2610.37278v1",
+      "title": "Noether Symmetries in Scalar--Vector--Two-Form Cosmology with a Topological BF Interaction",
+      "authors": "Amin Rezaei Akbarieh, Yusuf Kucukakca",
+      "categories": [
+        "gr-qc"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37278v1",
+      "html_url": "https://arxiv.org/html/2610.37278v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37278v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 8,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "Noether symmetries organize exact accelerating solutions in a coupled-form cosmology.",
+      "abstract_gist_zh": "用 Noether 对称性组织耦合形式场宇宙学中的精确加速解。"
+    },
+    {
+      "id": "2610.37554",
+      "version": 1,
+      "key": "2610.37554v1",
+      "title": "Resurgence of Black Holes in Thermal OPE",
+      "authors": "Alba Grassi, Hewei Frederic Jia",
+      "categories": [
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37554v1",
+      "html_url": "https://arxiv.org/html/2610.37554v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37554v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 9,
+      "reading_status": "body_reviewed",
+      "interest_score": 4,
+      "research_score": 3,
+      "abstract_gist_en": "Borel singularities of a thermal OPE encode complex bulk trajectories and constrain correlator reconstruction.",
+      "abstract_gist_zh": "热 OPE 的 Borel 奇点编码复化体内轨迹，并限制关联函数重建范围。"
+    },
+    {
+      "id": "2610.36035",
+      "version": 1,
+      "key": "2610.36035v1",
+      "title": "BPS Chaos and Fortuity in Higgs Branches I: The Gepner Point",
+      "authors": "Micha Berkooz, Trivko Kukolj, Ohad Mamroud, Josef Seitz",
+      "categories": [
+        "hep-th"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36035v1",
+      "html_url": "https://arxiv.org/html/2610.36035v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36035v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 10,
+      "reading_status": "body_reviewed",
+      "interest_score": 4,
+      "research_score": 2,
+      "abstract_gist_en": "Berry/Chern curvature is used to diagnose chaos within degenerate BPS sectors.",
+      "abstract_gist_zh": "用 Berry/Chern 曲率诊断简并 BPS 扇区中的混沌。"
+    },
+    {
+      "id": "2610.36137",
+      "version": 1,
+      "key": "2610.36137v1",
+      "title": "Non-Perturbative Approach to Gravitational Particle Production in the Inflation-Kination Transition: Surveying a Wide Range of the Parameter Space",
+      "authors": "Amirsalar Nikandish, Shiva Rostam Zadeh, Nematollah Riazi",
+      "categories": [
+        "gr-qc"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36137v1",
+      "html_url": "https://arxiv.org/html/2610.36137v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36137v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 11,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "Mode evolution maps particle production across mass, curvature coupling and transition duration.",
+      "abstract_gist_zh": "通过模演化扫描质量、曲率耦合和过渡时长对粒子产生的影响。"
+    },
+    {
+      "id": "2610.37038",
+      "version": 1,
+      "key": "2610.37038v1",
+      "title": "Another Brick in the Wall: Spectral Form Factor of Normal Modes in Horizonless Geometries",
+      "authors": "A. I. Belokon, M. \\v{C}ubrovi\\'c, V. {\\DJ}uki\\'c, V. V. Pushkarev, L. Umrikhin",
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "nlin.CD"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37038v1",
+      "html_url": "https://arxiv.org/html/2610.37038v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37038v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 12,
+      "reading_status": "body_reviewed",
+      "interest_score": 5,
+      "research_score": 3,
+      "abstract_gist_en": "A ramp in a probe spectral form factor need not imply chaotic level correlations.",
+      "abstract_gist_zh": "探针谱形状因子出现斜坡，并不必然意味着混沌能级关联。"
+    },
+    {
+      "id": "2610.37382",
+      "version": 1,
+      "key": "2610.37382v1",
+      "title": "Covariant Wigner function and spin polarization of the Rarita-Schwinger field",
+      "authors": "Matteo Buzzegoli, Aleksandar Gecic, Rajeev Singh",
+      "categories": [
+        "nucl-th",
+        "hep-ph",
+        "hep-th"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37382v1",
+      "html_url": "https://arxiv.org/html/2610.37382v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37382v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 13,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "A covariant Wigner formulation derives spin-3/2 polarization in several pseudo-gauges.",
+      "abstract_gist_zh": "以协变 Wigner 表述推导不同伪规范下的自旋 3/2 极化。"
+    },
+    {
+      "id": "2610.36604",
+      "version": 1,
+      "key": "2610.36604v1",
+      "title": "The heterotic superpotential and the alpha' expansion",
+      "authors": "Jock McOrist",
+      "categories": [
+        "hep-th"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36604v1",
+      "html_url": "https://arxiv.org/html/2610.36604v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36604v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 14,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 1,
+      "abstract_gist_en": "The recursive Hull-connection dependence in H is essential to higher-order superpotential variations.",
+      "abstract_gist_zh": "H 对 Hull 联络的递归依赖决定超势高阶变分。"
+    },
+    {
+      "id": "2610.36997",
+      "version": 1,
+      "key": "2610.36997v1",
+      "title": "The Disordered Universe 2025: Statistical Systems Out of Equilibrium",
+      "authors": "Weam Abou Hamdan, Mart\\'i Berenguer Mim\\'o, Rafael Carrasco Carmona, Silvia Pla, Omkar Shetye, Tarek Anous, Paolo Benincasa, Guilherme Leite Pimentel",
+      "categories": [
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech",
+        "gr-qc",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36997v1",
+      "html_url": "https://arxiv.org/html/2610.36997v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36997v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 15,
+      "reading_status": "body_reviewed",
+      "interest_score": 5,
+      "research_score": 3,
+      "abstract_gist_en": "Lecture notes develop spherical p-spin glasses from replicas to quantum dynamics and holographic motivations.",
+      "abstract_gist_zh": "讲义从副本方法推导球面 p-spin 模型，并讨论量子动力学与全息动机。"
+    },
+    {
+      "id": "2610.37302",
+      "version": 1,
+      "key": "2610.37302v1",
+      "title": "On the geometric origin of central charges in gravity",
+      "authors": "Lorenzo Di Giacomo, Daniele Pranzetti",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37302v1",
+      "html_url": "https://arxiv.org/html/2610.37302v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37302v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 16,
+      "reading_status": "body_reviewed",
+      "interest_score": 5,
+      "research_score": 4,
+      "abstract_gist_en": "Noetherian splitting gives charge-representation theorems for vanishing or integrable flux, including anomalies.",
+      "abstract_gist_zh": "纳入反常项的 Noether 分解给出零通量及可积通量下的荷表示定理。"
+    },
+    {
+      "id": "2610.36087",
+      "version": 1,
+      "key": "2610.36087v1",
+      "title": "A gaussian-process reconstruction of gravitational-wave friction from dark standard sirens",
+      "authors": "Michele Mancarella, Viola De Renzis, Alessandro Agapito",
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36087v1",
+      "html_url": "https://arxiv.org/html/2610.36087v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36087v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 17,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "Dark sirens reconstruct local GW friction together with its integrated luminosity-distance effect.",
+      "abstract_gist_zh": "暗标准汽笛同时约束局域传播摩擦及其累积距离效应。"
+    },
+    {
+      "id": "2610.37493",
+      "version": 1,
+      "key": "2610.37493v1",
+      "title": "Recovering classical gauge geometry from quantum master constraints",
+      "authors": "Alejandro Corichi",
+      "categories": [
+        "quant-ph",
+        "gr-qc",
+        "math-ph",
+        "math.MP"
+      ],
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37493v1",
+      "html_url": "https://arxiv.org/html/2610.37493v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37493v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 18,
+      "reading_status": "body_reviewed",
+      "interest_score": 4,
+      "research_score": 3,
+      "abstract_gist_en": "Near-constraint fluctuations can recover local classical gauge directions from a master constraint.",
+      "abstract_gist_zh": "主约束附近的量子涨落可恢复局域经典规范方向。"
+    },
+    {
+      "id": "2610.36129",
+      "version": 1,
+      "key": "2610.36129v1",
+      "title": "Unified Dynamics of Black-Hole Interiors: From Geometric to Scalar-Kinetic Dominance",
+      "authors": "Fu-Guo Yang",
+      "categories": [
+        "gr-qc"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36129v1",
+      "html_url": "https://arxiv.org/html/2610.36129v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36129v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 19,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 3,
+      "abstract_gist_en": "Two routes to scalar-kinetic dominance are compared in stationary black-hole interiors.",
+      "abstract_gist_zh": "比较定常黑洞内部进入标量动能主导的两条路径。"
+    },
+    {
+      "id": "2610.36271",
+      "version": 1,
+      "key": "2610.36271v1",
+      "title": "The Disordered Universe 2025: Analytic Properties of Amplitudes and Correlators",
+      "authors": "Mattia Capuano, Chandramouli Chowdhury, Chantelle Esper, Alessandro Palazio, Jonah Stalknecht, Yong Sheng Yap, Andrew J. McLeod, Paolo Benincasa, Guilherme Leite Pimentel",
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36271v1",
+      "html_url": "https://arxiv.org/html/2610.36271v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36271v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 20,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "Pedagogical lectures connect singularities, discontinuities and function spaces to amplitude bootstrap.",
+      "abstract_gist_zh": "从奇点、不连续性和函数空间建立振幅自举的教学路线。"
+    },
+    {
+      "id": "2610.37501",
+      "version": 1,
+      "key": "2610.37501v1",
+      "title": "Quasinormal Ringing of a Schwarzschild Black Hole Surrounded by a King Dark Matter Halo: Higher-Order WKB Analysis",
+      "authors": "Semra Gurtas Dogan, Hassan Hassanabadi, Abdullah Guvendi",
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37501v1",
+      "html_url": "https://arxiv.org/html/2610.37501v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37501v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 21,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 2,
+      "abstract_gist_en": "A phenomenological halo geometry modifies scalar and electromagnetic ringdown spectra.",
+      "abstract_gist_zh": "研究唯象暗物质晕几何对标量及电磁振铃谱的影响。"
+    },
+    {
+      "id": "2610.36814",
+      "version": 1,
+      "key": "2610.36814v1",
+      "title": "Realistic neutron stars in the constant-Q branch of f(Q) gravity",
+      "authors": "Debadri Bhattacharjee, Pradip Kumar Chattopadhyay, P. H. R. S. Moraes",
+      "categories": [
+        "gr-qc"
+      ],
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36814v1",
+      "html_url": "https://arxiv.org/html/2610.36814v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36814v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 22,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 1,
+      "abstract_gist_en": "Realistic equations of state test stellar sequences in a constant-Q modified-gravity branch.",
+      "abstract_gist_zh": "在常 Q 修正引力分支中，用现实状态方程检验恒星序列。"
+    },
+    {
+      "id": "2610.37282",
+      "version": 1,
+      "key": "2610.37282v1",
+      "title": "Cosmic-string calorimetry with a 220 PeV neutrino",
+      "authors": "Bo-Qiang Lu",
+      "categories": [
+        "hep-ph",
+        "gr-qc"
+      ],
+      "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37282v1",
+      "html_url": "https://arxiv.org/html/2610.37282v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37282v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 23,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 1,
+      "abstract_gist_en": "A cosmic-string interpretation of one neutrino event is tested against its energy budget.",
+      "abstract_gist_zh": "以能量预算检验单个中微子事件的宇宙弦解释。"
+    },
+    {
+      "id": "2610.36023",
+      "version": 1,
+      "key": "2610.36023v1",
+      "title": "Formation and Charge Relaxation of Julia-Zee Dyons in Classical Lattice Simulations",
+      "authors": "Masaki Yamada",
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36023v1",
+      "html_url": "https://arxiv.org/html/2610.36023v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36023v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 24,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 1,
+      "abstract_gist_en": "Classical gauge-Higgs simulations follow dyon formation and subsequent electric-charge relaxation.",
+      "abstract_gist_zh": "经典规范—Higgs 模拟追踪双荷子的形成及后续电荷弛豫。"
+    },
+    {
+      "id": "2610.37096",
+      "version": 1,
+      "key": "2610.37096v1",
+      "title": "On 2-loop AdS$_2$ superstring partition function in AdS$_5 \\times S^5$ and AdS$_4\\times CP^3$",
+      "authors": "Arkady A. Tseytlin",
+      "categories": [
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37096v1",
+      "html_url": "https://arxiv.org/html/2610.37096v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37096v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 25,
+      "reading_status": "body_reviewed",
+      "interest_score": 5,
+      "research_score": 3,
+      "abstract_gist_en": "Including the path-integral measure removes UV divergences but leaves finite localization mismatches.",
+      "abstract_gist_zh": "加入路径积分测度消除紫外发散，但仍留下与局域化结果的有限差异。"
+    },
+    {
+      "id": "2610.36416",
+      "version": 1,
+      "key": "2610.36416v1",
+      "title": "Side jump and anomalous Lorentz transformation of a coherent Dirac wave packet",
+      "authors": "Jin-Rui Wu, Shuai Y. F. Liu",
+      "categories": [
+        "nucl-th",
+        "hep-th",
+        "quant-ph"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.36416v1",
+      "html_url": "https://arxiv.org/html/2610.36416v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.36416v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 26,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "An exact finite-boost kernel exposes wave-packet structure in centroid transformations.",
+      "abstract_gist_zh": "精确有限 boost 核揭示波包结构对中心位置变换的影响。"
+    },
+    {
+      "id": "2610.37263",
+      "version": 1,
+      "key": "2610.37263v1",
+      "title": "On-shell reduction of spin-zero Duffin-Kemmer-Petiau covariants and implications for the relativistic impulse approximation",
+      "authors": "Luis B. Castro",
+      "categories": [
+        "nucl-th",
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37263v1",
+      "html_url": "https://arxiv.org/html/2610.37263v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37263v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 27,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "On-shell projection reduces a large DKP matrix basis to two physical scattering amplitudes.",
+      "abstract_gist_zh": "在壳投影把较大的 DKP 矩阵基约化为两个物理散射振幅。"
+    },
+    {
+      "id": "2610.37308",
+      "version": 1,
+      "key": "2610.37308v1",
+      "title": "Nonradial oscillation modes of axion condensed neutron stars in the Cowling approximation",
+      "authors": "Antonio G\\'omez-Ba\\~n\\'on, Pantelis Pnigouras, Jos\\'e A. Pons",
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37308v1",
+      "html_url": "https://arxiv.org/html/2610.37308v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37308v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 28,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 1,
+      "abstract_gist_en": "Coupled fluid-axion modes show frequency shifts, axion damping and avoided crossings.",
+      "abstract_gist_zh": "耦合流体—轴子模出现频率移动、轴子阻尼和避免交叉。"
+    },
+    {
+      "id": "2610.37383",
+      "version": 1,
+      "key": "2610.37383v1",
+      "title": "Cosmological constraints on single-field inflation models from ACT/SPT data and observations at sub-Mpc scales",
+      "authors": "Qing-Yang Wang, Jing-Zhi Zhou, Fei-Yu Chen, Zhi-Chao Li",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37383v1",
+      "html_url": "https://arxiv.org/html/2610.37383v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37383v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "cross"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 29,
+      "reading_status": "body_reviewed",
+      "interest_score": 2,
+      "research_score": 1,
+      "abstract_gist_en": "Inflationary features are tested against CMB, induced gravitational waves and primordial-black-hole bounds.",
+      "abstract_gist_zh": "用 CMB、诱导引力波及原初黑洞限制检验暴胀势特征。"
+    },
+    {
+      "id": "2610.37223",
+      "version": 1,
+      "key": "2610.37223v1",
+      "title": "Two types of hairy black holes in the (3+1)-dimensional $O(3)$ sigma-model",
+      "authors": "Jutta Kunz, Aliaksei Mikhaliuk, Yakov Shnir",
+      "categories": [
+        "hep-th"
+      ],
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "abs_url": "https://arxiv.org/abs/2610.37223v1",
+      "html_url": "https://arxiv.org/html/2610.37223v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.37223v1",
+      "announcement_date": "2026-10-28",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "queue": "new_or_cross",
+      "sample_index": 30,
+      "reading_status": "body_reviewed",
+      "interest_score": 3,
+      "research_score": 2,
+      "abstract_gist_en": "A nonlinear sigma model supports distinct synchronized black-hole-hair branches.",
+      "abstract_gist_zh": "非线性 σ 模型支持不同类型的同步黑洞毛发分支。"
+    }
+  ]
+}

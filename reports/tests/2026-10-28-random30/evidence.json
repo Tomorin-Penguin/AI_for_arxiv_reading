@@ -1,0 +1,323 @@
+{
+  "announcement_sources": [
+    {
+      "category": "gr-qc",
+      "url": "https://rss.arxiv.org/rss/gr-qc",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "last_build_date": "Wed, 28 Oct 2026 04:00:17 +0000",
+      "sha256": "b5493d2f9cf971c9bc199ca10f8c3d90274ad790f4e44f876467d5b8a08009b9",
+      "count": 79
+    },
+    {
+      "category": "hep-th",
+      "url": "https://rss.arxiv.org/rss/hep-th",
+      "pub_date": "Wed, 28 Oct 2026 00:00:00 -0400",
+      "last_build_date": "Wed, 28 Oct 2026 04:00:15 +0000",
+      "sha256": "10d3ceeff44e544e65ede4c21daab9df5ce5d7b28ebd8b5621e0812746d392a4",
+      "count": 106
+    }
+  ],
+  "papers": [
+    {
+      "key": "2610.37009v1",
+      "url": "https://arxiv.org/html/2610.37009v1",
+      "format": "html",
+      "html_sha256": "7e0a5f3521cd38b0423454ada05ced7a39e89fe2811cf44fbf01b1efefa09531",
+      "extracted_text_sha256": "c746c84d0eddcf3b6a53c661883348f6abe5a257e6dcce4a71a07cd147e7d9d5",
+      "reviewed_scope": "Introduction; §§3.1–3.2, 6.3, 8.2–8.3; discussion/conclusion. Eqs. (51)–(52), (59).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36052v1",
+      "url": "https://arxiv.org/html/2610.36052v1",
+      "format": "html",
+      "html_sha256": "88dabaabe4edc3e2b5247e92518f4add2b185a98ba43dd383e6a0d4292dcfc8c",
+      "extracted_text_sha256": "b57b7189103274e288c59ae60a68f72a5ed5a75045939d26d6d3f067ed2fcddc",
+      "reviewed_scope": "§§1, 2, 3.2, 5; cut integral and projection Eqs. (44)–(47).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36054v1",
+      "url": "https://arxiv.org/html/2610.36054v1",
+      "format": "html",
+      "html_sha256": "474a6c61d5ac22decd83da1134006418e2d0480d0acbf764884b6fa9c2ce3199",
+      "extracted_text_sha256": "ff0ea503c3f086d193e72cc264a09fe16f49c8a64024b979f77879a121f91b15",
+      "reviewed_scope": "Main text: Hamiltonian, two-kink sector, state/operator complexity and Figs. 1–4; constrained-Lanczos and averaging discussion.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36064v1",
+      "url": "https://arxiv.org/html/2610.36064v1",
+      "format": "html",
+      "html_sha256": "b89d1ef21a338cb35d8c51a79466dbd2855f42fa7848451264832510c488de18",
+      "extracted_text_sha256": "6755418fc2bc4369be8b7fc40514297eaca3928a8f204507e8d1025da3b85e86",
+      "reviewed_scope": "Introduction; §2 setup, §2.4 effective action; §5 summary.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36029v1",
+      "url": "https://arxiv.org/html/2610.36029v1",
+      "format": "html",
+      "html_sha256": "08231b2611bcee3df0ed334dacea70f26a0c5854c87a8ccd5be10e0069da2429",
+      "extracted_text_sha256": "a8e786cba32e338a58203975d373122c6936e2d382f7a2c47de3e2e4bbdc6f96",
+      "reviewed_scope": "Introduction/conclusion; §§3.2–3.3 algebra data and cochain computation.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36673v1",
+      "url": "https://arxiv.org/html/2610.36673v1",
+      "format": "html",
+      "html_sha256": "1c78573fc8c0f4d3929dcf23e403bde0079d1e9e9e3b3ecce9aea99fb06c9222",
+      "extracted_text_sha256": "0c3ae245fbf8e001f3ea1c1120293d3c26ca5fea8ff58a07432f69224a291896",
+      "reviewed_scope": "§§1, 2.2.1, 3.2, 6; variational Eqs. (3)–(6).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37160v1",
+      "url": "https://arxiv.org/html/2610.37160v1",
+      "format": "html",
+      "html_sha256": "9c4b7abe45da3e5d65ad26e572897cbb75a39ff65536059fbfcb05a16bff67cf",
+      "extracted_text_sha256": "8f11841b7ef98d7b6ab3410d6f174c85f5b73323bb4168144eaf7f9d85829c4d",
+      "reviewed_scope": "§§2, 4, 6; wavefunction-to-observable relation in §4.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37278v1",
+      "url": "https://arxiv.org/html/2610.37278v1",
+      "format": "html",
+      "html_sha256": "afc5b901465f75a4435df2b8827dbf7950da01dc6276ace72ab628c84ba3ac1a",
+      "extracted_text_sha256": "0413ddb69e93a4ea0a9d4c0e1b40887f8382e13f842f4ebae813f3ef79c33318",
+      "reviewed_scope": "§§2.1–2.3, 4.5, 6; action (2.2), exact form solutions (4.35)–(4.39).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37554v1",
+      "url": "https://arxiv.org/html/2610.37554v1",
+      "format": "html",
+      "html_sha256": "e8fc82bbe8996341d8176e74cc98cfc56e1a3a8ebdf30a13b10817a27d94da14",
+      "extracted_text_sha256": "50a1ec9d53aecaf59c63b2646aeae9e1d693838a57836db6e1430f7a0e996b10",
+      "reviewed_scope": "§§I–V, especially III–IV; Eqs. (16)–(18), (30)–(35), (39).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36035v1",
+      "url": "https://arxiv.org/html/2610.36035v1",
+      "format": "html",
+      "html_sha256": "a3d54630c82ce32adfbd2ae32f39768468959ed600418b28f5dce5142db0565f",
+      "extracted_text_sha256": "7d59673eabb3f475f8c32a170ff7994bb6f00d48d15cd97679be68efba4e6ad1",
+      "reviewed_scope": "§§2–3, §3.2 Eqs. (40), (48), (50); §§4.2.1–4.2.2, 4.3.2; Appendix B overview.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36137v1",
+      "url": "https://arxiv.org/html/2610.36137v1",
+      "format": "html",
+      "html_sha256": "eb170efbd92c9ce6b0f8a31995c7316601cf3f3b61fc6877881808d4f80fb35f",
+      "extracted_text_sha256": "e4531ffb0205ba62987df7905ef3d539e7bc6bf43edd8174616b8948f85341c2",
+      "reviewed_scope": "§§II.1, II.5, III overview, V; stability conditions (33)–(36).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37038v1",
+      "url": "https://arxiv.org/html/2610.37038v1",
+      "format": "html",
+      "html_sha256": "5e078c6f31a750d24d28a3884996718b80c193f9e5350059454438a15e70a32e",
+      "extracted_text_sha256": "c118ccd709cfc6e644733f742e4d5cef54e24f3054db4a070edad0e91af459c7",
+      "reviewed_scope": "Introduction; §§3.2, 5.2–5.3, 6; Table 1 and Figs. 5, 7–8; Eq. (54).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37382v1",
+      "url": "https://arxiv.org/html/2610.37382v1",
+      "format": "html",
+      "html_sha256": "d09df453e7cc397f3d07c9e3ccb535ba4f67289293407001ef565b439cc54e1b",
+      "extracted_text_sha256": "5ab29fbcb74910edea7cf81236c507cc66925fc8a8944e31553b9555ff206792",
+      "reviewed_scope": "Introduction; §II field constraints; §VI and Eqs. (176)–(179).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36604v1",
+      "url": "https://arxiv.org/html/2610.36604v1",
+      "format": "html",
+      "html_sha256": "59269eaba87a913c80a73b9c601dc65eb8e04d6d84a84d1d313647ba58ed0a6e",
+      "extracted_text_sha256": "4496afce076f7a31f8a6175e0dc3d314eefe24984f8ff500483f3ac0eca9c865",
+      "reviewed_scope": "§§2.3, 4.6, 7; recursive variation (2.8)–(2.9).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36997v1",
+      "url": "https://arxiv.org/html/2610.36997v1",
+      "format": "html",
+      "html_sha256": "fb2d067b6701b20b297fc27417660e192d4bec55ebfbe2c51fb0453b321c1451",
+      "extracted_text_sha256": "a7c67dda091b0bbcfe36ed11765aaa6c3068d008f9dd73cbf525f0f7962a958f",
+      "reviewed_scope": "§§1, 3.1, 3.3, 4.1, 5–6; Eqs. (3.5)–(3.14), (4.8).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37302v1",
+      "url": "https://arxiv.org/html/2610.37302v1",
+      "format": "html",
+      "html_sha256": "ea77ab2ff437983bc1b485c9c6f210f66c4d13252df03b85163c657142a978b5",
+      "extracted_text_sha256": "21e89e776619523674912e2e80e91fda71ada19d165cde1dfdad57aad00b7866",
+      "reviewed_scope": "§§2.1–2.3 and conclusion; Eqs. (9)–(18), (47)–(53), (63)–(78); AdS₃ application overview.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36087v1",
+      "url": "https://arxiv.org/html/2610.36087v1",
+      "format": "html",
+      "html_sha256": "307b27db4002d5e16f090a7fcc06f5dbfa7d47b5a22253ee58a43521d17f8460",
+      "extracted_text_sha256": "45abb0a883057e51b4297890b33ee2333ae1172425dcad381f4e834269fd2e22",
+      "reviewed_scope": "Introduction; §II propagation setup; §VI conclusions and function-space diagnostics.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37493v1",
+      "url": "https://arxiv.org/html/2610.37493v1",
+      "format": "html",
+      "html_sha256": "3140391c58785d37c3dc36e10032dd675555f4670f9fffd452c57fbe5e1d11b9",
+      "extracted_text_sha256": "9d44e439773441ba8ed13af5466d8f1a9720c94b6a20b3131f7ab9586d20bd4c",
+      "reviewed_scope": "§§3.1, 4.2, 7.3, 7.5–7.6, 8; Eqs. (3.5)–(3.6), (4.2)–(4.3).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36129v1",
+      "url": "https://arxiv.org/html/2610.36129v1",
+      "format": "html",
+      "html_sha256": "3acfaaf12980fa6aaa9cc8b1a2f81cf0cd7c172001a1a9661a78681c1ec466f3",
+      "extracted_text_sha256": "e4e5888b19769806da2da5de8a8c61ee0af5749b071e04143d983db50ae08967",
+      "reviewed_scope": "Model and definitions; Routes I–II; common endpoint; summary. Eqs. (1), (8)–(12), (15)–(19).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36271v1",
+      "url": "https://arxiv.org/html/2610.36271v1",
+      "format": "html",
+      "html_sha256": "172420a7367847137376529cae2e9a2bcab03c06c4696f2b6d6582bd1ce872a5",
+      "extracted_text_sha256": "100da766825d5df3175352e762b3e514f6a0843e794e66bd953c5a6e3c20d93b",
+      "reviewed_scope": "§§1–2 overview, 2.4, 3.3, 6.2; Eqs. (2.12)–(2.15).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37501v1",
+      "url": "https://arxiv.org/html/2610.37501v1",
+      "format": "html",
+      "html_sha256": "7627a4df9ee08bb83260270ecdd251e2a1656f9b58550dd052b5a8a44d45e43a",
+      "extracted_text_sha256": "d6b73941069cd7699534c3dfbc810d48a76453850715dbf4424bbfb8a06063cc",
+      "reviewed_scope": "Introduction; §2 geometry; §7 conclusions and WKB/time-domain comparison.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36814v1",
+      "url": "https://arxiv.org/html/2610.36814v1",
+      "format": "html",
+      "html_sha256": "e4a22e93f398e49e10bb966bb47b9b9c0c8850f1334a3a095ec67b30da86b282",
+      "extracted_text_sha256": "94e44e7b811e32fe951f0b84b7b96238aaf77ef15dad76a22aa1d44f7fcd9ee3",
+      "reviewed_scope": "§§II, II.1, IV–V; stellar equations (21)–(26).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37282v1",
+      "url": "https://arxiv.org/html/2610.37282v1",
+      "format": "html",
+      "html_sha256": "9eaa2af4a79675af47f87e090b13a89a2e46d5f164c5a23808ebc77ea081fea2",
+      "extracted_text_sha256": "1b3ce008b8eeb5be5ad5b629388d9528d0d785ad2a60b471a417de37b0cf9331",
+      "reviewed_scope": "Energy budget; required efficiency; conclusions. Eqs. (1)–(8).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36023v1",
+      "url": "https://arxiv.org/html/2610.36023v1",
+      "format": "html",
+      "html_sha256": "4b09b59d60ce02afd18525dedf28f3bd4bddb3ce7f7ffb1ba3798ca37ad669e6",
+      "extracted_text_sha256": "ef878ed5ccfb1a3e8bc1d199e8aa550c9a7f62f82d05a0f1d37f08b1a0f54229",
+      "reviewed_scope": "§§II, III.1, IV; lattice preparation, Gauss constraint and filtering.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37096v1",
+      "url": "https://arxiv.org/html/2610.37096v1",
+      "format": "html",
+      "html_sha256": "660bc28aa806a992868eb7255e8af4cb567e9def24dc366ac1b113476d889fc2",
+      "extracted_text_sha256": "dfe3cccf63e277a14de04606204c50af977f813cdb6c35ffcb1579e283c8f8ce",
+      "reviewed_scope": "§§1–2, 3.2, 4.2–4.3, 5; Eqs. (3.14)–(3.15), (4.23)–(4.29).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.36416v1",
+      "url": "https://arxiv.org/html/2610.36416v1",
+      "format": "html",
+      "html_sha256": "6cc4f7e0d9978f775c1209a44b8c06a0b7f5b7689c6e9f98000a2ac034d307dd",
+      "extracted_text_sha256": "bac539b6804731a12364f0bb16d895b1906ae5f3770b3332af807dbd19f9a480",
+      "reviewed_scope": "Main text: transformation kernel, trace derivation, spin-twist example and summary; Eqs. (9)–(20), (32)–(41).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37263v1",
+      "url": "https://arxiv.org/html/2610.37263v1",
+      "format": "html",
+      "html_sha256": "e844a6d1d0ba5cc824bb1832e24bb82c5e5eefc675400bc4b9a02205022d587f",
+      "extracted_text_sha256": "e60a5cf36b0845ab7e61c36777f6de561afed4c01c16b3d08d9002bf84a10392",
+      "reviewed_scope": "§§2–3, 5; projection identities (15)–(20).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37308v1",
+      "url": "https://arxiv.org/html/2610.37308v1",
+      "format": "html",
+      "html_sha256": "6ed91c04d05ce78e9bcc0ca10ee75fe8b1728f2ef5756989d6f55b253a636f66",
+      "extracted_text_sha256": "8f373db84540935c9a43b38bb58ecfeda5c4fcef0483e13738edf8d4f7358f31",
+      "reviewed_scope": "§§II.2–II.4, IV; boundary/eigenvalue conditions (10)–(17).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37383v1",
+      "url": "https://arxiv.org/html/2610.37383v1",
+      "format": "html",
+      "html_sha256": "ef85d11f1d9b01714e2566c7bc49e78d010e16d4ab4c7253d0208230ddcc153f",
+      "extracted_text_sha256": "359a73d8a0a250673ae334d46df4c47cf6b8464df943019954b72af07f34620a",
+      "reviewed_scope": "Introduction; §II equations (1)–(7); §VI detailed conclusions and posterior-exclusion discussion.",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    },
+    {
+      "key": "2610.37223v1",
+      "url": "https://arxiv.org/html/2610.37223v1",
+      "format": "html",
+      "html_sha256": "48897084a811a7b212d91e26c20d9cf90fc79240fbd680f3bcfa6a312acc7e04",
+      "extracted_text_sha256": "d53978244bcfad8d962d1a3d49e7b24fc8caae300d63454167a0f5b75a1e84c3",
+      "reviewed_scope": "Introduction; §II.2 ansatz/boundaries; §V; Eqs. (10)–(14).",
+      "all_proofs_rederived": false,
+      "numerics_reproduced": false
+    }
+  ],
+  "method": "Read official HTML prose and extracted TeX equations; selected sections and figure captions, not independent replication."
+}
