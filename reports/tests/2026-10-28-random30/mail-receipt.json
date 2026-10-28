@@ -1,0 +1,19 @@
+{
+  "run_type": "user_requested_random_test",
+  "report_date": "2026-10-28",
+  "recipient": "1468610627@qq.com",
+  "subject": "[arXiv 抽样测试] 2026-10-28 | 30篇随机样本与精选简报",
+  "provider": "Gmail",
+  "provider_message_id": "1a1826bb774c1e75",
+  "provider_thread_id": "1a1826bb774c1e75",
+  "rfc_message_id": "<CA+r+b6K+V4E85aBxyth+tH-k2bO2ymn-0SZ1e+QsQMQmYSNw1w@mail.gmail.com>",
+  "sent_at": "2026-10-28T12:10:59.000Z",
+  "sent_at_beijing": "2026-10-28T20:10:59+08:00",
+  "status": "sent",
+  "provider_sent_label_verified": true,
+  "recipient_and_subject_verified": true,
+  "recipient_inbox_delivery_confirmed": false,
+  "report_commit": "61ff43a6341347d2e2723291445a45986b958338",
+  "report_path": "reports/tests/2026-10-28-random30",
+  "formal_mail_ledger_updated": false
+}

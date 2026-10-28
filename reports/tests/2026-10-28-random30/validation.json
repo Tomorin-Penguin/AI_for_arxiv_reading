@@ -21,5 +21,6 @@
   "repository_tests_passed": 12,
   "date_and_coverage_validator_passed": true,
   "internal_links_checked": 148,
-  "email_bilingual_cards": 9
+  "email_bilingual_cards": 9,
+  "email_sent_label_recipient_subject_verified": true
 }

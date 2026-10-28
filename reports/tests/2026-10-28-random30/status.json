@@ -88,6 +88,9 @@
   "selected_count": 9,
   "research_close_count": 1,
   "reading_scope": "正文重点核读：摘要、引言、模型或方法、主要结果与结论；长篇讲义按卡片列出的章节选读。未逐行复算全部证明，未复现论文数值模拟。",
-  "mail_status": "not_yet_sent",
-  "formal_daily_ledger_updated": false
+  "mail_status": "sent",
+  "formal_daily_ledger_updated": false,
+  "mail_receipt": "mail-receipt.json",
+  "mail_sent_at": "2026-10-28T12:10:59.000Z",
+  "mail_provider_message_id": "1a1826bb774c1e75"
 }
