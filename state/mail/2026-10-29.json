@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-29",
+  "status": "not_sent_window_closed",
+  "sent": false,
+  "message_id": null,
+  "scheduled_check_at_beijing": "2026-10-29T16:30:00+08:00",
+  "actual_check_at_beijing": "2026-10-29T16:35:23.100+08:00",
+  "checked_at_utc": "2026-10-29T08:35:23.100Z",
+  "recipient": "1468610627@qq.com",
+  "window_beijing": {
+    "start": "14:00",
+    "end": "16:30",
+    "timezone": "Asia/Shanghai"
+  },
+  "gmail_sent_matches": 0,
+  "report_commit_sha": "0039eace1d5278f9aa90375d72f009f1527cf848",
+  "report_status": "partial",
+  "announcement_status": "confirmed_no_updates",
+  "paper_batch_date": "2026-10-28",
+  "backlog_authorized": true,
+  "counts": {
+    "today_announcements": 0,
+    "previous_batch_total": 100,
+    "body_queue": 82,
+    "body_reviewed": 43,
+    "abstract_only": 0,
+    "pending": 39,
+    "skipped": 18
+  },
+  "reason": "16:30 deadline had passed when check actually ran; user's instructions prohibit routine out-of-window send",
+  "user_action": "A separately authorized late send is required to deliver this dated report."
+}
