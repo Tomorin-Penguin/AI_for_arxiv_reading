@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-29",
-  "phase": "reading",
+  "phase": "awaiting_resume",
   "announcement_status": "confirmed_no_updates",
   "started_at": null,
   "reading_started_at": "2026-10-29T05:38:54Z",
@@ -13,7 +13,7 @@
   "backlog_authorized": true,
   "paper_batch_date": "2026-10-28",
   "blockers": [
-    "45 of 82 selected previous-batch manuscripts still awaiting body review",
+    "43 of 82 selected previous-batch manuscripts still awaiting body review",
     "Historical revision version differences still unverified; incomplete author/English original-abstract metadata",
     "Platform run failed at 13:51:57 Beijing; low-level reason unavailable. Old reading label is not liveness evidence.",
     "Recovery executor created a tree without the existing base, dropping all other files at c2ff983. Main task restored the complete prior tree; no new paper has been read."
@@ -86,7 +86,7 @@
     "error_reason": null,
     "evidence_url": "https://chatgpt.com/c/6ae2f3e0-5ddc-83e8-8ea1-01a675be6cd7"
   },
-  "execution_health": "recovered_verified_body_progress",
+  "execution_health": "awaiting_resume",
   "diagnostic_events": [
     {
       "observed_at": "2026-10-29T15:24:00+08:00",
@@ -124,9 +124,11 @@
   "reading_worker": {
     "owner": "chat-direct-resume-safe-20261029",
     "started_at": "2026-10-29T07:55:25.406Z",
-    "heartbeat_at": "2026-10-29T07:56:44.647Z",
-    "lease_expires_at": "2026-10-29T08:11:44.647Z",
-    "ended_at": null,
-    "end_reason": null
-  }
+    "heartbeat_at": "2026-10-29T07:57:01.507Z",
+    "lease_expires_at": "2026-10-29T07:57:01.507Z",
+    "ended_at": "2026-10-29T07:57:01.507Z",
+    "end_reason": "checkpoint"
+  },
+  "next_resume_at": "2026-10-29T16:00:00+08:00",
+  "resume_schedule_verified": true
 }
