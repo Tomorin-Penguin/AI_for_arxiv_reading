@@ -1,3 +1,6 @@
+> **最新核验（2026-10-29 15:59 北京时间）：39/82篇正文完成，43篇待读，18篇预分类跳过；本日新文0。以下为2026-10-28上一批授权补读的部分成果，非完成日报。历史分批记录不代表最新总数。**
+> **Verified checkpoint: 39/82 body-reviewed, 43 pending, 18 triage skips. No new announcement today; partial authorized backlog from 2026-10-28.**
+
 # 2026-10-28 旧批次补读｜双语精选
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
@@ -217,7 +220,7 @@
 
 **[Momentum-space entanglement and mutual information in Kaluza–Klein reduction](papers/2610.37009v1.md) — I5/R4.** 中文：局域EFT振幅退耦不排除可访问零模的量子态与重塔纠缠。 English: Low-energy amplitude decoupling does not force the reduced zero-mode state to factorize from the heavy KK tower. [HTML](https://arxiv.org/html/2610.37009v1).
 
-**Backlog now: 100 triaged, 82 retained, 37 body-reviewed, 45 pending, 18 skipped, zero abstract-only. Today new zero.**
+Historical fifth-batch checkpoint: 37/82 reviewed and 45 pending. Latest totals are at the top.
 
 ### 2610.33134v1 — QFT-Bench (I=4, R=2)
 
