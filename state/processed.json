@@ -388,6 +388,17 @@
       "sections": "§§1–10; §2 KK level partitions/free limit, §§3–6 O(λ²) channel counting and mutual information, §§7–8 EFT operational implications, §10 limitations; Appendix B kernel",
       "verified_version": true,
       "report_kind": "backlog"
+    },
+    "2610.33134v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "report_kind": "backlog",
+      "read_at_utc": "2026-10-29T07:41:00Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.33134v1.md",
+      "body_url": "https://arxiv.org/html/2610.33134v1",
+      "sections": "Introduction; §§2–6; appendices 9–10 overview",
+      "verified_version": true
     }
   }
 }

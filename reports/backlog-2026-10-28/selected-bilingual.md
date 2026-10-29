@@ -2,7 +2,7 @@
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
 
-**当前已有37篇正文已确认并核验关键段落；45篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的入选卡片不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有38篇正文已确认并核验关键段落；44篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的入选卡片不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -218,3 +218,9 @@
 **[Momentum-space entanglement and mutual information in Kaluza–Klein reduction](papers/2610.37009v1.md) — I5/R4.** 中文：局域EFT振幅退耦不排除可访问零模的量子态与重塔纠缠。 English: Low-energy amplitude decoupling does not force the reduced zero-mode state to factorize from the heavy KK tower. [HTML](https://arxiv.org/html/2610.37009v1).
 
 **Backlog now: 100 triaged, 82 retained, 37 body-reviewed, 45 pending, 18 skipped, zero abstract-only. Today new zero.**
+
+### 2610.33134v1 — QFT-Bench (I=4, R=2)
+
+**中文：** 作者以75道QFT题评测39个模型，强调正确终值不等于推导可靠；对理论引力计算可迁移的是独立复核中间公式的方法。
+
+**English:** This 75-question, 39-model QFT benchmark distinguishes final-answer accuracy from reasoning faithfulness. Its relevance to gravity research is methodological verification, not a new gravitational result.

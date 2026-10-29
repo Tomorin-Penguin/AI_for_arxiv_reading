@@ -8,7 +8,7 @@
   "reading_started_at_provenance": "Earliest verified current-day prior-batch review commit, not asserted original job start",
   "source_checked_at": "2026-10-29T05:09:19Z",
   "next_source_check_at": null,
-  "last_progress_at": "2026-10-29T05:47:43Z",
+  "last_progress_at": "2026-10-29T07:56:02.520Z",
   "report_ready": false,
   "backlog_authorized": true,
   "paper_batch_date": "2026-10-28",
@@ -86,7 +86,7 @@
     "error_reason": null,
     "evidence_url": "https://chatgpt.com/c/6ae2f3e0-5ddc-83e8-8ea1-01a675be6cd7"
   },
-  "execution_health": "recovering",
+  "execution_health": "recovered_verified_body_progress",
   "diagnostic_events": [
     {
       "observed_at": "2026-10-29T15:24:00+08:00",
@@ -112,6 +112,11 @@
       "bad_commit": "c2ff983484f054453a882030c2c56bb716f52d60",
       "good_commit": "c9113fa78d36a54d3afeed6481637c7b96d48cdb",
       "evidence": "Bad tree had only 3 entries including parent directories; no backlog files. Full original tree exists in history. Worker instructed to stop."
+    },
+    {
+      "observed_at": "2026-10-29T07:56:02.520Z",
+      "type": "write_integrity_failure_resolved",
+      "note": "Previous destructive-tree incident resolved; current writes inherit base_tree and pass full recursive tree verification."
     }
   ],
   "recovery_requested_at": "2026-10-29T15:35:49+08:00",
