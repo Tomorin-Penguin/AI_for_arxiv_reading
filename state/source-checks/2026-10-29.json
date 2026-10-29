@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-29",
+  "verified_at_utc": "2026-10-29 05:09:19 UTC",
+  "source_status": "verified_no_updates",
+  "reason": "Official database-maintenance notice cancelled Wednesday evening announcements; both current RSS feeds contain zero items.",
+  "official_notice_url": "https://status.arxiv.org/",
+  "cancelled_announcement_eastern": "2026-10-28T20:00:00-04:00",
+  "next_announced_release_eastern": "2026-10-29T20:00:00-04:00",
+  "next_announced_release_beijing": "2026-10-30T08:00:00+08:00",
+  "rss_checks": [
+    {
+      "category": "gr-qc",
+      "pubDate": "Thu, 29 Oct 2026 00:00:00 -0400",
+      "lastBuildDate": "Thu, 29 Oct 2026 04:00:03 +0000",
+      "item_count": 0
+    },
+    {
+      "category": "hep-th",
+      "pubDate": "Thu, 29 Oct 2026 00:00:00 -0400",
+      "lastBuildDate": "Thu, 29 Oct 2026 04:00:03 +0000",
+      "item_count": 0
+    }
+  ],
+  "stale_listing_check": {
+    "source_label": "Wednesday, 28 October 2026",
+    "target_count": 100,
+    "previous_sample": "reports/tests/2026-10-28-random30/sample.json",
+    "matching_version_keys": 100,
+    "new_version_keys": 0
+  },
+  "supersedes_claim": {
+    "path": "reports/2026-10-29/status.json",
+    "at_commit": "bb8509a58a6055611e6f705f04541ee020b21138",
+    "field": "announcement_date interpreted as the current Beijing morning",
+    "explanation": "The 100-paper batch predates today's report and must be treated as backlog. Existing reading notes are retained, not deleted."
+  },
+  "mail_action": "At the existing 14:00 run, explicitly state that arXiv has no update today, then include the current previous-batch reading progress, Chinese digest and bilingual selections as a backlog-reading digest. Do not label the papers as newly announced today. Continue the existing reading queue and preserve all completed work.",
+  "schedule_change": false,
+  "mail_sent_by_this_check": false,
+  "user_override": {
+    "continue_current_reading_batch": true,
+    "show_backlog_digest_in_email": true,
+    "required_mail_disclosure": "今天 arXiv 没有更新，以下为上一批论文的补读简报",
+    "instruction_date_beijing": "2026-10-29"
+  }
+}
