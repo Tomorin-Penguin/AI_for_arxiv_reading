@@ -85,7 +85,11 @@
       "source_url": "https://arxiv.org/abs/2610.35947v1",
       "reason": "轻dilaton/modulus的标量斜率同时连接原子钟漂移与WEP检验；需区分时钟耦合与几何固有时。",
       "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.35947v1.md"
     },
     {
       "key": "2610.35969v1",
@@ -1043,7 +1047,11 @@
       "source_url": "https://arxiv.org/abs/2610.37028v1",
       "reason": "规则黑洞的高阶QNM可非连续区别Schwarzschild奇点，核心在全局正则化与谱解析。",
       "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.37028v1.md"
     },
     {
       "key": "2610.37038v1",
@@ -1521,7 +1529,11 @@
       "source_url": "https://arxiv.org/abs/2610.37554v1",
       "reason": "热OPE高能渐近式的Borel奇点可携带AdS黑洞内部奇点信息，关联全息非微扰重建。",
       "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.37554v1.md"
     },
     {
       "key": "2610.37603v1",

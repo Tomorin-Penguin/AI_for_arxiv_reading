@@ -1,6 +1,6 @@
 # 2026-10-29 双语精选 / Selected bilingual digest (partial)
 
-**当前仅有7篇已确认正文阅读并核验关键段落；75篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-29上午，对应美东2026-10-28；new/cross共120次收录，去重100篇。以下七篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有10篇正文已确认并核验关键段落；72篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-29上午，对应美东2026-10-28；new/cross共120次收录，去重100篇。以下十篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -43,3 +43,37 @@
 ## 兴趣精选 / Interest picks
 
 上述七篇均属兴趣精选（I≥4）。当前无额外独立精选；未筛完的论文不能解释为低相关。修订稿 65 条原始收录另待去重核查，不混入本期新文精选。
+
+
+## 新增三篇正文精选 / Three additional body-verified selections
+
+### [Clock--WEP Tests of String-Derived Dilaton and Modulus Sectors](papers/2610.35947v1.md)
+
+**正文后I=5、R=4；body_reviewed，未逐式独立复算。**
+
+**中文：** 作者建立dilaton/modulus低能斜率到钟频漂移、组分自由落体WEP约束的联合似然；等信息界依赖单一标量轨道与源耦合，不是无条件排除弦模型。
+
+**English:** Clock–WEP probes of string-derived light scalar sectors (not geometric proper-time memory).
+
+**方法证据 / Source:** [正文HTML](https://arxiv.org/html/2610.35947v1) · [详细双语卡与公式编号](papers/2610.35947v1.md)。
+
+### [Can One Hear the Absence of a Singularity?](papers/2610.37028v1.md)
+
+**正文后I=5、R=4；body_reviewed，未逐式独立复算。**
+
+**中文：** 规则黑洞在特定高泛音和扰动模型下实部频率趋零；核心正则化与无限泛音极限不对易，可观测常规ringdown不能直接推得该结果。
+
+**English:** Large-overtone QNM monodromies for regular black holes differ discontinuously from Schwarzschild as core size tends to zero.
+
+**方法证据 / Source:** [正文HTML](https://arxiv.org/html/2610.37028v1) · [详细双语卡与公式编号](papers/2610.37028v1.md)。
+
+### [Resurgence of Black Holes in Thermal OPE](papers/2610.37554v1.md)
+
+**正文后I=5、R=4；body_reviewed，未逐式独立复算。**
+
+**中文：** 热OPE大阶系数的Borel奇点与AdS黑洞复径向路径相连，部分路径触及奇点；完整retarded函数的Borel重建有明确复频角域条件。
+
+**English:** Holographic thermal OPE resurgence: Borel singularity locations are classical WKB saddle actions; full retarded response is reconstructed only in a specified frequency wedge.
+
+**方法证据 / Source:** [正文HTML](https://arxiv.org/html/2610.37554v1) · [详细双语卡与公式编号](papers/2610.37554v1.md)。
+
