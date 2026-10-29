@@ -97,6 +97,15 @@
       "type": "manual_resume_blocked_before_execution",
       "reason": "Automatic approval rejected the Run now UI action; awaiting user choice. Existing 16:00 scheduled continuation remains.",
       "started": false
+    },
+    {
+      "observed_at": "2026-10-29T15:35:49+08:00",
+      "type": "manual_resume_authorized_and_requested",
+      "user_confirmation": "现在立即续读",
+      "action": "Existing reading task Run now accepted; new web execution responding. Wait for worker lease and body progress before marking recovered.",
+      "started": true
     }
-  ]
+  ],
+  "recovery_requested_at": "2026-10-29T15:35:49+08:00",
+  "recovery_authorized": true
 }
