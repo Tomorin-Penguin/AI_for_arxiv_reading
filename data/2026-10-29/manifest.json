@@ -7,7 +7,7 @@
   "announcement_beijing_date": "2026-10-29",
   "site_date_explanation": "Official lists label the Wednesday 2026-10-28 20:00 America/New_York announcement as Wed 28 Oct; release occurs Thursday 2026-10-29 08:00 Asia/Shanghai. This is the batch published this Beijing morning, not the previous Beijing morning.",
   "retrieved_at_utc": "2026-10-29T04:08:34.175Z",
-  "source_status": "verified_listing_id_complete_metadata_partial",
+  "source_status": "verified_listing_and_all_versions_triage_complete_manifest_text_partial",
   "sources": [
     {
       "category": "gr-qc",
@@ -50,8 +50,10 @@
     "known_deduped_base_ids": 100,
     "overlap_count": 20,
     "body_reviewed": 7,
-    "pending": 93,
-    "version_verified": 7
+    "pending": 75,
+    "version_verified": 100,
+    "skipped_low_relevance": 18,
+    "requires_body_reading": 82
   },
   "papers": [
     {
@@ -67,19 +69,22 @@
           "position": 1
         }
       ],
-      "key": "2607.27889@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2607.27889v2",
+      "version": 2,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2607.27889",
+      "abs_url": "https://arxiv.org/abs/2607.27889v2",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2607.27889v2",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：非度规自旋联络经Foldy–Wouthuysen展开产生额外引力-自旋项；对曲率背景量子场论和观测耦合有间接方法联系。"
     },
     {
       "id": "2610.28721",
@@ -94,19 +99,22 @@
           "position": 1
         }
       ],
-      "key": "2610.28721@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.28721v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.28721",
+      "abs_url": "https://arxiv.org/abs/2610.28721v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.28721v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：用EFT幂计数质疑黑洞准正常模衰减时间普适界，指出高阶曲率算符与可预测性的关系。"
     },
     {
       "id": "2610.33134",
@@ -121,19 +129,22 @@
           "position": 2
         }
       ],
-      "key": "2610.33134@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.33134v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.33134",
+      "abs_url": "https://arxiv.org/abs/2610.33134v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.33134v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：系统评测语言模型解决QFT推导的能力与局限，关乎研究方法而非直接引力公式。"
     },
     {
       "id": "2610.35938",
@@ -154,19 +165,22 @@
           "position": 3
         }
       ],
-      "key": "2610.35938@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.35938v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.35938",
+      "abs_url": "https://arxiv.org/abs/2610.35938v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.35938v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：有源Kerr的辐射规范重建区分曲率、Ricci及质量角动量完成项；约束和荷处理可迁移。"
     },
     {
       "id": "2610.35947",
@@ -187,19 +201,22 @@
           "position": 4
         }
       ],
-      "key": "2610.35947@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.35947v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.35947",
+      "abs_url": "https://arxiv.org/abs/2610.35947v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.35947v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：轻dilaton/modulus的标量斜率同时连接原子钟漂移与WEP检验；需区分时钟耦合与几何固有时。"
     },
     {
       "id": "2610.35969",
@@ -243,19 +260,22 @@
           "position": 3
         }
       ],
-      "key": "2610.35983@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.35983v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.35983",
+      "abs_url": "https://arxiv.org/abs/2610.35983v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.35983v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：dCS旋转黑洞周期轨道的能量补偿和周期相位修正，提供改引力动力学的算例。"
     },
     {
       "id": "2610.36023",
@@ -276,19 +296,22 @@
           "position": 5
         }
       ],
-      "key": "2610.36023@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36023v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Masaki Yamada",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36023",
+      "abs_url": "https://arxiv.org/abs/2610.36023v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36023v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：经典格点模拟Julia–Zee双极子的形成与荷弛豫；具体动力学不涉及目标二维引力、边界荷或时钟，当前无可辨的直接迁移方法。"
     },
     {
       "id": "2610.36024",
@@ -303,19 +326,22 @@
           "position": 1
         }
       ],
-      "key": "2610.36024@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36024v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36024",
+      "abs_url": "https://arxiv.org/abs/2610.36024v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36024v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Conway群大型非阿贝尔orbifold的二维手征费米子环面配分函数，可能涉及二维CFT技巧但未见当前模型的直接应用。"
     },
     {
       "id": "2610.36025",
@@ -330,19 +356,22 @@
           "position": 2
         }
       ],
-      "key": "2610.36025@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36025v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36025",
+      "abs_url": "https://arxiv.org/abs/2610.36025v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36025v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：热带曲线取样求三维φ³达325圈的渐近系数与瞬子数据，非微扰数值方法值得迁移。"
     },
     {
       "id": "2610.36028",
@@ -363,19 +392,22 @@
           "position": 3
         }
       ],
-      "key": "2610.36028@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36028v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36028",
+      "abs_url": "https://arxiv.org/abs/2610.36028v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36028v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：固定自旋结构的SL(2,Z)黑洞求和尖点正则化，含引力反常与边界子扇区。"
     },
     {
       "id": "2610.36029",
@@ -390,19 +422,22 @@
           "position": 6
         }
       ],
-      "key": "2610.36029@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36029v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36029",
+      "abs_url": "https://arxiv.org/abs/2610.36029v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36029v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：扭曲量子双重态的凝聚代数与界面计算；二维拓扑算符和代数方法是否可迁移尚不确定。"
     },
     {
       "id": "2610.36031",
@@ -417,19 +452,22 @@
           "position": 4
         }
       ],
-      "key": "2610.36031@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36031v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36031",
+      "abs_url": "https://arxiv.org/abs/2610.36031v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36031v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：圆上量子力学bootstrap借Fourier递推与连分数得到解析谱，可能用于一维边界量子系统。"
     },
     {
       "id": "2610.36032",
@@ -471,19 +509,22 @@
           "position": 5
         }
       ],
-      "key": "2610.36033@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36033v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Seung Lee et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36033",
+      "abs_url": "https://arxiv.org/abs/2610.36033v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36033v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：暴涨轴子涨落的同质模与失配丰度竞争，属早期宇宙粒子暗物质产额；无目标边界观测量或引力方法联系。"
     },
     {
       "id": "2610.36035",
@@ -498,19 +539,22 @@
           "position": 6
         }
       ],
-      "key": "2610.36035@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36035v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36035",
+      "abs_url": "https://arxiv.org/abs/2610.36035v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36035v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：BPS态Cohomology、Berry/Chern曲率与随机矩阵混沌统计联系，服务全息/SYK学习。"
     },
     {
       "id": "2610.36036",
@@ -531,19 +575,22 @@
           "position": 7
         }
       ],
-      "key": "2610.36036@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36036v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36036",
+      "abs_url": "https://arxiv.org/abs/2610.36036v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36036v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Horndeski宇宙学背景吸引子与扰动稳定性分离，有动力系统警示但非当前边界问题。"
     },
     {
       "id": "2610.36037",
@@ -564,19 +611,22 @@
           "position": 8
         }
       ],
-      "key": "2610.36037@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36037v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36037",
+      "abs_url": "https://arxiv.org/abs/2610.36037v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36037v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：对无质量标量与度规的后牛顿展开展开通用引力波参数，有标量-张量模型方法迁移空间。"
     },
     {
       "id": "2610.36044",
@@ -591,19 +641,22 @@
           "position": 9
         }
       ],
-      "key": "2610.36044@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36044v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36044",
+      "abs_url": "https://arxiv.org/abs/2610.36044v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36044v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：物质波干涉仪的开放EFT用retarded/Keldysh核分离相位与退相干，直接关联时钟测量协议。"
     },
     {
       "id": "2610.36045",
@@ -618,19 +671,22 @@
           "position": 7
         }
       ],
-      "key": "2610.36045@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36045v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36045",
+      "abs_url": "https://arxiv.org/abs/2610.36045v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36045v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：奇维dS晚期波函数模方在树图为局域泛函，涉及背景场论与量子引力边界波函数。"
     },
     {
       "id": "2610.36049",
@@ -645,19 +701,22 @@
           "position": 10
         }
       ],
-      "key": "2610.36049@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36049v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Steven Ferrante et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36049",
+      "abs_url": "https://arxiv.org/abs/2610.36049v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36049v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：暗物质相干冻结丰度的模型参数和粒子宇宙学演化；无与目标二维引力和可迁移荷计算的联系。"
     },
     {
       "id": "2610.36052",
@@ -672,19 +731,22 @@
           "position": 11
         }
       ],
-      "key": "2610.36052@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36052v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36052",
+      "abs_url": "https://arxiv.org/abs/2610.36052v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36052v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：多粒子散射的谐波投影与非重整化条件，振幅投影思路可用于场论方法。"
     },
     {
       "id": "2610.36054",
@@ -699,19 +761,22 @@
           "position": 12
         }
       ],
-      "key": "2610.36054@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36054v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36054",
+      "abs_url": "https://arxiv.org/abs/2610.36054v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36054v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：长程Ising禁闭介子谱与Krylov复杂度振荡有联系，可补量子多体与SYK技术。"
     },
     {
       "id": "2610.36057",
@@ -726,19 +791,22 @@
           "position": 8
         }
       ],
-      "key": "2610.36057@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36057v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36057",
+      "abs_url": "https://arxiv.org/abs/2610.36057v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36057v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：D1–D5 CFT中有限N BPS态的共形微扰与配对，具有全息态计数与CFT学习价值。"
     },
     {
       "id": "2610.36063",
@@ -753,19 +821,22 @@
           "position": 6
         }
       ],
-      "key": "2610.36063@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36063v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36063",
+      "abs_url": "https://arxiv.org/abs/2610.36063v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36063v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：shift-symmetric Horndeski以动力系统给出稳定穿越phantom界的情形；偏宇宙学。"
     },
     {
       "id": "2610.36064",
@@ -786,19 +857,22 @@
           "position": 9
         }
       ],
-      "key": "2610.36064@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36064v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36064",
+      "abs_url": "https://arxiv.org/abs/2610.36064v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36064v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：异质弦紧化导出axion有效作用量和世界面瞬子势，含弦低能EFT但远离目标模型。"
     },
     {
       "id": "2610.36080",
@@ -813,19 +887,22 @@
           "position": 10
         }
       ],
-      "key": "2610.36080@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36080v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36080",
+      "abs_url": "https://arxiv.org/abs/2610.36080v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36080v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：虚磁背景的非厄米Schwinger效应与proper-time积分极点结构，场论解析结构可迁移。"
     },
     {
       "id": "2610.36081",
@@ -840,19 +917,22 @@
           "position": 13
         }
       ],
-      "key": "2610.36081@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36081v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36081",
+      "abs_url": "https://arxiv.org/abs/2610.36081v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36081v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：标量势的custodial对称与moment map/Higgs branch辛几何对应，对约束和辛约化有方法价值。"
     },
     {
       "id": "2610.36085",
@@ -867,19 +947,22 @@
           "position": 7
         }
       ],
-      "key": "2610.36085@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36085v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36085",
+      "abs_url": "https://arxiv.org/abs/2610.36085v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36085v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：外部标量场诱导Einstein–Maxwell黑洞标量荷及多支解，关联dilaton源响应/荷结构但背景为4维。"
     },
     {
       "id": "2610.36087",
@@ -894,19 +977,22 @@
           "position": 8
         }
       ],
-      "key": "2610.36087@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36087v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36087",
+      "abs_url": "https://arxiv.org/abs/2610.36087v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36087v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：非参数高斯过程由暗标准汽笛重建引力波传播摩擦，方法偏观测数据推断。"
     },
     {
       "id": "2610.36094",
@@ -921,19 +1007,22 @@
           "position": 11
         }
       ],
-      "key": "2610.36094@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36094v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36094",
+      "abs_url": "https://arxiv.org/abs/2610.36094v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36094v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Hironaka分解组织超对称算符cohomology与Hilbert级数，有代数场论方法意义。"
     },
     {
       "id": "2610.36113",
@@ -948,19 +1037,22 @@
           "position": 14
         }
       ],
-      "key": "2610.36113@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36113v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36113",
+      "abs_url": "https://arxiv.org/abs/2610.36113v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36113v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：用有效RG描述神经网络grokking的涌现序参量；重整化类比可能启发但领域迁移不确定。"
     },
     {
       "id": "2610.36123",
@@ -975,19 +1067,22 @@
           "position": 9
         }
       ],
-      "key": "2610.36123@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36123v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36123",
+      "abs_url": "https://arxiv.org/abs/2610.36123v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36123v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：大膨胀宇宙数值相对论中的改良规范选择，可对照规范条件/坐标自由。"
     },
     {
       "id": "2610.36128",
@@ -1031,19 +1126,22 @@
           "position": 10
         }
       ],
-      "key": "2610.36129@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36129v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36129",
+      "abs_url": "https://arxiv.org/abs/2610.36129v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36129v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：黑洞内部从几何主导转向标量动能主导并影响Cauchy结构，直接关联内部因果结构。"
     },
     {
       "id": "2610.36137",
@@ -1058,19 +1156,22 @@
           "position": 11
         }
       ],
-      "key": "2610.36137@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36137v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36137",
+      "abs_url": "https://arxiv.org/abs/2610.36137v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36137v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：暴涨至kination转变的非微扰引力粒子产生，曲率背景QFT方法可能借用。"
     },
     {
       "id": "2610.36160",
@@ -1085,19 +1186,22 @@
           "position": 7
         }
       ],
-      "key": "2610.36160@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36160v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Alessandro Strumia",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36160",
+      "abs_url": "https://arxiv.org/abs/2610.36160v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36160v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：超相对论泡壁与粒子碰撞产生的相变引力波谱；关注早期宇宙信号建模而非目标引力/观测协议。"
     },
     {
       "id": "2610.36162",
@@ -1112,19 +1216,22 @@
           "position": 12
         }
       ],
-      "key": "2610.36162@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36162v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36162",
+      "abs_url": "https://arxiv.org/abs/2610.36162v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36162v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：无视界并合数值模拟也可通过GR视界面积定律测试，提示观测量不能直接断言事件视界。"
     },
     {
       "id": "2610.36166",
@@ -1139,19 +1246,22 @@
           "position": 13
         }
       ],
-      "key": "2610.36166@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36166v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36166",
+      "abs_url": "https://arxiv.org/abs/2610.36166v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36166v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Vainshtein与chameleon筛选联合作用，标量动力学与源有效耦合可能迁移。"
     },
     {
       "id": "2610.36177",
@@ -1166,19 +1276,22 @@
           "position": 8
         }
       ],
-      "key": "2610.36177@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36177v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "A. Ianniccari et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36177",
+      "abs_url": "https://arxiv.org/abs/2610.36177v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36177v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：用引力波事件约束原初黑洞作为全部暗物质的概率模型；与当前解析引力工具无具体迁移。"
     },
     {
       "id": "2610.36179",
@@ -1193,19 +1306,22 @@
           "position": 15
         }
       ],
-      "key": "2610.36179@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36179v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Kymani Armstrong-Williams et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36179",
+      "abs_url": "https://arxiv.org/abs/2610.36179v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36179v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：四阶cluster quiver mutation-acyclic算法及非半代数性，纯代数判定问题与当前引力/全息方法未建立具体联系。"
     },
     {
       "id": "2610.36228",
@@ -1226,19 +1342,22 @@
           "position": 16
         }
       ],
-      "key": "2610.36228@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36228v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36228",
+      "abs_url": "https://arxiv.org/abs/2610.36228v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36228v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：非最小耦合α-attractor磁产生涉及曲率背景有效电磁作用量，迁移价值待证。"
     },
     {
       "id": "2610.36271",
@@ -1259,19 +1378,22 @@
           "position": 13
         }
       ],
-      "key": "2610.36271@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36271v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36271",
+      "abs_url": "https://arxiv.org/abs/2610.36271v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36271v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：振幅及关联函数的Landau奇点、解析性和因果条件，可能迁移到记忆/边界响应核。"
     },
     {
       "id": "2610.36275",
@@ -1286,19 +1408,22 @@
           "position": 14
         }
       ],
-      "key": "2610.36275@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36275v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36275",
+      "abs_url": "https://arxiv.org/abs/2610.36275v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36275v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Nambu流体笔记通向量子流体有效描述、隐变量追踪和几何联络，几何方法可迁移。"
     },
     {
       "id": "2610.36416",
@@ -1313,19 +1438,22 @@
           "position": 17
         }
       ],
-      "key": "2610.36416@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36416v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36416",
+      "abs_url": "https://arxiv.org/abs/2610.36416v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36416v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：狄拉克波包Lorentz变换产生side-jump，有局域测量协议的间接联系。"
     },
     {
       "id": "2610.36455",
@@ -1340,19 +1468,22 @@
           "position": 15
         }
       ],
-      "key": "2610.36455@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36455v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36455",
+      "abs_url": "https://arxiv.org/abs/2610.36455v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36455v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：有限N迹关系与配分函数约束，适合SYK/全息有限N结构类比。"
     },
     {
       "id": "2610.36562",
@@ -1367,19 +1498,22 @@
           "position": 14
         }
       ],
-      "key": "2610.36562@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36562v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Zhichen Guan et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36562",
+      "abs_url": "https://arxiv.org/abs/2610.36562v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36562v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：EHT等离子体修正的共形Weyl黑洞阴影参数限制，属具体天体成像拟合且不处理全局因果或边界荷。"
     },
     {
       "id": "2610.36604",
@@ -1394,19 +1528,22 @@
           "position": 16
         }
       ],
-      "key": "2610.36604@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36604v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36604",
+      "abs_url": "https://arxiv.org/abs/2610.36604v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36604v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：异质弦超势的alpha-prime校正与Hull联络，几何连接与高阶EFT知识有背景用途。"
     },
     {
       "id": "2610.36611",
@@ -1421,19 +1558,22 @@
           "position": 11
         }
       ],
-      "key": "2610.36611@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36611v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Arnab Chakraborty; Amitabha Lahiri",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36611",
+      "abs_url": "https://arxiv.org/abs/2610.36611v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36611v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：挠率导致的四费米夸克混合与CP破坏模型；核心结果是粒子味物理而非目标引力边界/可观测量。"
     },
     {
       "id": "2610.36673",
@@ -1448,19 +1588,22 @@
           "position": 18
         }
       ],
-      "key": "2610.36673@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36673v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36673",
+      "abs_url": "https://arxiv.org/abs/2610.36673v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36673v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：预测编码与Ising自组织连接复制重叠，或可类比无序平均但迁移性未明确。"
     },
     {
       "id": "2610.36695",
@@ -1475,19 +1618,22 @@
           "position": 15
         }
       ],
-      "key": "2610.36695@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36695v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36695",
+      "abs_url": "https://arxiv.org/abs/2610.36695v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36695v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：因果集顺序与计数重建Riemann曲率、平行输运与法坐标，直接关联全局因果和几何工具。"
     },
     {
       "id": "2610.36728",
@@ -1502,19 +1648,22 @@
           "position": 16
         }
       ],
-      "key": "2610.36728@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36728v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36728",
+      "abs_url": "https://arxiv.org/abs/2610.36728v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36728v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：GW波形中5PN至8PN高阶曲率算符的EFT参数约束，幂计数和高阶算符可作模型检验。"
     },
     {
       "id": "2610.36730",
@@ -1529,19 +1678,22 @@
           "position": 17
         }
       ],
-      "key": "2610.36730@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36730v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36730",
+      "abs_url": "https://arxiv.org/abs/2610.36730v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36730v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：形变Schwarzschild-AdS的灰体因子及节流热力学，利于黑洞热力学学习但无明显边界荷新技术。"
     },
     {
       "id": "2610.36735",
@@ -1591,19 +1743,22 @@
           "position": 13
         }
       ],
-      "key": "2610.36752@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36752v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Øyvind Christiansen et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36752",
+      "abs_url": "https://arxiv.org/abs/2610.36752v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36752v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：可变质量中微子的大规模结构形成相对论N体模拟；重在宇宙学物质团块和观测，难直接服务现有模型。"
     },
     {
       "id": "2610.36796",
@@ -1618,19 +1773,22 @@
           "position": 18
         }
       ],
-      "key": "2610.36796@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36796v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36796",
+      "abs_url": "https://arxiv.org/abs/2610.36796v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36796v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：非线性电动力学磁黑洞的拓扑热力学支与边界相变，黑洞热力学邻近主题。"
     },
     {
       "id": "2610.36814",
@@ -1645,19 +1803,22 @@
           "position": 19
         }
       ],
-      "key": "2610.36814@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36814v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Debadri Bhattacharjee et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36814",
+      "abs_url": "https://arxiv.org/abs/2610.36814v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36814v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：f(Q)常Q支中子星的修正TOV及核状态方程拟合；无显式边界荷/全息或可迁移约束技术。"
     },
     {
       "id": "2610.36845",
@@ -1672,19 +1833,22 @@
           "position": 18
         }
       ],
-      "key": "2610.36845@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36845v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36845",
+      "abs_url": "https://arxiv.org/abs/2610.36845v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36845v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Chern–Simons物质Wilson环的Picard–Fuchs方程及奇点，关联可积性与边界观测量。"
     },
     {
       "id": "2610.36863",
@@ -1699,19 +1863,22 @@
           "position": 20
         }
       ],
-      "key": "2610.36863@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36863v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Chitrak Sarkar et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36863",
+      "abs_url": "https://arxiv.org/abs/2610.36863v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36863v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：弦模量暴涨势局部鼓包诱导PBH并拟合约束，具体粒子宇宙学丰度与现有二维引力不直接关联。"
     },
     {
       "id": "2610.36898",
@@ -1732,19 +1899,22 @@
           "position": 19
         }
       ],
-      "key": "2610.36898@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36898v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36898",
+      "abs_url": "https://arxiv.org/abs/2610.36898v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36898v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：开放EFT的Schwinger–Keldysh耗散及噪声响应，可迁移到半经典引力及边界量子测量。"
     },
     {
       "id": "2610.36923",
@@ -1765,19 +1935,22 @@
           "position": 19
         }
       ],
-      "key": "2610.36923@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36923v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36923",
+      "abs_url": "https://arxiv.org/abs/2610.36923v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36923v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：曲率背景中的自引力Schrödinger–Poisson孤子与潮汐响应，有有效引力方程方法参考。"
     },
     {
       "id": "2610.36975",
@@ -1792,19 +1965,22 @@
           "position": 20
         }
       ],
-      "key": "2610.36975@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36975v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36975",
+      "abs_url": "https://arxiv.org/abs/2610.36975v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36975v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Bethe循环、Frobenius作用及量子经典可积对偶可能提供数学工具，但尚未明确与AdS₂联系。"
     },
     {
       "id": "2610.36997",
@@ -1825,19 +2001,22 @@
           "position": 20
         }
       ],
-      "key": "2610.36997@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36997v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36997",
+      "abs_url": "https://arxiv.org/abs/2610.36997v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.36997v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：失衡玻璃/量子p-spin复制对称破缺，与SYK的无序平均和非平衡行为有可迁移方法。"
     },
     {
       "id": "2610.37009",
@@ -1852,19 +2031,22 @@
           "position": 21
         }
       ],
-      "key": "2610.37009@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37009v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37009",
+      "abs_url": "https://arxiv.org/abs/2610.37009v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37009v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：KK紧化中动量空间纠缠与紫外尾部，关联全息/QFT纠缠及有效约化。"
     },
     {
       "id": "2610.37028",
@@ -1885,19 +2067,22 @@
           "position": 21
         }
       ],
-      "key": "2610.37028@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37028v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37028",
+      "abs_url": "https://arxiv.org/abs/2610.37028v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37028v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：规则黑洞的高阶QNM可非连续区别Schwarzschild奇点，核心在全局正则化与谱解析。"
     },
     {
       "id": "2610.37038",
@@ -1918,19 +2103,22 @@
           "position": 22
         }
       ],
-      "key": "2610.37038@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37038v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37038",
+      "abs_url": "https://arxiv.org/abs/2610.37038v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37038v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：无视界几何的正常模谱形状因子可能出现ramp，警惕把谱统计当作黑洞混沌或视界证明。"
     },
     {
       "id": "2610.37063",
@@ -1945,19 +2133,22 @@
           "position": 23
         }
       ],
-      "key": "2610.37063@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37063v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37063",
+      "abs_url": "https://arxiv.org/abs/2610.37063v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37063v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：最小修改引力的past-geodesically-complete Genesis解及扰动稳定性，联系全局完备性。"
     },
     {
       "id": "2610.37064",
@@ -1972,19 +2163,22 @@
           "position": 23
         }
       ],
-      "key": "2610.37064@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37064v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37064",
+      "abs_url": "https://arxiv.org/abs/2610.37064v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37064v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：随机分段null路径的速度记忆参与振幅几何构造；这里memory不是引力记忆，需要检验方法迁移。"
     },
     {
       "id": "2610.37096",
@@ -1999,19 +2193,22 @@
           "position": 24
         }
       ],
-      "key": "2610.37096@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37096v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37096",
+      "abs_url": "https://arxiv.org/abs/2610.37096v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37096v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：AdS₂弦世界面二圈配分函数的测度/正则化与全息Wilson环，和AdS₂量子边界计算相关但非JT。"
     },
     {
       "id": "2610.37117",
@@ -2032,19 +2229,22 @@
           "position": 25
         }
       ],
-      "key": "2610.37117@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37117v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37117",
+      "abs_url": "https://arxiv.org/abs/2610.37117v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37117v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Λ>0时的群表示、准局域观察者与量子引力观测结构，关联因果边界。"
     },
     {
       "id": "2610.37160",
@@ -2065,19 +2265,22 @@
           "position": 26
         }
       ],
-      "key": "2610.37160@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37160v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37160",
+      "abs_url": "https://arxiv.org/abs/2610.37160v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37160v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：无序宇宙学研讨导论串联振幅、开放系统和自旋玻璃，跨方法概览值得核查。"
     },
     {
       "id": "2610.37165",
@@ -2092,19 +2295,22 @@
           "position": 22
         }
       ],
-      "key": "2610.37165@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37165v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37165",
+      "abs_url": "https://arxiv.org/abs/2610.37165v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37165v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：BC_n Calogero–Inozemtsev Lax对和Yang–Baxter/反射矩阵，可能用于可积系统学习。"
     },
     {
       "id": "2610.37194",
@@ -2119,19 +2325,22 @@
           "position": 24
         }
       ],
-      "key": "2610.37194@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37194v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37194",
+      "abs_url": "https://arxiv.org/abs/2610.37194v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37194v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：旋转Hayward–AdS黑洞无约束热力学相空间及多支相变，邻近热力学而非当前模型。"
     },
     {
       "id": "2610.37223",
@@ -2146,19 +2355,22 @@
           "position": 27
         }
       ],
-      "key": "2610.37223@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37223v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37223",
+      "abs_url": "https://arxiv.org/abs/2610.37223v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37223v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：O(3)非线性sigma模型黑洞毛发分支与全局荷；标量和边界条件对照可能有用。"
     },
     {
       "id": "2610.37263",
@@ -2173,19 +2385,22 @@
           "position": 23
         }
       ],
-      "key": "2610.37263@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37263v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37263",
+      "abs_url": "https://arxiv.org/abs/2610.37263v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37263v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：DKP协变量在壳约化至两独立散射振幅，适合QFT壳上等价方法练习。"
     },
     {
       "id": "2610.37278",
@@ -2200,19 +2415,22 @@
           "position": 25
         }
       ],
-      "key": "2610.37278@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37278v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37278",
+      "abs_url": "https://arxiv.org/abs/2610.37278v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37278v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：标量-矢量-二形式BF作用量中保留lapse并用Noether对称约化，约束处理技术可迁移。"
     },
     {
       "id": "2610.37282",
@@ -2227,19 +2445,22 @@
           "position": 19
         }
       ],
-      "key": "2610.37282@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37282v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Bo-Qiang Lu",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37282",
+      "abs_url": "https://arxiv.org/abs/2610.37282v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37282v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：220 PeV中微子估计宇宙弦网络向粒子辐射的能量预算，偏具体粒子天体约束，无当前引力边界方法。"
     },
     {
       "id": "2610.37285",
@@ -2254,19 +2475,22 @@
           "position": 28
         }
       ],
-      "key": "2610.37285@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37285v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37285",
+      "abs_url": "https://arxiv.org/abs/2610.37285v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37285v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：可积MPS重叠函数由Sklyanin行列式及Gaudin行列式求出，对量子多体方法有潜在作用。"
     },
     {
       "id": "2610.37302",
@@ -2314,19 +2538,22 @@
           "position": 21
         }
       ],
-      "key": "2610.37308@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37308v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Antonio Gómez-Bañón et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37308",
+      "abs_url": "https://arxiv.org/abs/2610.37308v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37308v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：轴子凝聚中子星的Cowling近似非径向模和衰减时间，偏核天体的模式预报。"
     },
     {
       "id": "2610.37331",
@@ -2341,19 +2568,22 @@
           "position": 26
         }
       ],
-      "key": "2610.37331@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37331v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37331",
+      "abs_url": "https://arxiv.org/abs/2610.37331v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37331v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：T-duality启发的正规黑洞中地平线、自由落体潮汐和测地偏离可分开诊断，贴合全局几何。"
     },
     {
       "id": "2610.37382",
@@ -2368,19 +2598,22 @@
           "position": 24
         }
       ],
-      "key": "2610.37382@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37382v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37382",
+      "abs_url": "https://arxiv.org/abs/2610.37382v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37382v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Rarita–Schwinger场的协变Wigner函数和伪规范自旋极化，场论形式值得注意。"
     },
     {
       "id": "2610.37383",
@@ -2401,19 +2634,22 @@
           "position": 25
         }
       ],
-      "key": "2610.37383@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37383v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Qing-Yang Wang et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37383",
+      "abs_url": "https://arxiv.org/abs/2610.37383v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37383v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：ACT/SPT与多尺度宇宙学数据约束单场暴涨势及PBH/PTA信号，无直接边界荷/时钟或可复用工具。"
     },
     {
       "id": "2610.37394",
@@ -2428,19 +2664,22 @@
           "position": 23
         }
       ],
-      "key": "2610.37394@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37394v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "P. S. Koliogiannis; N. Paar",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37394",
+      "abs_url": "https://arxiv.org/abs/2610.37394v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37394v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：中子星核电偶极极化率限制吸积盘内缘轨道频率，属核状态方程与天体观测专门问题。"
     },
     {
       "id": "2610.37449",
@@ -2455,19 +2694,22 @@
           "position": 30
         }
       ],
-      "key": "2610.37449@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37449v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37449",
+      "abs_url": "https://arxiv.org/abs/2610.37449v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37449v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：高维CFT的Cardy增长纠缠边界和热态计数，直接服务全息CFT知识体系。"
     },
     {
       "id": "2610.37458",
@@ -2482,19 +2724,22 @@
           "position": 31
         }
       ],
-      "key": "2610.37458@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37458v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37458",
+      "abs_url": "https://arxiv.org/abs/2610.37458v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37458v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：可积sigma模型中的精确TbarT型流与变形EFT，适合二维QFT方法。"
     },
     {
       "id": "2610.37460",
@@ -2509,19 +2754,22 @@
           "position": 26
         }
       ],
-      "key": "2610.37460@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37460v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37460",
+      "abs_url": "https://arxiv.org/abs/2610.37460v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37460v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：正交辛超Yangian秩降低与R矩阵归一化，或助于可积模型代数，但目前科研关联未确立。"
     },
     {
       "id": "2610.37493",
@@ -2565,19 +2813,22 @@
           "position": 27
         }
       ],
-      "key": "2610.37501@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37501v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37501",
+      "abs_url": "https://arxiv.org/abs/2610.37501v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37501v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：暗物质晕修正QNM势和高阶WKB及时间域验证，谱方法可借用于黑洞分析。"
     },
     {
       "id": "2610.37506",
@@ -2592,19 +2843,22 @@
           "position": 32
         }
       ],
-      "key": "2610.37506@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37506v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37506",
+      "abs_url": "https://arxiv.org/abs/2610.37506v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37506v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：从Boulware真空应力张量恢复超出迹反常的牛顿势量子修正，有半经典异常技术联系。"
     },
     {
       "id": "2610.37515",
@@ -2625,19 +2879,22 @@
           "position": 27
         }
       ],
-      "key": "2610.37515@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37515v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37515",
+      "abs_url": "https://arxiv.org/abs/2610.37515v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37515v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：泛理论解析旋转黑洞构造并保留旋转依赖，可检验修改引力全局几何性质。"
     },
     {
       "id": "2610.37525",
@@ -2652,19 +2909,22 @@
           "position": 29
         }
       ],
-      "key": "2610.37525@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37525v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37525",
+      "abs_url": "https://arxiv.org/abs/2610.37525v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37525v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Schwarzschild型黑洞周期轨道及四极引力波数值重建，较接近轨道教学例子。"
     },
     {
       "id": "2610.37546",
@@ -2679,19 +2939,22 @@
           "position": 33
         }
       ],
-      "key": "2610.37546@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37546v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37546",
+      "abs_url": "https://arxiv.org/abs/2610.37546v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37546v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：开放Carroll–Weyl null string的反射约束代数与边界荷，辛/约束方法可直接借鉴。"
     },
     {
       "id": "2610.37552",
@@ -2706,19 +2969,22 @@
           "position": 28
         }
       ],
-      "key": "2610.37552@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37552v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Matvei Fedin; Andrey Morozov",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37552",
+      "abs_url": "https://arxiv.org/abs/2610.37552v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37552v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：Fibonacci任意子量子门编译的GPU braid搜索与误差界，偏量子计算编译，暂无AdS₂/引力相关工具。"
     },
     {
       "id": "2610.37554",
@@ -2733,19 +2999,22 @@
           "position": 34
         }
       ],
-      "key": "2610.37554@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37554v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37554",
+      "abs_url": "https://arxiv.org/abs/2610.37554v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37554v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：热OPE高能渐近式的Borel奇点可携带AdS黑洞内部奇点信息，关联全息非微扰重建。"
     },
     {
       "id": "2610.37603",
@@ -2760,19 +3029,22 @@
           "position": 35
         }
       ],
-      "key": "2610.37603@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37603v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37603",
+      "abs_url": "https://arxiv.org/abs/2610.37603v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37603v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：带自旋带电体的辐射反作用与切割/retarded处方，对记忆辐射方法有迁移但不是引力记忆。"
     },
     {
       "id": "2610.37610",
@@ -2787,19 +3059,22 @@
           "position": 36
         }
       ],
-      "key": "2610.37610@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37610v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
       "abstract_summary_en": null,
       "authors": null,
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37610",
+      "abs_url": "https://arxiv.org/abs/2610.37610v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37610v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：随机自旋2背景修正axion-SU(2)凝聚态能隙稳定性，均场/非高斯涨落方法可迁移。"
     },
     {
       "id": "2610.37617",
@@ -2814,19 +3089,22 @@
           "position": 25
         }
       ],
-      "key": "2610.37617@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37617v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Ignacio Magaña Hernandez; Antonella Palmese",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37617",
+      "abs_url": "https://arxiv.org/abs/2610.37617v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37617v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：LISA探测数由GWTC-5.0黑洞种群后验外推，偏天体统计预报而非现有引力理论推导。"
     },
     {
       "id": "2610.37638",
@@ -2841,19 +3119,22 @@
           "position": 30
         }
       ],
-      "key": "2610.37638@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37638v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
       "abstract_summary_en": null,
-      "authors": null,
+      "authors": "Rodrigo Vicente et al.",
       "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37638",
+      "abs_url": "https://arxiv.org/abs/2610.37638v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "official_abstract_reviewed_version_verified_full_text_not_archived",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "abstract_checked": true,
+      "abstract_checked_url": "https://arxiv.org/abs/2610.37638v1",
+      "abstract_summary_zh": "基于官方完整摘要的预分类要点：用EMRI波形推断超轻暗物质粒子质量及密度尖峰，偏观测参数估计与天体环境。"
     },
     {
       "id": "2610.37667",
@@ -2886,10 +3167,10 @@
   "coverage": {
     "complete": false,
     "id_list_complete": true,
-    "individual_version_complete": false,
+    "individual_version_complete": true,
     "full_abstract_complete": false,
     "authors_complete": false,
-    "reason": "100 deduplicated base IDs captured and all official new/cross section counts checked; 7 version-confirmed and body-reviewed, 93 pending full abstract/authors/version triage; revision ID listing still pending."
+    "reason": "100 complete official abstracts consulted and all versions individually verified for triage; 93 full abstract texts and several author arrays not yet archived, retained-body cards unfinished; revised-paper IDs not fully transcribed."
   },
   "overlap_base_ids": [
     "2610.35938",
@@ -2912,5 +3193,6 @@
     "2610.37160",
     "2610.37302",
     "2610.37383"
-  ]
+  ],
+  "triage_checkpoint_utc": "2026-10-29T04:32:20.980Z"
 }

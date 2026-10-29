@@ -1,5 +1,22 @@
-# 2026-10-29 跳过正文记录（尚未形成完整预分类）
+# 2026-10-29 正文低相关跳过清单
 
-目前已纳入结构化清单的 7 篇论文全部为 **priority**，没有任何论文满足经审核的低相关性跳过条件；因此**在已评估的7篇子集内** skipped = 0。剩余 93 篇已有完整基础 ID 与标题，尚未完成官方摘要、作者与版本核验，**不能把它们当作跳过**，也不能把“0”视为全量结果。
+来源为北京时间 10 月 29 日上午公告（官方美东标签 10 月 28 日）。完整标题与官方摘要均经预分类审阅，版本逐篇核实；以下条目 **不计正文已读**，后续兴趣或版本改变须重评。共 **18** 篇。
 
-全文阅读队列和跳过决策仍需按照 [config/triage.json](../../config/triage.json) 的双维阈值完整执行。此清单只用于说明零已判定跳过，不构成 120 次原始 new/cross 收录（去重后 100 篇不同基础 ID）的排除结论。
+- **Formation and Charge Relaxation of Julia-Zee Dyons in Classical Lattice Simulations** — Masaki Yamada；2610.36023v1；[官方摘要](https://arxiv.org/abs/2610.36023v1)；暂定 I=2, R=1；confidence=high。**理由：**经典格点模拟Julia–Zee双极子的形成与荷弛豫；具体动力学不涉及目标二维引力、边界荷或时钟，当前无可辨的直接迁移方法。
+- **Can inflationary axion fluctuations dominate over misalignment?** — Seung Lee et al.；2610.36033v1；[官方摘要](https://arxiv.org/abs/2610.36033v1)；暂定 I=2, R=1；confidence=high。**理由：**暴涨轴子涨落的同质模与失配丰度竞争，属早期宇宙粒子暗物质产额；无目标边界观测量或引力方法联系。
+- **Dark Matter Coherent Freeze-Out Mechanism: A Comprehensive Analysis** — Steven Ferrante et al.；2610.36049v1；[官方摘要](https://arxiv.org/abs/2610.36049v1)；暂定 I=2, R=1；confidence=high。**理由：**暗物质相干冻结丰度的模型参数和粒子宇宙学演化；无与目标二维引力和可迁移荷计算的联系。
+- **How particle physics stops ultra-relativistic bubbles and shapes their gravitational waves** — Alessandro Strumia；2610.36160v1；[官方摘要](https://arxiv.org/abs/2610.36160v1)；暂定 I=2, R=1；confidence=high。**理由：**超相对论泡壁与粒子碰撞产生的相变引力波谱；关注早期宇宙信号建模而非目标引力/观测协议。
+- **All Dark Matter as Primordial Black Holes: a Gravitational-Wave Test** — A. Ianniccari et al.；2610.36177v1；[官方摘要](https://arxiv.org/abs/2610.36177v1)；暂定 I=2, R=1；confidence=high。**理由：**用引力波事件约束原初黑洞作为全部暗物质的概率模型；与当前解析引力工具无具体迁移。
+- **Mutation-acyclicity in rank four is decidable but not semialgebraic** — Kymani Armstrong-Williams et al.；2610.36179v1；[官方摘要](https://arxiv.org/abs/2610.36179v1)；暂定 I=2, R=1；confidence=high。**理由：**四阶cluster quiver mutation-acyclic算法及非半代数性，纯代数判定问题与当前引力/全息方法未建立具体联系。
+- **Testing Conformal Weyl Gravity with Plasma Modified Black Hole Shadows and EHT Constraints** — Zhichen Guan et al.；2610.36562v1；[官方摘要](https://arxiv.org/abs/2610.36562v1)；暂定 I=2, R=1；confidence=high。**理由：**EHT等离子体修正的共形Weyl黑洞阴影参数限制，属具体天体成像拟合且不处理全局因果或边界荷。
+- **Quark mixing and CP violation due to torsional interaction** — Arnab Chakraborty; Amitabha Lahiri；2610.36611v1；[官方摘要](https://arxiv.org/abs/2610.36611v1)；暂定 I=2, R=1；confidence=high。**理由：**挠率导致的四费米夸克混合与CP破坏模型；核心结果是粒子味物理而非目标引力边界/可观测量。
+- **Relativistic N-body simulations with mass-varying neutrinos** — Øyvind Christiansen et al.；2610.36752v1；[官方摘要](https://arxiv.org/abs/2610.36752v1)；暂定 I=2, R=1；confidence=high。**理由：**可变质量中微子的大规模结构形成相对论N体模拟；重在宇宙学物质团块和观测，难直接服务现有模型。
+- **Realistic neutron stars in the constant-Q branch of f(Q) gravity** — Debadri Bhattacharjee et al.；2610.36814v1；[官方摘要](https://arxiv.org/abs/2610.36814v1)；暂定 I=2, R=1；confidence=high。**理由：**f(Q)常Q支中子星的修正TOV及核状态方程拟合；无显式边界荷/全息或可迁移约束技术。
+- **Primordial black holes from a type-IIB/F theory inflaton potential** — Chitrak Sarkar et al.；2610.36863v1；[官方摘要](https://arxiv.org/abs/2610.36863v1)；暂定 I=2, R=1；confidence=high。**理由：**弦模量暴涨势局部鼓包诱导PBH并拟合约束，具体粒子宇宙学丰度与现有二维引力不直接关联。
+- **Cosmic-string calorimetry with a 220 PeV neutrino** — Bo-Qiang Lu；2610.37282v1；[官方摘要](https://arxiv.org/abs/2610.37282v1)；暂定 I=2, R=1；confidence=high。**理由：**220 PeV中微子估计宇宙弦网络向粒子辐射的能量预算，偏具体粒子天体约束，无当前引力边界方法。
+- **Nonradial oscillation modes of axion condensed neutron stars in the Cowling approximation** — Antonio Gómez-Bañón et al.；2610.37308v1；[官方摘要](https://arxiv.org/abs/2610.37308v1)；暂定 I=2, R=1；confidence=high。**理由：**轴子凝聚中子星的Cowling近似非径向模和衰减时间，偏核天体的模式预报。
+- **Cosmological constraints on single-field inflation models from ACT/SPT data and observations at sub-Mpc scales** — Qing-Yang Wang et al.；2610.37383v1；[官方摘要](https://arxiv.org/abs/2610.37383v1)；暂定 I=2, R=1；confidence=high。**理由：**ACT/SPT与多尺度宇宙学数据约束单场暴涨势及PBH/PTA信号，无直接边界荷/时钟或可复用工具。
+- **Probing the inner disk edge of rotating neutron stars with dipole excitations in finite nuclei** — P. S. Koliogiannis; N. Paar；2610.37394v1；[官方摘要](https://arxiv.org/abs/2610.37394v1)；暂定 I=2, R=1；confidence=high。**理由：**中子星核电偶极极化率限制吸积盘内缘轨道频率，属核状态方程与天体观测专门问题。
+- **Meet-in-the-Middle Compilation of the [CNOT] Class with Fibonacci Anyons** — Matvei Fedin; Andrey Morozov；2610.37552v1；[官方摘要](https://arxiv.org/abs/2610.37552v1)；暂定 I=2, R=1；confidence=high。**理由：**Fibonacci任意子量子门编译的GPU braid搜索与误差界，偏量子计算编译，暂无AdS₂/引力相关工具。
+- **A Quiet Night in the Millihertz Sky? LISA Forecasts from LIGO/Virgo/KAGRA Populations** — Ignacio Magaña Hernandez; Antonella Palmese；2610.37617v1；[官方摘要](https://arxiv.org/abs/2610.37617v1)；暂定 I=2, R=1；confidence=high。**理由：**LISA探测数由GWTC-5.0黑洞种群后验外推，偏天体统计预报而非现有引力理论推导。
+- **Weighing dark matter particles with gravitational waves** — Rodrigo Vicente et al.；2610.37638v1；[官方摘要](https://arxiv.org/abs/2610.37638v1)；暂定 I=2, R=1；confidence=high。**理由：**用EMRI波形推断超轻暗物质粒子质量及密度尖峰，偏观测参数估计与天体环境。

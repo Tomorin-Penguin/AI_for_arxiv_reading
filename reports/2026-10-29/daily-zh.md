@@ -1,45 +1,27 @@
-# arXiv 2026-10-29 中文总简报（部分完成，不可视为当日完整日报）
+# 2026-10-29 arXiv 中文总简报（正文队列仍在进行）
 
-## 公告批次与严格覆盖声明
+## 公告与进度（经过全量摘要预分类）
 
-**北京时间报告日期：2026-10-29（周四）。** 本次 arXiv 官方列表标题显示 **“Wednesday, 28 October 2026”**，这是美国东部时区公告日期；该批北京时间 2026-10-29 08:00 左右公布，恰好是 **今天上午** 的目标批次。绝不能把网站的 10 月 28 日标签直接当作昨天北京时间的已处理批次。
+北京时间 2026-10-29 上午批次，对应 arXiv **Wednesday, 28 October 2026**（美东公告标签）。已核实 [gr-qc](https://arxiv.org/list/gr-qc/new) 与 [hep-th](https://arxiv.org/list/hep-th/new) 两类网页。gr-qc：new 30，cross 25，修订 24；hep-th：new 37，cross 28，修订 41。全体原始 **185** 条，其中 new/cross **120** 次、跨类别去重后 **100** 个基础 ID（重复 20 次）；修订原始 **65** 条独立统计，不当成新论文。网页显示 79/79、106/106，均在 2000 条单页范围内。
 
-| 官方类别 | new | cross | revisions | 原始合计 |
-| --- | ---: | ---: | ---: | ---: |
-| [gr-qc](https://arxiv.org/list/gr-qc/new) | 30 | 25 | 24 | 79 |
-| [hep-th](https://arxiv.org/list/hep-th/new) | 37 | 28 | 41 | 106 |
-| **两类原始合计** | **67** | **53** | **65** | **185** |
+**全量100篇**均已浏览完整官方摘要并核实版本、分别完成 I/R 暂定评分；其中 **82 篇保留待/已读正文**，目前 **7 篇已实际阅读正文并有双语卡**、**75 篇待读**、**0 篇仅有单独摘要卡**、**18 篇经双低分和高置信度审核后跳过正文**。全部四状态互斥；“完成预分类”绝不代表已读全部正文。部分论文的英文完整摘要和作者字段尚未结构化归档；修订稿独立ID目录尚待补齐，故本期仍为 **partial**。
 
-官方网页各栏目显示的数目与 2000 条/页上限核对过。新文与首次交叉共 **120 次原始收录**；手动按基础 arXiv ID 跨类去重得到 **100 篇不同论文、20 次跨类重复**（如 2610.37302 属 hep-th new / gr-qc cross）。尚未核实93篇待读条目的完整版本号。修订原始 65 条，单列不作为新论文。
+## 基于正文的七篇已核实精选
 
-**数据处理进度：100 个基础 ID 全部登记**。7 篇已读正文并有双语卡；**93 篇 pending（官方完整摘要/作者/版本未逐篇完成核验）**，仅摘要暂读 0，符合严格门槛的跳过 0。93 项并未经过有效预分类，故不可将其视为低相关或仅需摘要。**ID 去重已完成，但 97 篇完整摘要、版本、作者与有效 triage 尚未完成；正式正文需读数取决于后续严格预分类**，报告状态为 partial，不得声称筛完。
+- **[引力中心荷的几何起源](papers/2610.37302v1.md)**：Noether荷与通量及中心cocycle的协变相空间构造（AdS3示例不得直接推广至AdS2）。
+- **[耦合SYK中的婴儿宇宙](papers/2610.36032v1.md)**：内部重算符时钟与边界Hamiltonian时间区分，属于特定模型的关系型时间处方。
+- **[(A)dS2上的't Hooft模型](papers/2610.37667v1.md)**：固定背景上的SL(2,R) Casimir和介子谱；不是动力学JT。
+- **[二维/四维Wess–Zumino共形反常](papers/2610.36735v1.md)**：Polyakov作用量的局域化与边界变分条件；conformalon的物理解释须另行判定。
+- **[量子master constraint与规范分布](papers/2610.37493v1.md)**：有限维Morse–Bott/余各向同性假设下的辛几何约化定理。
+- **[5PM散射K3奇点](papers/2610.36128v1.md)**：pinch与retarded routing下的记忆区域，不等于完整记忆可观测量。
+- **[虫洞单极子与守恒](papers/2610.35969v1.md)**：区分静态解族和真实动态荷变化，便于反思边界记忆判据。
 
-## 今日已核实的重要结果（作者结论）
+**以上七篇均未独立逐式复算全部推导**。详细证据、段落和中英限制见[双语精选](selected-bilingual.md)及逐篇卡；新近高优先级论文尚需正文核实，不提前纳入正文精选。
 
-1. **[引力中心荷的几何起源](papers/2610.37302v1.md)**：在协变相空间中，对零 flux 与 field-space exact flux 区分 Hamiltonian 荷，给出对应中心 cocycle。适合直接对照二维 dilaton 作用量的边界荷，不过实例是 AdS₃，不可直接搬用。
-2. **[耦合 SYK 中婴儿宇宙](papers/2610.36032v1.md)**：内部重算符的关系型时间使 chord saddle 的“大小”按 $|\cos\mu t|$ 变化；不同于从外部边界 Hamiltonian 做时间演化。这涉及可观测时钟的定义，与当前研究方法上接近。
-3. **[(A)dS₂ 上的 ’t Hooft 模型](papers/2610.37667v1.md)**：null-gauge 中 Casimir 将平直二维 QCD 的介子方程与几何 Legendre 算符相加；AdS₂ 的边界谱与 dS₂ 的共振须分别处理。注意其背景是刚性的，不等价于 JT 引力。
+## 下一批优先候选（仅摘要预分类，**不是**正文精选）
 
-以上仅为正文已读的初步精选，**不是其余 117 条公告的低相关性判断**。每篇均有独立中文/英文概括与章节、方程定位，未开展独立数值复算。
+[2610.35947v1：string dilaton/modulus原子钟-WEP测试](https://arxiv.org/abs/2610.35947v1)（应特别辨别标量耦合导致的频率漂移与固有时记忆）；[2610.37028v1：规则黑洞的高阶准正常模](https://arxiv.org/abs/2610.37028v1)（不同于可直接探测的低阶ringdown）；[2610.36044v1：物质波干涉仪开放EFT](https://arxiv.org/abs/2610.36044v1)（Keldysh核与相位/退相干）；[2610.37554v1：热OPE复兴与黑洞奇点](https://arxiv.org/abs/2610.37554v1)（仅某些复频区域可以重建关联函数）；[2610.37038v1：无视界几何的谱形状因子](https://arxiv.org/abs/2610.37038v1)（ramp并非普适事件视界证据）；[2610.37278v1：BF和Noether约束](https://arxiv.org/abs/2610.37278v1)（minisuperspace约化需核对保留lapse）。
 
+## 数据索引与限制
 
-## 新增四篇正文精选（独立正文阅读，未逐式复算）
-
-- **[2610.36735v1：二维/四维共形反常 WZ 作用量](papers/2610.36735v1.md)** — I5/R5，§2.3 式 (30) 给出二维 Polyakov 非局域作用量的局域 scalar 表述；§2.5 的 WZ cocycle 与边界 Hermiticity 条件对于 2D dilaton 变分有直接借鉴价值。作者认为 conformalon 可视为 IR 集体自由度；此判断不自动意味着现有 dilaton 模型多一个物理 edge mode。
-- **[2610.37493v1：量子 master constraints 恢复经典规范分布](papers/2610.37493v1.md)** — I5/R4，Theorem 3.1: \operatorname{Im} L=(T\Sigma)^\omega$，且 $L^2=0$ 等价 coisotropic， §3.3 的 double bracket 明确可观测量判据。适合巩固约束/辛约化工具，有限维正则前提不可忽略。
-- **[2610.36128v1：5PM 散射 K3 Landau 奇点及记忆区](papers/2610.36128v1.md)** — I5/R4，§3 证明 $\gamma=3$ 是切割轮廓 pinch，§6 在指定 retarded routing 后得到 memory-region 积分常数，**并未计算完整5PM记忆可观测量**。
-- **[2610.35969v1：虫洞单极子不可由源运动感应](papers/2610.35969v1.md)** — I4/R4，§II–IV 由电通量、Schwarzschild 真空扰动和 Bondi flux 区分“静态匹配解族”与真正时间演化，提示引力记忆计算须控制荷超选 sector 与边界时钟归一。
-
-## 推荐阅读顺序及可执行步骤
-
-先读中心荷 §2.2–2.3 并直接在现有 dilaton 模型中检验 $F_\xi$ 的可积性；其次读 SYK §4 的两种时间；最后读 AdS₂ QCD §3–5 Casimir 到 meson equation 的推导。已知完整卡片均链接于 [双语精选](selected-bilingual.md)。
-
-## 数据风险与后续
-
-两页均核实当日批次与数量，并记录[100 个不同基础 ID 的全量标题清单](../../data/2026-10-29/listing-id-index.json)。RSS 尚未独立核实日期；对于 93 篇待读，作者、完整摘要及版本仍待处理，尚不能正式 I/R 评分或合法跳过。[skipped.md](skipped.md) 的 0 只表示三篇已评估论文没有低相关跳过，另外 93 篇仍是 pending。本期状态存于 [status.json](status.json)，官方网页刊登日与北京时间报告日分别入库。
-
-## 已捕获论文索引（非全量）
-
-- [2610.36032v1: Cosmology of the Baby Universe in Coupled SYK](papers/2610.36032v1.md) · final I=5, R=4 · body_reviewed
-- [2610.37302v1: On the geometric origin of central charges in gravity](papers/2610.37302v1.md) · final I=5, R=5 · body_reviewed
-- [2610.37667v1: The 't Hooft model on (A)dS₂](papers/2610.37667v1.md) · final I=5, R=4 · body_reviewed
+[全量元数据与ID清单](../../data/2026-10-29/manifest.json) · [100篇I/R预分类](triage.json) · [18篇跳过正文与具体理由](skipped.md) · [全量状态四集合](status.json)。当前结构化manifest尚未保存93篇完整摘要英文文本和完整作者表；本期尚未完成全部82篇保留队列的正文阅读，因此不应作为完整日报或作者结论的全面综述。

@@ -1,6 +1,6 @@
-# 2026-10-29 双语精选（**不完整：3 篇确认已读正文**） / Selected bilingual digest (partial)
+# 2026-10-29 双语精选 / Selected bilingual digest (partial)
 
-**正文已读新增4篇，当前累计7篇；全量100个基础ID中93篇仍 pending**。\n\n**批次时间:** 北京 2026-10-29 上午；官方网页标识 Wednesday 2026-10-28（美东公告日期）。两类共计原始 new+cross 120 条，**去重目标总数尚未确定，全体预分类尚未完成**。以下七篇均实际读到正文，不代表整个公告的最终精选排名。
+**当前仅有7篇已确认正文阅读并核验关键段落；75篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-29上午，对应美东2026-10-28；new/cross共120次收录，去重100篇。以下七篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -21,16 +21,24 @@
 
 
 ### 4. [The Wess-Zumino Action of the Conformal Anomaly](https://arxiv.org/abs/2610.36735v1) — I5 R5
-**中文：** D=2 的局域 WZ 形式 $W=(N/96\pi)\int\sqrt{-g}(\varphi\Box\varphi+2R\varphi)$（§2.3, (30)）局域化 Polyakov anomaly；边界 Hermiticity 影响 WZ consistency。适合二维 dilaton/Liouville 变分，但“conformalon 是物理 Goldstone”仍为作者构造的解释。\n**English:** Wess–Zumino integration of the Weyl anomaly yields a local scalar form of the two-dimensional Polyakov action and a stress tensor encoding the anomalous Ward identity. The author interprets the conformalon as an IR collective field. Boundary conditions and the model's original dilaton degrees of freedom need separate treatment.\n[双语阅读卡](papers/2610.36735v1.md)。
+**中文：** D=2 的局域 WZ 形式 $W=(N/96\pi)\int\sqrt{-g}(\varphi\Box\varphi+2R\varphi)$（§2.3, (30)）局域化 Polyakov anomaly；边界 Hermiticity 影响 WZ consistency。适合二维 dilaton/Liouville 变分，但“conformalon 是物理 Goldstone”仍为作者构造的解释。
+**English:** Wess–Zumino integration of the Weyl anomaly yields a local scalar form of the two-dimensional Polyakov action and a stress tensor encoding the anomalous Ward identity. The author interprets the conformalon as an IR collective field. Boundary conditions and the model's original dilaton degrees of freedom need separate treatment.
+[双语阅读卡](papers/2610.36735v1.md)。
 
 ### 5. [Recovering classical gauge geometry from quantum master constraints](https://arxiv.org/abs/2610.37493v1) — I5 R4
-**中文：** 若 positive master 的零集 Morse–Bott，$\operatorname{Im}L=(T\Sigma)^\omega$ 且 $L^2=0$ 等价于 coisotropy（§3, Theorem 3.1），由线性化流的 shear 恢复规范方向。只固定规范分布，不唯一恢复原约束代数。\n**English:** A first-class gauge distribution can be read from the linearized master-constraint flow on a regular zero set. The theorem is finite-dimensional and requires Morse–Bott regularity; quantum-sector selection remains distinct from geometric reduction.\n[双语阅读卡](papers/2610.37493v1.md)。
+**中文：** 若 positive master 的零集 Morse–Bott，$\operatorname{Im}L=(T\Sigma)^\omega$ 且 $L^2=0$ 等价于 coisotropy（§3, Theorem 3.1），由线性化流的 shear 恢复规范方向。只固定规范分布，不唯一恢复原约束代数。
+**English:** A first-class gauge distribution can be read from the linearized master-constraint flow on a regular zero set. The theorem is finite-dimensional and requires Morse–Bott regularity; quantum-sector selection remains distinct from geometric reduction.
+[双语阅读卡](papers/2610.37493v1.md)。
 
 ### 6. [Landau singularity of the K3 maximal cut in black-hole scattering at fifth post-Minkowskian order](https://arxiv.org/abs/2610.36128v1) — I5 R4
-**中文：** §3 在 5PM K3 maximal cut 上证明 $\gamma=3$ 真实 pinch；§6 根据指定 retarded propagator routing 对 memory region 求边界积分。作者不声称求得完整 5PM observable 或唯一确定 routing。\n**English:** A nodal point on the integration torus explains the K3-sector Landau singularity at $\gamma=3$; retarded routing remains an independent input when evaluating gravitational-memory region boundary integrals.\n[双语阅读卡](papers/2610.36128v1.md)。
+**中文：** §3 在 5PM K3 maximal cut 上证明 $\gamma=3$ 真实 pinch；§6 根据指定 retarded propagator routing 对 memory region 求边界积分。作者不声称求得完整 5PM observable 或唯一确定 routing。
+**English:** A nodal point on the integration torus explains the K3-sector Landau singularity at $\gamma=3$; retarded routing remains an independent input when evaluating gravitational-memory region boundary integrals.
+[双语阅读卡](papers/2610.36128v1.md)。
 
 ### 7. [Can a Wormhole Induce a Monopole?](https://arxiv.org/abs/2610.35969v1) — I4 R4
-**中文：** 世界管通量守恒、线性 Schwarzschild 真空方程和 Bondi balance 反驳从虫洞静态匹配解得到的周期性单极响应；动态高阶多极效应仍可存在。\n**English:** The claimed time-dependent wormhole mass monopole confuses a sequence of distinct static flux sectors with physical time evolution. Charge conservation and vacuum gravitational balance forbid the monopole signal while allowing higher multipoles.\n[双语阅读卡](papers/2610.35969v1.md)。
+**中文：** 世界管通量守恒、线性 Schwarzschild 真空方程和 Bondi balance 反驳从虫洞静态匹配解得到的周期性单极响应；动态高阶多极效应仍可存在。
+**English:** The claimed time-dependent wormhole mass monopole confuses a sequence of distinct static flux sectors with physical time evolution. Charge conservation and vacuum gravitational balance forbid the monopole signal while allowing higher multipoles.
+[双语阅读卡](papers/2610.35969v1.md)。
 
 ## 兴趣精选 / Interest picks
 
