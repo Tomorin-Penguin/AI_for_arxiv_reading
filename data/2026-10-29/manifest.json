@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-29",
+  "announcement_date": "2026-10-29",
+  "source_announcement_date": "2026-10-28",
+  "announcement_timezone": "America/New_York",
+  "announcement_beijing_date": "2026-10-29",
+  "site_date_explanation": "Official lists label the Wednesday 2026-10-28 20:00 America/New_York announcement as Wed 28 Oct; release occurs Thursday 2026-10-29 08:00 Asia/Shanghai. This is the batch published this Beijing morning, not the previous Beijing morning.",
+  "retrieved_at_utc": "2026-10-29T04:08:34.175Z",
+  "source_status": "verified_listing_but_manifest_incomplete",
+  "sources": [
+    {
+      "category": "gr-qc",
+      "url": "https://arxiv.org/list/gr-qc/new",
+      "site_date": "2026-10-28",
+      "shown": 79,
+      "new": 30,
+      "cross": 25,
+      "replacements": 24,
+      "pagination": "79 of 79, up to 2000 entries per page",
+      "observed": true
+    },
+    {
+      "category": "hep-th",
+      "url": "https://arxiv.org/list/hep-th/new",
+      "site_date": "2026-10-28",
+      "shown": 106,
+      "new": 37,
+      "cross": 28,
+      "replacements": 41,
+      "pagination": "106 of 106, up to 2000 entries per page",
+      "observed": true
+    }
+  ],
+  "counts": {
+    "raw_items": 185,
+    "raw_new_or_cross": 120,
+    "raw_revisions": 65,
+    "unique_new_or_cross": null,
+    "captured_unique_new_or_cross": 3,
+    "missing_uncaptured_unique_new_or_cross": null,
+    "known_overlap": [
+      {
+        "key": "2610.37302v1",
+        "appearances": 2
+      }
+    ],
+    "revisions_unique": null
+  },
+  "papers": [
+    {
+      "id": "2610.36032",
+      "version": 1,
+      "key": "2610.36032v1",
+      "title": "Cosmology of the Baby Universe in Coupled SYK",
+      "authors": "Andrew Sontag",
+      "primary_category": "hep-th",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28",
+      "abstract_summary_en": "Finite-N and finite-p Majorana trace combinatorics extend the chord description of a closed baby universe arising in coupled SYK. A heavy insertion creates a first-order transition between thermal AdS and a baby-universe saddle. A proposed interior-time prescription yields a cosine-type expansion and recollapse.",
+      "abstract_en": null,
+      "abstract_full_text_not_archived": true,
+      "abs_url": "https://arxiv.org/abs/2610.36032v1",
+      "html_url": "https://arxiv.org/html/2610.36032v1",
+      "queue": "new_or_cross",
+      "version_verified": true
+    },
+    {
+      "id": "2610.37302",
+      "version": 1,
+      "key": "2610.37302v1",
+      "title": "On the geometric origin of central charges in gravity",
+      "authors": "Lorenzo Di Giacomo; Daniele Pranzetti",
+      "primary_category": "hep-th",
+      "announcements": {
+        "hep-th": "new",
+        "gr-qc": "cross"
+      },
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28",
+      "abstract_summary_en": "An ambiguity-free covariant phase-space framework yields charge representation theorems when the Noetherian flux vanishes or is integrable. The central extension follows from the Lagrangian and associated geometric data. AdS3 boundary conditions provide an explicit application.",
+      "abstract_en": null,
+      "abstract_full_text_not_archived": true,
+      "abs_url": "https://arxiv.org/abs/2610.37302v1",
+      "html_url": "https://arxiv.org/html/2610.37302v1",
+      "queue": "new_or_cross",
+      "version_verified": true
+    },
+    {
+      "id": "2610.37667",
+      "version": 1,
+      "key": "2610.37667v1",
+      "title": "The 't Hooft model on (A)dS₂",
+      "authors": "Panos Betzios",
+      "primary_category": "hep-th",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28",
+      "abstract_summary_en": "Large-N two-dimensional QCD is solved on fixed AdS2 and dS2 using a null gauge and an affine light-front coordinate. The SL(2,R) Casimir adds a curvature-dependent Legendre operator to the meson equation; the AdS spectrum and de Sitter resonances, boundary sectors, and chiral limits are explored.",
+      "abstract_en": null,
+      "abstract_full_text_not_archived": true,
+      "abs_url": "https://arxiv.org/abs/2610.37667v1",
+      "html_url": "https://arxiv.org/html/2610.37667v1",
+      "queue": "new_or_cross",
+      "version_verified": true
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "reason": "Both full listing pages and displayed section totals verified, but the automation could extract structured individual metadata for only three prioritized entries. Remaining titles and abstracts must be collected before global triage and deduplication can be asserted."
+  }
+}

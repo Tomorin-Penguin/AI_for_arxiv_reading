@@ -1,0 +1,53 @@
+{
+  "report_date": "2026-10-29",
+  "announcement_date": "2026-10-29",
+  "source_announcement_date": "2026-10-28",
+  "policy_version": "1.0",
+  "interests_sha256": "2abb0032b86197cdb6e9363ba148bd6e4e0e3dfa4e83afdb647578eec9b0fcb6",
+  "coverage_complete": false,
+  "missing_global_items": true,
+  "items": [
+    {
+      "key": "2610.36032v1",
+      "decision": "priority",
+      "interest_score": 5,
+      "research_score": 4,
+      "confidence": "high",
+      "abstract_available": true,
+      "version_verified": true,
+      "core_match": true,
+      "method_transfer": true,
+      "user_requested_read": false,
+      "source_url": "https://arxiv.org/abs/2610.36032v1",
+      "reason": "双标度耦合SYK中的闭合宇宙、弦图和由重算符定义的内部时间；其内部时钟构造与关系型可观测量直接形成方法对照。"
+    },
+    {
+      "key": "2610.37302v1",
+      "decision": "priority",
+      "interest_score": 5,
+      "research_score": 5,
+      "confidence": "high",
+      "abstract_available": true,
+      "version_verified": true,
+      "core_match": true,
+      "method_transfer": true,
+      "user_requested_read": false,
+      "source_url": "https://arxiv.org/abs/2610.37302v1",
+      "reason": "协变相空间、场依赖渐近对称生成元、Noether荷/通量与中心扩张是二维dilaton边界荷研究可直接复用并检验的形式工具。"
+    },
+    {
+      "key": "2610.37667v1",
+      "decision": "priority",
+      "interest_score": 5,
+      "research_score": 4,
+      "confidence": "high",
+      "abstract_available": true,
+      "version_verified": true,
+      "core_match": true,
+      "method_transfer": true,
+      "user_requested_read": false,
+      "source_url": "https://arxiv.org/abs/2610.37667v1",
+      "reason": "严格利用AdS₂的SL(2,R) Casimir、null gauge、边界条件与作用在谱上的曲率项，方法可迁移；注意论文在固定背景上，不是动力学JT引力。"
+    }
+  ]
+}
