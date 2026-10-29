@@ -2,7 +2,7 @@
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
 
-**当前已有19篇正文已确认并核验关键段落；63篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有23篇正文已确认并核验关键段落；59篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -162,3 +162,16 @@
 
 **正文证据 / Body:** §4 Theorem 4.9 eq. (4.15); Cor. 4.10; §6 assumptions. [官方 HTML](https://arxiv.org/html/2610.36695v1) · [具体模型、局限及下一步计算 / Full bilingual card](papers/2610.36695v1.md)。**未独立复算全部推导 / Full derivations not independently reproduced.**
 
+
+
+## 又完成四篇旧批次正文精选 / Four further prior-batch body-reviewed picks
+
+**[On the Interpretation of Tests of the Horizon Area Law](papers/2610.36162v1.md) — final I5/R5.** 中文：玻色星初态无视界，却能通过以Kerr先验重建的面积定律统计检验；末态确实形成黑洞，结论是模型依赖性。 English: Horizonless boson-star progenitors can pass a Kerr-assumption area-law test, although the merger forms a black hole. The result diagnoses model dependence, not a theorem violation. [HTML](https://arxiv.org/html/2610.36162v1).
+
+**[Geodesic dynamics and tidal forces in a quantum-regularized black hole from string T-duality](papers/2610.37331v1.md) — final I5/R4.** 中文：规则静态核心使潮汐有界，部分无视界参数仍有光子圆轨，须区分局域探针、几何视界和形成史。 English: A regular core bounds tidal forces; photon circular orbits may persist without horizons. Local observables do not reconstruct the full global causal history. [HTML](https://arxiv.org/html/2610.37331v1).
+
+**[Recovering the leading quantum correction to Newton Potential beyond the Trace Anomaly](papers/2610.37506v1.md) — final I4/R4.** 中文：Boulware真空极化恢复1/r³幂次，但数值系数需外部匹配，不能宣称由迹反常独立预测。 English: The Boulware vacuum-polarization ansatz restores the expected r^-3 power; its coefficient is fixed by matching and is not an anomaly-only prediction. [HTML](https://arxiv.org/html/2610.37506v1).
+
+**[The Disordered Universe 2025: Open Effective Field Theories](papers/2610.36898v1.md) — final I5/R5.** 中文：SK归一性、实部耗散/噪声分离、开放宇宙学EFT及§5的流体Stückelberg时钟，为关系探针协议提供可迁移思路，非已构造的JT量子时钟。 English: SK normalization, response–noise separation and the fluid Stückelberg-clock proposal supply a methodological bridge to relational probes, not a solved JT-clock theory. [HTML](https://arxiv.org/html/2610.36898v1).
+
+**Current prior batch / 目前旧批次:** 100 triaged; 82 retained for body; 23 body-reviewed; 59 pending; 18 skipped. **Today new papers = 0.** No equations independently recomputed.

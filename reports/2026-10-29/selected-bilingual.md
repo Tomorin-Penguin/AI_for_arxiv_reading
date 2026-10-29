@@ -1,6 +1,6 @@
 # 2026-10-29 bilingual digest｜今日无新论文
 
-**中文：** 10月29日 gr-qc/hep-th无新公告，因此今日新文精选0篇。下面为**前一批补读摘录**而非今日新增。完整19篇正文卡及双语总结：[上一批完整双语精选](../backlog-2026-10-28/selected-bilingual.md)。
+**中文：** 10月29日 gr-qc/hep-th无新公告，因此今日新文精选0篇。下面为**前一批补读摘录**而非今日新增。完整23篇正文卡及双语总结：[上一批完整双语精选](../backlog-2026-10-28/selected-bilingual.md)。
 
 **English:** No new papers were announced in today's gr-qc or hep-th cycle because arXiv canceled its Wednesday evening release. The following are highlights of a **previous announcement batch**, not new publications.
 
@@ -10,4 +10,4 @@
 
 **[The Wess-Zumino Action of the Conformal Anomaly](https://arxiv.org/abs/2610.36735v1)**：[正文卡](../backlog-2026-10-28/papers/2610.36735v1.md)。中文：二维局域Wess–Zumino作用与Polyakov反常可用于对照含物质dilaton引力，但尚未复算用户模型。 English: The two-dimensional Wess–Zumino representation is a candidate comparison for dilaton–matter anomalies, not an already verified calculation in the user's theory.
 
-**Counting / 计数：** Today 0 new, 0 body required, 0 reviewed, 0 pending, 0 skipped. Previous batch 100 total, 82 require body review, 19 reviewed, 63 pending, 18 skipped.
+**Counting / 计数：** Today 0 new, 0 body required, 0 reviewed, 0 pending, 0 skipped. Previous batch 100 total, 82 require body review, 23 reviewed, 59 pending, 18 skipped.
