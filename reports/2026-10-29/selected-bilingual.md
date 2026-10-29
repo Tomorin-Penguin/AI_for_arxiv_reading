@@ -1,6 +1,6 @@
 # 2026-10-29 双语精选 / Selected bilingual digest (partial)
 
-**当前已有10篇正文已确认并核验关键段落；72篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-29上午，对应美东2026-10-28；new/cross共120次收录，去重100篇。以下十篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有14篇正文已确认并核验关键段落；68篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-29上午，对应美东2026-10-28；new/cross共120次收录，去重100篇。以下十四篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -77,3 +77,38 @@
 
 **方法证据 / Source:** [正文HTML](https://arxiv.org/html/2610.37554v1) · [详细双语卡与公式编号](papers/2610.37554v1.md)。
 
+
+
+## 四篇追加正文精选 / Four additional body-verified selections
+
+### [An open EFT for dark matter searches with matter-wave interferometers](papers/2610.36044v1.md) — final I5/R4, body_reviewed
+
+**中文：** 暗物质环境的retarded核产生干涉相位，Keldysh核控制退相干；复合颗粒与原子云的增强因子不同。可迁移：给二维引力的关系型时钟读数写严格开放系统测量协议；切勿将暗物质模拟误称为引力记忆。
+
+**English:** The causal environmental kernel controls the interferometer phase, while the noise kernel damps coherence. Composite probes and independent atom clouds have different enhancement factors. This is a measurement-protocol template, not a calculation of gravitational memory.
+
+**推荐段落 / Evidence:** I–VI; (11), (14), (16)–(20), (46)–(49), (58)–(60), (87)–(89); appendices methodology pointers · [HTML](https://arxiv.org/html/2610.36044v1) · [中英正文卡](papers/2610.36044v1.md)。未独立重做数值图或完整证明。
+
+### [Another Brick in the Wall: Spectral Form Factor of Normal Modes in Horizonless Geometries](papers/2610.37038v1.md) — final I5/R4, body_reviewed
+
+**中文：** BTZ圆形砖墙的原始SFF ramp可由对数谱密度与不同J的sector混合造成，unfold后不支持RMT；动量分裂superstratum的探针谱却出现伴随排斥的ramp。可借此避免用单独ramp证明黑洞视界或SYK量子混沌。
+
+**English:** A raw spectral ramp in an axisymmetric brickwall is an artifact of smooth density and mixing different angular sectors, whereas a momentum-fractionated superstratum exhibits unfolded level correlations. Probe normal modes are not the microstate Hamiltonian spectrum.
+
+**推荐段落 / Evidence:** 1–6; (24)–(32), (39)–(41), (53), Figs. 2–8 · [HTML](https://arxiv.org/html/2610.37038v1) · [中英正文卡](papers/2610.37038v1.md)。未独立重做数值图或完整证明。
+
+### [Cusp regularization with spin structures and gravitational anomalies](papers/2610.36028v1.md) — final I5/R4, body_reviewed
+
+**中文：** 固定自旋结构限制bulk填充，cusp主发散系数为玻色无自旋求和的2/3；异常相位在指定中心荷差外消去leading发散。迁移需先证明JT/dilaton中的边界拓扑sector类似，不能直接照搬抵消项。
+
+**English:** Spin-compatible modular fillings reduce the cusp subtraction by a factor of two thirds, and anomalous phases cancel the leading divergence except at special central-charge differences. This AdS3 torus-sum prescription is not a universal JT counterterm.
+
+**推荐段落 / Evidence:** 1–5, Appendix A–D key methods; (1.1)–(1.2), (3.14)–(3.19), (4.19)–(4.26), (5.1) · [HTML](https://arxiv.org/html/2610.36028v1) · [中英正文卡](papers/2610.36028v1.md)。未独立重做数值图或完整证明。
+
+### [Noether Symmetries in Scalar--Vector--Two-Form Cosmology with a Topological BF Interaction](papers/2610.37278v1.md) — final I4/R4, body_reviewed
+
+**中文：** lapse保留的mini-superspace变分给出Hamiltonian/Friedmann约束；BF改变耦合形式场交换但不直接贡献压力，局域Proca对偶还不等于全球flux等价。适合约束约化与边界项的工具练习。
+
+**English:** Keeping the lapse yields the Friedmann constraint; the metric-independent BF interaction alters dynamics but not the stress tensor directly. Local Stueckelberg/Proca duality does not identify global flux sectors. The null Noether branch is accelerated by the scalar potential.
+
+**推荐段落 / Evidence:** 1–6; (2.13)–(2.15), (3.1)–(3.4), (3.18)–(3.41), (4.1), (4.19)–(4.27), (4.47) · [HTML](https://arxiv.org/html/2610.37278v1) · [中英正文卡](papers/2610.37278v1.md)。未独立重做数值图或完整证明。

@@ -90,6 +90,42 @@
       "body_url": "https://arxiv.org/html/2610.37554v1",
       "sections": "I–V, including (2), (11)–(19), (21–22), (24–27), (34–35), (37–39); supplementary methods located, not recomputed",
       "verified_version": true
+    },
+    "2610.36044v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "read_at_utc": "2026-10-29T04:42:17.172Z",
+      "note_path": "reports/2026-10-29/papers/2610.36044v1.md",
+      "body_url": "https://arxiv.org/html/2610.36044v1",
+      "sections": "I–VI; (11), (14), (16)–(20), (46)–(49), (58)–(60), (87)–(89); appendices methodology pointers",
+      "verified_version": true
+    },
+    "2610.37038v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "read_at_utc": "2026-10-29T04:42:17.172Z",
+      "note_path": "reports/2026-10-29/papers/2610.37038v1.md",
+      "body_url": "https://arxiv.org/html/2610.37038v1",
+      "sections": "1–6; (24)–(32), (39)–(41), (53), Figs. 2–8",
+      "verified_version": true
+    },
+    "2610.36028v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "read_at_utc": "2026-10-29T04:42:17.172Z",
+      "note_path": "reports/2026-10-29/papers/2610.36028v1.md",
+      "body_url": "https://arxiv.org/html/2610.36028v1",
+      "sections": "1–5, Appendix A–D key methods; (1.1)–(1.2), (3.14)–(3.19), (4.19)–(4.26), (5.1)",
+      "verified_version": true
+    },
+    "2610.37278v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "read_at_utc": "2026-10-29T04:42:17.172Z",
+      "note_path": "reports/2026-10-29/papers/2610.37278v1.md",
+      "body_url": "https://arxiv.org/html/2610.37278v1",
+      "sections": "1–6; (2.13)–(2.15), (3.1)–(3.4), (3.18)–(3.41), (4.1), (4.19)–(4.27), (4.47)",
+      "verified_version": true
     }
   }
 }

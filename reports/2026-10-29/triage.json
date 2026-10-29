@@ -185,7 +185,11 @@
       "source_url": "https://arxiv.org/abs/2610.36028v1",
       "reason": "固定自旋结构的SL(2,Z)黑洞求和尖点正则化，含引力反常与边界子扇区。",
       "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.36028v1.md"
     },
     {
       "key": "2610.36029v1",
@@ -311,7 +315,11 @@
       "source_url": "https://arxiv.org/abs/2610.36044v1",
       "reason": "物质波干涉仪的开放EFT用retarded/Keldysh核分离相位与退相干，直接关联时钟测量协议。",
       "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.36044v1.md"
     },
     {
       "key": "2610.36045v1",
@@ -1067,7 +1075,11 @@
       "source_url": "https://arxiv.org/abs/2610.37038v1",
       "reason": "无视界几何的正常模谱形状因子可能出现ramp，警惕把谱统计当作黑洞混沌或视界证明。",
       "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.37038v1.md"
     },
     {
       "key": "2610.37063v1",
@@ -1227,7 +1239,11 @@
       "source_url": "https://arxiv.org/abs/2610.37278v1",
       "reason": "标量-矢量-二形式BF作用量中保留lapse并用Noether对称约化，约束处理技术可迁移。",
       "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "protected_by": "core_topic",
+      "final_interest_score": 4,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.37278v1.md"
     },
     {
       "key": "2610.37282v1",
