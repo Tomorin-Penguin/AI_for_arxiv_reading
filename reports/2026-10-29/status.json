@@ -10,7 +10,7 @@
     "2610.33134@unresolved",
     "2610.35938@unresolved",
     "2610.35947@unresolved",
-    "2610.35969@unresolved",
+    "2610.35969v1",
     "2610.35983@unresolved",
     "2610.36023@unresolved",
     "2610.36024@unresolved",
@@ -38,7 +38,7 @@
     "2610.36094@unresolved",
     "2610.36113@unresolved",
     "2610.36123@unresolved",
-    "2610.36128@unresolved",
+    "2610.36128v1",
     "2610.36129@unresolved",
     "2610.36137@unresolved",
     "2610.36160@unresolved",
@@ -58,7 +58,7 @@
     "2610.36695@unresolved",
     "2610.36728@unresolved",
     "2610.36730@unresolved",
-    "2610.36735@unresolved",
+    "2610.36735v1",
     "2610.36752@unresolved",
     "2610.36796@unresolved",
     "2610.36814@unresolved",
@@ -92,7 +92,7 @@
     "2610.37449@unresolved",
     "2610.37458@unresolved",
     "2610.37460@unresolved",
-    "2610.37493@unresolved",
+    "2610.37493v1",
     "2610.37501@unresolved",
     "2610.37506@unresolved",
     "2610.37515@unresolved",
@@ -114,7 +114,11 @@
   "body_reviewed_keys": [
     "2610.36032v1",
     "2610.37302v1",
-    "2610.37667v1"
+    "2610.37667v1",
+    "2610.35969v1",
+    "2610.36735v1",
+    "2610.37493v1",
+    "2610.36128v1"
   ],
   "abstract_only_keys": [],
   "pending_keys": [
@@ -123,7 +127,6 @@
     "2610.33134@unresolved",
     "2610.35938@unresolved",
     "2610.35947@unresolved",
-    "2610.35969@unresolved",
     "2610.35983@unresolved",
     "2610.36023@unresolved",
     "2610.36024@unresolved",
@@ -150,7 +153,6 @@
     "2610.36094@unresolved",
     "2610.36113@unresolved",
     "2610.36123@unresolved",
-    "2610.36128@unresolved",
     "2610.36129@unresolved",
     "2610.36137@unresolved",
     "2610.36160@unresolved",
@@ -170,7 +172,6 @@
     "2610.36695@unresolved",
     "2610.36728@unresolved",
     "2610.36730@unresolved",
-    "2610.36735@unresolved",
     "2610.36752@unresolved",
     "2610.36796@unresolved",
     "2610.36814@unresolved",
@@ -203,7 +204,6 @@
     "2610.37449@unresolved",
     "2610.37458@unresolved",
     "2610.37460@unresolved",
-    "2610.37493@unresolved",
     "2610.37501@unresolved",
     "2610.37506@unresolved",
     "2610.37515@unresolved",
@@ -218,14 +218,14 @@
   ],
   "skipped_low_relevance_keys": [],
   "blockers": [
-    "New/cross list ID coverage complete: 120 raw appearances, 100 base IDs, 20 overlaps; 97 entries await full abstracts, authors and verified versions.",
-    "Triage for the 97 entries has null I/R (not yet evaluated); do not present 100 as properly triaged. Of the 100, only three have actual body-reviewed bilingual notes.",
+    "New/cross list ID coverage complete: 120 raw appearances, 100 base IDs, 20 overlaps; 93 entries await full abstracts, authors and verified versions.",
+    "Triage for the 93 entries has null I/R (not yet evaluated); do not present 100 as properly triaged. Of the 100, only seven have actual body-reviewed bilingual notes.",
     "65 raw revision appearances are counted but distinct revision IDs await separate transcription.",
     "arXiv site date 2026-10-28 (US Eastern) corresponds to Beijing 2026-10-29 morning; original repository validator does not model this cross-timezone mapping."
   ],
-  "updated_at": "2026-10-29T04:16:02.790Z",
+  "updated_at": "2026-10-29T04:19:21.299Z",
   "report_status": "partial",
-  "reading_status_label": "两分类完整登记120次原始新/交叉收录，去重100基础ID；3篇正文已读、97待正式摘要/版本核验、0跳过",
+  "reading_status_label": "100基础ID，正文已读7，待完整元数据/预分类93，0已确认低相关跳过",
   "coverage": {
     "listing_categories_complete": true,
     "listing_sections_complete": true,
@@ -236,9 +236,9 @@
     "unique_target_total": 100,
     "requires_body_reading_total": 100,
     "known_requires_body": 100,
-    "known_body_reviewed": 3,
+    "known_body_reviewed": 7,
     "known_abstract_only": 0,
-    "known_pending": 97,
+    "known_pending": 93,
     "known_skipped": 0
   },
   "known_verified_body_sources": [
@@ -256,6 +256,26 @@
       "key": "2610.37667v1",
       "url": "https://arxiv.org/html/2610.37667v1",
       "sections": "1–5, 7, 9, 10"
+    },
+    {
+      "key": "2610.35969v1",
+      "url": "https://arxiv.org/html/2610.35969v1",
+      "sections": "§§I–V; equations (1)–(6)"
+    },
+    {
+      "key": "2610.36735v1",
+      "url": "https://arxiv.org/html/2610.36735v1",
+      "sections": "§§1–2.5, 3.1–3.6, 4; especially (2), (29), (30), (41), (45), (75), (88), (90)"
+    },
+    {
+      "key": "2610.37493v1",
+      "url": "https://arxiv.org/html/2610.37493v1",
+      "sections": "§§1–4, 5.1–5.4, 6.1–6.5, 7–8; Theorem 3.1, Proposition 3.3, eqs (2.3), (3.2)–(3.4), (3.12)–(3.14), (6.23)–(6.24)"
+    },
+    {
+      "key": "2610.36128v1",
+      "url": "https://arxiv.org/html/2610.36128v1",
+      "sections": "§§1–3.5, 4, 5, 6.1–6.4, 7; eqs (1), (13)–(17), (63)–(65)"
     }
   ],
   "all_base_ids_complete": true

@@ -48,7 +48,10 @@
     "revisions_unique": null,
     "unique_versions": null,
     "known_deduped_base_ids": 100,
-    "overlap_count": 20
+    "overlap_count": 20,
+    "body_reviewed": 7,
+    "pending": 93,
+    "version_verified": 7
   },
   "papers": [
     {
@@ -211,19 +214,21 @@
           "position": 2
         }
       ],
-      "key": "2610.35969@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.35969v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "gr-qc",
       "abstract_en": null,
-      "abstract_summary_en": null,
-      "authors": null,
-      "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.35969",
+      "abstract_summary_en": "An orbiting source beyond a wormhole mouth cannot induce the periodically changing observer-side mass monopole claimed from sequentially matched static geometries. Electromagnetic flux conservation, linearized vacuum Einstein equations and the vacuum Bondi balance restrict the true evolution; higher multipoles are not excluded.",
+      "authors": "Sergei Slobodov",
+      "abstract_collected": true,
+      "abs_url": "https://arxiv.org/abs/2610.35969v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "body_reviewed",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "html_url": "https://arxiv.org/html/2610.35969v1",
+      "license_note": "arXiv perpetual non-exclusive"
     },
     {
       "id": "2610.35983",
@@ -997,19 +1002,21 @@
           "position": 12
         }
       ],
-      "key": "2610.36128@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36128v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
-      "abstract_summary_en": null,
-      "authors": null,
-      "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36128",
+      "abstract_summary_en": "At 5PM in black-hole scattering the K3 maximal-cut contour is pinched at Lorentz factor gamma=3, identifying a Landau singularity of the integral rather than a physical threshold. The paper derives analytic boundary data in the gravitational-wave memory region and studies how retarded propagator routing controls one integration constant, without computing a complete 5PM observable.",
+      "authors": "Matthew D. Schwartz",
+      "abstract_collected": true,
+      "abs_url": "https://arxiv.org/abs/2610.36128v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "body_reviewed",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "html_url": "https://arxiv.org/html/2610.36128v1",
+      "license_note": "CC BY 4.0"
     },
     {
       "id": "2610.36129",
@@ -1555,19 +1562,21 @@
           "position": 17
         }
       ],
-      "key": "2610.36735@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.36735v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": "hep-th",
       "abstract_en": null,
-      "abstract_summary_en": null,
-      "authors": null,
-      "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.36735",
+      "abstract_summary_en": "The conformal anomaly in D=2 and D=4 can be represented by a local Wess–Zumino effective action involving a conformalon scalar. Its metric variation and scalar equation reproduce anomaly Ward identities and reduce the ambiguity associated with integrating the anomaly in a prescribed conformal frame. The massless anomaly pole is associated with infrared correlations.",
+      "authors": "Emil Mottola",
+      "abstract_collected": true,
+      "abs_url": "https://arxiv.org/abs/2610.36735v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "body_reviewed",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "html_url": "https://arxiv.org/html/2610.36735v1",
+      "license_note": "arXiv perpetual non-exclusive"
     },
     {
       "id": "2610.36752",
@@ -2527,19 +2536,21 @@
           "position": 24
         }
       ],
-      "key": "2610.37493@unresolved",
-      "version": null,
-      "version_verified": false,
+      "key": "2610.37493v1",
+      "version": 1,
+      "version_verified": true,
       "primary_category": null,
       "abstract_en": null,
-      "abstract_summary_en": null,
-      "authors": null,
-      "abstract_collected": false,
-      "abs_url": "https://arxiv.org/abs/2610.37493",
+      "abstract_summary_en": "For a Morse–Bott nonnegative master constraint the linearized Hamiltonian flow has image equal to the symplectic normal of its zero set; first-class/coisotropic geometry is diagnosed by nilpotence of the linearization. Semiclassical fluctuation observables and harmonic spectral offsets recover the characteristic distribution in oscillator and SL(2,R) examples, subject to explicitly stated regularity conditions.",
+      "authors": "Alejandro Corichi",
+      "abstract_collected": true,
+      "abs_url": "https://arxiv.org/abs/2610.37493v1",
       "queue": "new_or_cross",
-      "metadata_status": "pending_abstract_version_authors",
+      "metadata_status": "body_reviewed",
       "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28"
+      "site_announcement_date": "2026-10-28",
+      "html_url": "https://arxiv.org/html/2610.37493v1",
+      "license_note": "CC BY-NC-ND 4.0"
     },
     {
       "id": "2610.37501",
@@ -2878,7 +2889,7 @@
     "individual_version_complete": false,
     "full_abstract_complete": false,
     "authors_complete": false,
-    "reason": "Both official sections verified, all 120 raw new/cross appearances transcribed into 100 distinct base IDs. Other 97 versions and full abstracts not individually verified. Revisions count 65 raw appearances, ID list not yet transcribed."
+    "reason": "100 deduplicated base IDs captured and all official new/cross section counts checked; 7 version-confirmed and body-reviewed, 93 pending full abstract/authors/version triage; revision ID listing still pending."
   },
   "overlap_base_ids": [
     "2610.35938",
