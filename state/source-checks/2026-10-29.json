@@ -35,13 +35,17 @@
     "field": "announcement_date interpreted as the current Beijing morning",
     "explanation": "The 100-paper batch predates today's report and must be treated as backlog. Existing reading notes are retained, not deleted."
   },
-  "mail_action": "At the existing 14:00 run, explicitly state that arXiv has no update today, then include the current previous-batch reading progress, Chinese digest and bilingual selections as a backlog-reading digest. Do not label the papers as newly announced today. Continue the existing reading queue and preserve all completed work.",
+  "mail_action": "At the existing mail task's 14:00, 15:15 and 16:30 checks, send when the authorized backlog reading is complete; otherwise send the verified partial digest at 16:30. State explicitly that arXiv has no update today and the contents are previous-batch reading. Execution failure is notified at 14:00. Preserve daily no-update logs. Never send duplicate daily primary mail.",
   "schedule_change": false,
   "mail_sent_by_this_check": false,
   "user_override": {
     "continue_current_reading_batch": true,
     "show_backlog_digest_in_email": true,
     "required_mail_disclosure": "今天 arXiv 没有更新，以下为上一批论文的补读简报",
-    "instruction_date_beijing": "2026-10-29"
+    "instruction_date_beijing": "2026-10-29",
+    "mail_window_beijing": [
+      "14:00",
+      "16:30"
+    ]
   }
 }

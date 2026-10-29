@@ -11,6 +11,7 @@
 | 预分类分流阈值 | [config/triage.json](../config/triage.json) |
 | 完整执行规则 | [docs/workflow.md](workflow.md) |
 | 日报导航 | [reports/README.md](../reports/README.md) |
+| 每日工作日志与运行状态 | logs/YYYY-MM-DD.md / state/runs/YYYY-MM-DD.json |
 | 某日覆盖与阅读进度 | `reports/YYYY-MM-DD/status.json` |
 | 已完成的正文阅读版本 | [state/processed.json](../state/processed.json) |
 | 某日实际发送结果 | `state/mail/YYYY-MM-DD.json` |
@@ -33,6 +34,9 @@ reports/YYYY-MM-DD/
   papers/<arxiv-id>vN.md
   status.json
   mail.html
+logs/YYYY-MM-DD.md
+state/runs/YYYY-MM-DD.json
+state/source-checks/YYYY-MM-DD.json
 state/processed.json
 state/mail/YYYY-MM-DD.json
 ```
@@ -53,7 +57,9 @@ python3 scripts/validate_report.py reports/YYYY-MM-DD/status.json
 
 校验失败要修复或如实报告，不能跳过后声称完成。云端没有代码执行能力时，按执行规程做等价的来源、覆盖、版本及发信防重检查。
 
-## 2026-10-28 目录整理
+邮件检查时点为 14:00、15:15、16:30；阅读启动为 11:00。scripts/delivery_policy.py 只负责窗口与状态判定。日志以真实事件追加，无更新日也必须建档；缺少新版运行记录时先核对真实报告进度再迁移。
+
+## 2026-10-28 目录整理（历史）
 
 - 两份相同的执行规程合并为 `docs/workflow.md`；根目录保留云端任务入口。
 - 重复的 `config/cloud-schedule-plan.json` 移除，运行配置统一到 `config/schedule.json`。

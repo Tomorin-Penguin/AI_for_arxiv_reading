@@ -1,8 +1,6 @@
 {
   "timezone": "Asia/Shanghai",
-  "reading_start": "12:00",
-  "mail_time": "14:00",
-  "pre_mail_checkpoint": "13:50",
+  "reading_start": "11:00",
   "categories": [
     "gr-qc",
     "hep-th"
@@ -12,17 +10,32 @@
   "mail_provider": "Gmail",
   "recipient": "1468610627@qq.com",
   "first_run_date": "2026-10-29",
-  "email_batch_policy": "Only the announcement batch for the current Beijing report date; never substitute a previous day's papers",
+  "email_batch_policy": "Keep Beijing report date separate from source batch date. Never pass old papers off as new; explicitly authorized backlog may be emailed with a no-update/backlog disclosure.",
   "subject_prefix": "[arXiv 日报]",
-  "no_new_papers": "send a short verified no-update message at 14:00",
+  "no_new_papers": "Always record a dated no-update work log and evidence; mail at 14:00 unless explicitly authorized backlog reading is in progress",
   "execution": "ChatGPT cloud scheduled tasks; separate reading and email schedules; no dependency on local computer",
   "model_api_key_required": false,
   "scheduler_status": "active",
   "triage_config": "config/triage.json",
   "reading_policy": "abstract_triage_then_body",
-  "cloud_prompts_verified_on": "2026-10-28",
+  "cloud_prompts_verified_on": "2026-10-29",
   "reading_automation_id": "6ae1d5d4b0d88190985f3671e1eb0542",
   "email_automation_id": "6ae1d66b2a208190bd6b98923557d565",
   "legacy_local_automation_id": "arxiv-14",
-  "legacy_local_automation_status": "PAUSED"
+  "legacy_local_automation_status": "PAUSED",
+  "mail_window_start": "14:00",
+  "mail_window_end": "16:30",
+  "mail_check_times": [
+    "14:00",
+    "15:15",
+    "16:30"
+  ],
+  "failure_notification_time": "14:00",
+  "source_recheck_minutes": 15,
+  "pre_mail_checkpoint": "13:50",
+  "final_report_checkpoint": "16:20",
+  "max_daily_primary_emails": 1,
+  "work_log_path": "logs/YYYY-MM-DD.md",
+  "run_state_path": "state/runs/YYYY-MM-DD.json",
+  "source_check_path": "state/source-checks/YYYY-MM-DD.json"
 }
