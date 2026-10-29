@@ -132,8 +132,8 @@
   "reading_worker": {
     "owner": "arxiv-scheduled-20261029T1600-gpt6",
     "started_at": "2026-10-29T08:01:55.113Z",
-    "heartbeat_at": "2026-10-29T08:01:55.113Z",
-    "lease_expires_at": "2026-10-29T08:11:55.113Z",
+    "heartbeat_at": "2026-10-29T08:08:43.582Z",
+    "lease_expires_at": "2026-10-29T08:18:43.582Z",
     "ended_at": null,
     "end_reason": null
   },
