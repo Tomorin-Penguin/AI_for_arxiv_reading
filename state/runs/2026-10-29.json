@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-29",
-  "phase": "blocked",
+  "phase": "reading",
   "announcement_status": "confirmed_no_updates",
   "started_at": null,
   "reading_started_at": "2026-10-29T05:38:54Z",
@@ -86,7 +86,7 @@
     "error_reason": null,
     "evidence_url": "https://chatgpt.com/c/6ae2f3e0-5ddc-83e8-8ea1-01a675be6cd7"
   },
-  "execution_health": "write_integrity_failure",
+  "execution_health": "recovering",
   "diagnostic_events": [
     {
       "observed_at": "2026-10-29T15:24:00+08:00",
@@ -117,11 +117,11 @@
   "recovery_requested_at": "2026-10-29T15:35:49+08:00",
   "recovery_authorized": true,
   "reading_worker": {
-    "owner": "chat-direct-resume-20261029",
-    "started_at": "2026-10-29T07:40:35.537Z",
-    "heartbeat_at": "2026-10-29T07:40:35.537Z",
-    "lease_expires_at": "2026-10-29T07:42:02Z",
-    "ended_at": "2026-10-29T07:42:02Z",
-    "end_reason": "stopped_after_destructive_tree_construction"
+    "owner": "chat-direct-resume-safe-20261029",
+    "started_at": "2026-10-29T07:55:25.406Z",
+    "heartbeat_at": "2026-10-29T07:55:25.406Z",
+    "lease_expires_at": "2026-10-29T08:15:25.406Z",
+    "ended_at": null,
+    "end_reason": null
   }
 }
