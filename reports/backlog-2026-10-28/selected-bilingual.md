@@ -2,7 +2,7 @@
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
 
-**当前已有27篇正文已确认并核验关键段落；55篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有32篇正文已确认并核验关键段落；50篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -174,7 +174,7 @@
 
 **[The Disordered Universe 2025: Open Effective Field Theories](papers/2610.36898v1.md) — final I5/R5.** 中文：SK归一性、实部耗散/噪声分离、开放宇宙学EFT及§5的流体Stückelberg时钟，为关系探针协议提供可迁移思路，非已构造的JT量子时钟。 English: SK normalization, response–noise separation and the fluid Stückelberg-clock proposal supply a methodological bridge to relational probes, not a solved JT-clock theory. [HTML](https://arxiv.org/html/2610.36898v1).
 
-**Current prior batch / 目前旧批次:** 100 triaged; 82 retained for body; 27 body-reviewed; 55 pending; 18 skipped. **Today new papers = 0.** No equations independently recomputed.
+**Current prior batch / 目前旧批次:** 100 triaged; 82 retained for body; 32 body-reviewed; 50 pending; 18 skipped. **Today new papers = 0.** No equations independently recomputed.
 
 
 ## 新增四篇旧批次正文精选 / Four further verified prior-batch picks
@@ -187,4 +187,19 @@
 
 **[Quasinormal-mode stability bounds in gravitational EFT](papers/2610.28721v1.md) — I4/R4.** 中文：与高ℓ QNM衰减相关的“普适稳定性界”并不在标准幂计数下独立限制有效作用，必须同时控制高微分算符tower。 English: A proposed QNM damping bound adds no generic EFT Wilson-coefficient restriction under conventional power counting and truncation control. [HTML](https://arxiv.org/html/2610.28721v1).
 
-**Prior batch counts: 100 triaged, 82 retained, 27 body-reviewed, 55 pending, 18 skipped, no abstract-only; today zero new.** All summaries are independent reading interpretations, not independent recalculations.
+**Prior batch counts: 100 triaged, 82 retained, 32 body-reviewed, 50 pending, 18 skipped, no abstract-only; today zero new.** All summaries are independent reading interpretations, not independent recalculations.
+
+
+## 五篇旧批次新正文精选 / Five further prior-batch selections
+
+**[Features in a Λ>0 Universe](papers/2610.37117v1.md) — I5/R5.** 中文：观察者世界管中的引力边界条件并非随意固定诱导度规就足以良定；共形类加K的欧氏方案与Lorentzian问题须分开。 English: Finite-region boundary data require constraint compatibility; conformal-plus-K conditions have Euclidean ellipticity results, while the Lorentzian well-posedness question is not generally settled. [HTML](https://arxiv.org/html/2610.37117v1).
+
+**[One Method to Find Them All](papers/2610.37515v1.md) — I4/R3.** 中文：曲率与源的Kerr度规重建在六类高曲率项的耦合常数首阶可解析，非全非线性修正引力黑洞。 English: Closed-form Kerr deformations cover six higher-curvature couplings to leading order and generic subextremal spin, not the fully nonlinear system. [HTML](https://arxiv.org/html/2610.37515v1).
+
+**[Genesis in Minimally Modified Gravity](papers/2610.37063v1.md) — I4/R4.** 中文：VCDM中NEC正常物质可产生过去测地完备Genesis；有限IR区域的c²<0不等于全波数UV ghost。 English: A VCDM Genesis background is past complete with NEC-respecting matter; transient infrared gradient behavior and fixed-k cubic control require qualifications. [HTML](https://arxiv.org/html/2610.37063v1).
+
+**[Analytic Bootstrap Solution for Quantum Mechanics on a Circle](papers/2610.36031v1.md) — I4/R3.** 中文：Fourier矩最小解与广义连分数解析找到Mathieu窄谱带，方法未在JT边界粒子上验证。 English: Minimal Fourier-moment recurrences lead to generalized continued fractions and narrow Mathieu spectral bands, without proving a Schwarzian analogue. [HTML](https://arxiv.org/html/2610.36031v1).
+
+**[Exact TbarT-Like flows in Integrable Sigma Models](papers/2610.37458v1.md) — I4/R4.** 中文：Courant–Hilbert受控可积Sigma族中存在精确应力不变量流，带明确临界参数窗口；非任意dilaton的普适形变。 English: Exact stress-invariant flows hold for specific Courant–Hilbert one-scale integrable sigma families and their regular domains, not arbitrary gravitational theories. [HTML](https://arxiv.org/html/2610.37458v1).
+
+**Old-batch tally: 100 classified, 82 required body, 32 reviewed, 50 pending, 0 abstract-only, 18 skipped. New papers on 29 Oct: zero.**

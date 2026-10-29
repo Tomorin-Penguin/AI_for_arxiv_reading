@@ -278,6 +278,61 @@
       "body_url": "https://arxiv.org/html/2610.28721v1",
       "sections": "§§1–5, App. A WKB method, App. B EFT validity scale, App. C EdGB; especially main §2 proposed bound, §3.2 power-counting and ℓmax, §3.3 scalar–tensor exception, §4 Einstein–Maxwell",
       "verified_version": true
+    },
+    "2610.37117v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "read_at_utc": "2026-10-29T05:44:50.440Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.37117v1.md",
+      "body_url": "https://arxiv.org/html/2610.37117v1",
+      "sections": "§§1–5, chiefly §§2.4–2.6, 3.1–3.6, 4.1–4.3, 5.1–5.4; Eqs. (5.4)–(5.7)",
+      "verified_version": true,
+      "report_kind": "backlog"
+    },
+    "2610.37515v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "read_at_utc": "2026-10-29T05:44:50.440Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.37515v1.md",
+      "body_url": "https://arxiv.org/html/2610.37515v1",
+      "sections": "Main Introduction, general reconstruction, Weyl and tidal deformation, six higher-curvature cases, physical observables and discussion; Eqs. (14)–(18); supplement SI–SIII overview",
+      "verified_version": true,
+      "report_kind": "backlog"
+    },
+    "2610.37063v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "read_at_utc": "2026-10-29T05:44:50.440Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.37063v1.md",
+      "body_url": "https://arxiv.org/html/2610.37063v1",
+      "sections": "§§1–5, Appendix A/B key assumptions; background Eqs. (2.5), tensor/scalar perturbations (3.38)–(3.40), cubic (4.15), conclusions (5.1)–(5.3)",
+      "verified_version": true,
+      "report_kind": "backlog"
+    },
+    "2610.36031v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "read_at_utc": "2026-10-29T05:44:50.440Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.36031v1.md",
+      "body_url": "https://arxiv.org/html/2610.36031v1",
+      "sections": "§§I–IV, Appendix A numerical overview; especially (1), cosine recursion (18)–(21), Figs 1–2",
+      "verified_version": true,
+      "report_kind": "backlog"
+    },
+    "2610.37458v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "read_at_utc": "2026-10-29T05:44:50.440Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.37458v1.md",
+      "body_url": "https://arxiv.org/html/2610.37458v1",
+      "sections": "§§1–3 Courant–Hilbert, §§4–7 model examples, §8 arbitrary-d stress invariants, §9 commuting root flow, §10 conclusions; Eqs. (94)–(95), Table 4",
+      "verified_version": true,
+      "report_kind": "backlog"
     }
   }
 }
