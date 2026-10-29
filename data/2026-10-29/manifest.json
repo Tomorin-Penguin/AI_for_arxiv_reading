@@ -7,7 +7,7 @@
   "announcement_beijing_date": "2026-10-29",
   "site_date_explanation": "Official lists label the Wednesday 2026-10-28 20:00 America/New_York announcement as Wed 28 Oct; release occurs Thursday 2026-10-29 08:00 Asia/Shanghai. This is the batch published this Beijing morning, not the previous Beijing morning.",
   "retrieved_at_utc": "2026-10-29T04:08:34.175Z",
-  "source_status": "verified_listing_but_manifest_incomplete",
+  "source_status": "verified_listing_id_complete_metadata_partial",
   "sources": [
     {
       "category": "gr-qc",
@@ -36,82 +36,2870 @@
     "raw_items": 185,
     "raw_new_or_cross": 120,
     "raw_revisions": 65,
-    "unique_new_or_cross": null,
-    "captured_unique_new_or_cross": 3,
-    "missing_uncaptured_unique_new_or_cross": null,
+    "unique_new_or_cross": 100,
+    "captured_unique_new_or_cross": 100,
+    "missing_uncaptured_unique_new_or_cross": 0,
     "known_overlap": [
       {
         "key": "2610.37302v1",
         "appearances": 2
       }
     ],
-    "revisions_unique": null
+    "revisions_unique": null,
+    "unique_versions": null,
+    "known_deduped_base_ids": 100,
+    "overlap_count": 20
   },
   "papers": [
     {
-      "id": "2610.36032",
-      "version": 1,
-      "key": "2610.36032v1",
-      "title": "Cosmology of the Baby Universe in Coupled SYK",
-      "authors": "Andrew Sontag",
-      "primary_category": "hep-th",
+      "id": "2607.27889",
+      "title": "Foldy--Wouthuysen Transformation of the Generalized Dirac Equation in Symmetric Teleparallel Gravity",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 1
+        }
+      ],
+      "key": "2607.27889@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2607.27889",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.28721",
+      "title": "Quasinormal-mode stability bounds in gravitational EFT: resolvability, predictivity, and positivity",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 1
+        }
+      ],
+      "key": "2610.28721@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.28721",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.33134",
+      "title": "LLMs Can Tackle High Energy Theoretical Physics, yet Gaps Remain: Part I, Quantum Field Theory",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 2
+        }
+      ],
+      "key": "2610.33134@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.33134",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.35938",
+      "title": "Closure of Traceful Radiation-Gauge Reconstruction with Matter: General Kerr Conditions, a Thin-Shell Benchmark, and a Conserved Torus",
+      "announcements": {
+        "gr-qc": "new",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 1
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 3
+        }
+      ],
+      "key": "2610.35938@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.35938",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.35947",
+      "title": "Clock--WEP Tests of String-Derived Dilaton and Modulus Sectors",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 2
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 4
+        }
+      ],
+      "key": "2610.35947@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.35947",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.35969",
+      "title": "Can a Wormhole Induce a Monopole?",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 2
+        }
+      ],
+      "key": "2610.35969@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.35969",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.35983",
+      "title": "First-order corrections to equatorial periodic orbits around rapidly rotating black holes in dynamical Chern--Simons gravity",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 3
+        }
+      ],
+      "key": "2610.35983@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.35983",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36023",
+      "title": "Formation and Charge Relaxation of Julia-Zee Dyons in Classical Lattice Simulations",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 3
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 5
+        }
+      ],
+      "key": "2610.36023@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36023",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36024",
+      "title": "The Art of Orbifolding by Huge Non-Abelian Groups",
       "announcements": {
         "hep-th": "new"
       },
-      "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28",
-      "abstract_summary_en": "Finite-N and finite-p Majorana trace combinatorics extend the chord description of a closed baby universe arising in coupled SYK. A heavy insertion creates a first-order transition between thermal AdS and a baby-universe saddle. A proposed interior-time prescription yields a cosine-type expansion and recollapse.",
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 1
+        }
+      ],
+      "key": "2610.36024@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
       "abstract_en": null,
-      "abstract_full_text_not_archived": true,
-      "abs_url": "https://arxiv.org/abs/2610.36032v1",
-      "html_url": "https://arxiv.org/html/2610.36032v1",
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36024",
       "queue": "new_or_cross",
-      "version_verified": true
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36025",
+      "title": "Instanton Structure from 325-Loop 3D φ³ Perturbation Theory",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 2
+        }
+      ],
+      "key": "2610.36025@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36025",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36028",
+      "title": "Cusp regularization with spin structures and gravitational anomalies",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 4
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 3
+        }
+      ],
+      "key": "2610.36028@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36028",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36029",
+      "title": "AlgebrasTQD: Computing Algebras and Interfaces in Twisted Quantum Doubles",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 6
+        }
+      ],
+      "key": "2610.36029@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36029",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36031",
+      "title": "Analytic Bootstrap Solution for Quantum Mechanics on a Circle",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 4
+        }
+      ],
+      "key": "2610.36031@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36031",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36032",
+      "title": "Cosmology of the Baby Universe in Coupled SYK",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 5
+        }
+      ],
+      "key": "2610.36032v1",
+      "version": 1,
+      "version_verified": true,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": "Finite-N and finite-p Majorana trace combinatorics extend the chord description of a closed baby universe arising in coupled SYK. A heavy insertion creates a first-order transition between thermal AdS and a baby-universe saddle. A proposed interior-time prescription yields a cosine-type expansion and recollapse.",
+      "authors": "Andrew Sontag",
+      "abstract_collected": true,
+      "abs_url": "https://arxiv.org/abs/2610.36032v1",
+      "queue": "new_or_cross",
+      "metadata_status": "body_read_full_abstract_not_archived",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36033",
+      "title": "Can inflationary axion fluctuations dominate over misalignment?",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 5
+        }
+      ],
+      "key": "2610.36033@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36033",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36035",
+      "title": "BPS Chaos and Fortuity in Higgs Branches I: The Gepner Point",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 6
+        }
+      ],
+      "key": "2610.36035@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36035",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36036",
+      "title": "Attractors and initial-condition sensitivity in Horndeski cosmologies",
+      "announcements": {
+        "gr-qc": "new",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 4
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 7
+        }
+      ],
+      "key": "2610.36036@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36036",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36037",
+      "title": "Semi-agnostic inspiral modeling: the massless scalar case at leading post-Newtonian order",
+      "announcements": {
+        "gr-qc": "new",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 5
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 8
+        }
+      ],
+      "key": "2610.36037@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36037",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36044",
+      "title": "An open EFT for dark matter searches with matter-wave interferometers",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 9
+        }
+      ],
+      "key": "2610.36044@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36044",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36045",
+      "title": "Local Measures in Odd de Sitter",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 7
+        }
+      ],
+      "key": "2610.36045@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36045",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36049",
+      "title": "Dark Matter Coherent Freeze-Out Mechanism: A Comprehensive Analysis",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 10
+        }
+      ],
+      "key": "2610.36049@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36049",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36052",
+      "title": "The Harmonic Structure of Multiparticle Scattering: Amplitude Projection and Non-Renormalization",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 11
+        }
+      ],
+      "key": "2610.36052@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36052",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36054",
+      "title": "Mesons, Confinement, and Complexity: A Krylov Space Perspective on the Long-Range Ising Chain",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 12
+        }
+      ],
+      "key": "2610.36054@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36054",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36057",
+      "title": "The Fate of 1/4-BPS States in the D1-D5 CFT",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 8
+        }
+      ],
+      "key": "2610.36057@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36057",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36063",
+      "title": "Fresh Look at Shift Symmetric Modified Gravity",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 6
+        }
+      ],
+      "key": "2610.36063@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36063",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36064",
+      "title": "Axionic Quintessence in Heterotic String Theory",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 6
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 9
+        }
+      ],
+      "key": "2610.36064@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36064",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36080",
+      "title": "Non-Hermitian Schwinger effect in an imaginary magnetic field",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 10
+        }
+      ],
+      "key": "2610.36080@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36080",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36081",
+      "title": "Custodial scalars and Higgs branch",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 13
+        }
+      ],
+      "key": "2610.36081@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36081",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36085",
+      "title": "Scalarized Einstein-Maxwell black holes in external scalar fields",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 7
+        }
+      ],
+      "key": "2610.36085@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36085",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36087",
+      "title": "A gaussian-process reconstruction of gravitational-wave friction from dark standard sirens",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 8
+        }
+      ],
+      "key": "2610.36087@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36087",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36094",
+      "title": "Hironaka decompositions in supersymmetric theories: an exploration",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 11
+        }
+      ],
+      "key": "2610.36094@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36094",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36113",
+      "title": "Scaling and Renormalization in Neural Networks: An Effective Renormalization-Group Description of Grokking",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 14
+        }
+      ],
+      "key": "2610.36113@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36113",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36123",
+      "title": "Improved Gauge Conditions for Large Expansion Cosmological Models",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 9
+        }
+      ],
+      "key": "2610.36123@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36123",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36128",
+      "title": "Landau singularity of the K3 maximal cut in black-hole scattering at fifth post-Minkowskian order",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 12
+        }
+      ],
+      "key": "2610.36128@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36128",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36129",
+      "title": "Unified Dynamics of Black-Hole Interiors: From Geometric to Scalar-Kinetic Dominance",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 10
+        }
+      ],
+      "key": "2610.36129@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36129",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36137",
+      "title": "Non-Perturbative Approach to Gravitational Particle Production in the Inflation-Kination Transition: Surveying a Wide Range of the Parameter Space",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 11
+        }
+      ],
+      "key": "2610.36137@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36137",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36160",
+      "title": "How particle physics stops ultra-relativistic bubbles and shapes their gravitational waves",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 7
+        }
+      ],
+      "key": "2610.36160@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36160",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36162",
+      "title": "On the Interpretation of Tests of the Horizon Area Law",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 12
+        }
+      ],
+      "key": "2610.36162@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36162",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36166",
+      "title": "The Symbiosis of Vainshtein and Chameleon Screening",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 13
+        }
+      ],
+      "key": "2610.36166@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36166",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36177",
+      "title": "All Dark Matter as Primordial Black Holes: a Gravitational-Wave Test",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 8
+        }
+      ],
+      "key": "2610.36177@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36177",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36179",
+      "title": "Mutation-acyclicity in rank four is decidable but not semialgebraic",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 15
+        }
+      ],
+      "key": "2610.36179@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36179",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36228",
+      "title": "Non-minimal α-attractor magnetogenesis with potential dependent couplings",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 9
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 16
+        }
+      ],
+      "key": "2610.36228@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36228",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36271",
+      "title": "The Disordered Universe 2025: Analytic Properties of Amplitudes and Correlators",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 10
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 13
+        }
+      ],
+      "key": "2610.36271@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36271",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36275",
+      "title": "Quantum hydrodynamics from Nambu's unpublished fluid notes",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 14
+        }
+      ],
+      "key": "2610.36275@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36275",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36416",
+      "title": "Side jump and anomalous Lorentz transformation of a coherent Dirac wave packet",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 17
+        }
+      ],
+      "key": "2610.36416@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36416",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36455",
+      "title": "Trace Relations and Partition Functions",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 15
+        }
+      ],
+      "key": "2610.36455@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36455",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36562",
+      "title": "Testing Conformal Weyl Gravity with Plasma Modified Black Hole Shadows and EHT Constraints",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 14
+        }
+      ],
+      "key": "2610.36562@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36562",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36604",
+      "title": "The heterotic superpotential and the alpha' expansion",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 16
+        }
+      ],
+      "key": "2610.36604@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36604",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36611",
+      "title": "Quark mixing and CP violation due to torsional interaction",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 11
+        }
+      ],
+      "key": "2610.36611@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36611",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36673",
+      "title": "Atom as an Agent: Emergent Order by Collective Predictive Coding",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 18
+        }
+      ],
+      "key": "2610.36673@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36673",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36695",
+      "title": "Reconstruction of the Riemann tensor from causal order and element counts",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 15
+        }
+      ],
+      "key": "2610.36695@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36695",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36728",
+      "title": "Improved constraints on higher-derivative effective field theory extensions of general relativity with GW230627_015337",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 16
+        }
+      ],
+      "key": "2610.36728@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36728",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36730",
+      "title": "Impact of deformation parameters on the greybody factor and Joule-Thomson expansions of Schwarzschild-AdS black hole",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 17
+        }
+      ],
+      "key": "2610.36730@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36730",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36735",
+      "title": "The Wess-Zumino Action of the Conformal Anomaly",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 12
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 17
+        }
+      ],
+      "key": "2610.36735@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36735",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36752",
+      "title": "Relativistic N-body simulations with mass-varying neutrinos",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 13
+        }
+      ],
+      "key": "2610.36752@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36752",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36796",
+      "title": "Novel topological subclasses of a magnetic black hole in causal nonlinear electrodynamics",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 18
+        }
+      ],
+      "key": "2610.36796@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36796",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36814",
+      "title": "Realistic neutron stars in the constant-Q branch of f(Q) gravity",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 19
+        }
+      ],
+      "key": "2610.36814@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36814",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36845",
+      "title": "Wilson loops of Chern-Simons-matter Theories with one parameter and Picard-Fuchs equations",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 18
+        }
+      ],
+      "key": "2610.36845@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36845",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36863",
+      "title": "Primordial black holes from a type-IIB/F theory inflaton potential",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 20
+        }
+      ],
+      "key": "2610.36863@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36863",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36898",
+      "title": "The Disordered Universe 2025: Open Effective Field Theories",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 14
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 19
+        }
+      ],
+      "key": "2610.36898@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36898",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36923",
+      "title": "Self-gravitating Schrödinger--Poisson Solitons in Curved Spacetime",
+      "announcements": {
+        "gr-qc": "new",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 21
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 19
+        }
+      ],
+      "key": "2610.36923@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36923",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36975",
+      "title": "Bethe Cycles, Frobenius Identities, and Quantum/Classical Duality",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 20
+        }
+      ],
+      "key": "2610.36975@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36975",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.36997",
+      "title": "The Disordered Universe 2025: Statistical Systems Out of Equilibrium",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 15
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 20
+        }
+      ],
+      "key": "2610.36997@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.36997",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37009",
+      "title": "Momentum-space entanglement and mutual information in Kaluza-Klein reduction",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 21
+        }
+      ],
+      "key": "2610.37009@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37009",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37028",
+      "title": "Can One Hear the Absence of a Singularity?",
+      "announcements": {
+        "gr-qc": "new",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 22
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 21
+        }
+      ],
+      "key": "2610.37028@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37028",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37038",
+      "title": "Another Brick in the Wall: Spectral Form Factor of Normal Modes in Horizonless Geometries",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 16
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 22
+        }
+      ],
+      "key": "2610.37038@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37038",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37063",
+      "title": "Genesis in Minimally Modified Gravity",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 23
+        }
+      ],
+      "key": "2610.37063@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37063",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37064",
+      "title": "Scattering amplitudes from geometry of kernel-free functionals on piecewise random null paths with memory",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 23
+        }
+      ],
+      "key": "2610.37064@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37064",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37096",
+      "title": "On 2-loop AdS₂ superstring partition function in AdS₅ × S⁵ and AdS₄ × CP³",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 24
+        }
+      ],
+      "key": "2610.37096@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37096",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37117",
+      "title": "The Disordered Universe 2025: Features in a Λ>0 Universe",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 17
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 25
+        }
+      ],
+      "key": "2610.37117@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37117",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37160",
+      "title": "The Disordered Universe 2025: An Intro and a Vision",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 18
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 26
+        }
+      ],
+      "key": "2610.37160@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37160",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37165",
+      "title": "Spin generalizations of the classical elliptic Calogero--Inozemtsev model and integrable models of interacting tops associated with the BC_n root system",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 22
+        }
+      ],
+      "key": "2610.37165@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37165",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37194",
+      "title": "Thermodynamics and phase structure of rotating Hayward-AdS black holes",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 24
+        }
+      ],
+      "key": "2610.37194@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37194",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37223",
+      "title": "Two types of hairy black holes in the (3+1)-dimensional O(3) sigma-model",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 27
+        }
+      ],
+      "key": "2610.37223@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37223",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37263",
+      "title": "On-shell reduction of spin-zero Duffin-Kemmer-Petiau covariants and implications for the relativistic impulse approximation",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 23
+        }
+      ],
+      "key": "2610.37263@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37263",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37278",
+      "title": "Noether Symmetries in Scalar--Vector--Two-Form Cosmology with a Topological BF Interaction",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 25
+        }
+      ],
+      "key": "2610.37278@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37278",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37282",
+      "title": "Cosmic-string calorimetry with a 220 PeV neutrino",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 19
+        }
+      ],
+      "key": "2610.37282@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37282",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37285",
+      "title": "MPS overlaps and Sklyanin determinants",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 28
+        }
+      ],
+      "key": "2610.37285@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37285",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
     },
     {
       "id": "2610.37302",
-      "version": 1,
-      "key": "2610.37302v1",
       "title": "On the geometric origin of central charges in gravity",
-      "authors": "Lorenzo Di Giacomo; Daniele Pranzetti",
-      "primary_category": "hep-th",
       "announcements": {
-        "hep-th": "new",
-        "gr-qc": "cross"
+        "gr-qc": "cross",
+        "hep-th": "new"
       },
-      "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28",
-      "abstract_summary_en": "An ambiguity-free covariant phase-space framework yields charge representation theorems when the Noetherian flux vanishes or is integrable. The central extension follows from the Lagrangian and associated geometric data. AdS3 boundary conditions provide an explicit application.",
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 20
+        },
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 29
+        }
+      ],
+      "key": "2610.37302v1",
+      "version": 1,
+      "version_verified": true,
+      "primary_category": "hep-th",
       "abstract_en": null,
-      "abstract_full_text_not_archived": true,
+      "abstract_summary_en": "An ambiguity-free covariant phase-space framework yields charge representation theorems when the Noetherian flux vanishes or is integrable. The central extension follows from the Lagrangian and associated geometric data. AdS3 boundary conditions provide an explicit application.",
+      "authors": "Lorenzo Di Giacomo; Daniele Pranzetti",
+      "abstract_collected": true,
       "abs_url": "https://arxiv.org/abs/2610.37302v1",
-      "html_url": "https://arxiv.org/html/2610.37302v1",
       "queue": "new_or_cross",
-      "version_verified": true
+      "metadata_status": "body_read_full_abstract_not_archived",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
     },
     {
-      "id": "2610.37667",
-      "version": 1,
-      "key": "2610.37667v1",
-      "title": "The 't Hooft model on (A)dS₂",
-      "authors": "Panos Betzios",
-      "primary_category": "hep-th",
+      "id": "2610.37308",
+      "title": "Nonradial oscillation modes of axion condensed neutron stars in the Cowling approximation",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 21
+        }
+      ],
+      "key": "2610.37308@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37308",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37331",
+      "title": "Geodesic dynamics and tidal forces in a quantum-regularized black hole from string T-duality",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 26
+        }
+      ],
+      "key": "2610.37331@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37331",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37382",
+      "title": "Covariant Wigner function and spin polarization of the Rarita-Schwinger field",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 24
+        }
+      ],
+      "key": "2610.37382@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37382",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37383",
+      "title": "Cosmological constraints on single-field inflation models from ACT/SPT data and observations at sub-Mpc scales",
+      "announcements": {
+        "gr-qc": "cross",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 22
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 25
+        }
+      ],
+      "key": "2610.37383@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37383",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37394",
+      "title": "Probing the inner disk edge of rotating neutron stars with dipole excitations in finite nuclei",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 23
+        }
+      ],
+      "key": "2610.37394@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37394",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37449",
+      "title": "Entanglement Bounds on Cardy Growth in Higher Dimensions",
       "announcements": {
         "hep-th": "new"
       },
-      "announcement_date": "2026-10-29",
-      "site_announcement_date": "2026-10-28",
-      "abstract_summary_en": "Large-N two-dimensional QCD is solved on fixed AdS2 and dS2 using a null gauge and an affine light-front coordinate. The SL(2,R) Casimir adds a curvature-dependent Legendre operator to the meson equation; the AdS spectrum and de Sitter resonances, boundary sectors, and chiral limits are explored.",
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 30
+        }
+      ],
+      "key": "2610.37449@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
       "abstract_en": null,
-      "abstract_full_text_not_archived": true,
-      "abs_url": "https://arxiv.org/abs/2610.37667v1",
-      "html_url": "https://arxiv.org/html/2610.37667v1",
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37449",
       "queue": "new_or_cross",
-      "version_verified": true
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37458",
+      "title": "Exact TbarT-Like flows in Integrable Sigma Models",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 31
+        }
+      ],
+      "key": "2610.37458@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37458",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37460",
+      "title": "Rank reduction in orthosymplectic types",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 26
+        }
+      ],
+      "key": "2610.37460@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37460",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37493",
+      "title": "Recovering classical gauge geometry from quantum master constraints",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 24
+        }
+      ],
+      "key": "2610.37493@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37493",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37501",
+      "title": "Quasinormal Ringing of a Schwarzschild Black Hole Surrounded by a King Dark Matter Halo: Higher-Order WKB Analysis",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 27
+        }
+      ],
+      "key": "2610.37501@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37501",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37506",
+      "title": "Recovering the leading quantum correction to Newton Potential beyond the Trace Anomaly",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 32
+        }
+      ],
+      "key": "2610.37506@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37506",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37515",
+      "title": "One Method to Find Them All: Analytic Black Holes beyond Einstein",
+      "announcements": {
+        "gr-qc": "new",
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 28
+        },
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 27
+        }
+      ],
+      "key": "2610.37515@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37515",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37525",
+      "title": "Gravitational wave signatures of periodic orbits around a Schwarzschild-like black hole",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 29
+        }
+      ],
+      "key": "2610.37525@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37525",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37546",
+      "title": "Reflected constraint algebras of open Carroll--Weyl null strings",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 33
+        }
+      ],
+      "key": "2610.37546@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37546",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37552",
+      "title": "Meet-in-the-Middle Compilation of the [CNOT] Class with Fibonacci Anyons",
+      "announcements": {
+        "hep-th": "cross"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "cross",
+          "position": 28
+        }
+      ],
+      "key": "2610.37552@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37552",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37554",
+      "title": "Resurgence of Black Holes in Thermal OPE",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 34
+        }
+      ],
+      "key": "2610.37554@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37554",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37603",
+      "title": "A Spin on Radiation Reaction with Cuts",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 35
+        }
+      ],
+      "key": "2610.37603@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37603",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37610",
+      "title": "Stability of Axion--SU(2) Chromomagnetic Condensates with Stochastic Spin-2 Dressing",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 36
+        }
+      ],
+      "key": "2610.37610@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37610",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37617",
+      "title": "A Quiet Night in the Millihertz Sky? LISA Forecasts from LIGO/Virgo/KAGRA Populations",
+      "announcements": {
+        "gr-qc": "cross"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "cross",
+          "position": 25
+        }
+      ],
+      "key": "2610.37617@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": null,
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37617",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37638",
+      "title": "Weighing dark matter particles with gravitational waves",
+      "announcements": {
+        "gr-qc": "new"
+      },
+      "sources": [
+        {
+          "category": "gr-qc",
+          "kind": "new",
+          "position": 30
+        }
+      ],
+      "key": "2610.37638@unresolved",
+      "version": null,
+      "version_verified": false,
+      "primary_category": "gr-qc",
+      "abstract_en": null,
+      "abstract_summary_en": null,
+      "authors": null,
+      "abstract_collected": false,
+      "abs_url": "https://arxiv.org/abs/2610.37638",
+      "queue": "new_or_cross",
+      "metadata_status": "pending_abstract_version_authors",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
+    },
+    {
+      "id": "2610.37667",
+      "title": "The 't Hooft model on (A)dS₂",
+      "announcements": {
+        "hep-th": "new"
+      },
+      "sources": [
+        {
+          "category": "hep-th",
+          "kind": "new",
+          "position": 37
+        }
+      ],
+      "key": "2610.37667v1",
+      "version": 1,
+      "version_verified": true,
+      "primary_category": "hep-th",
+      "abstract_en": null,
+      "abstract_summary_en": "Large-N two-dimensional QCD is solved on fixed AdS2 and dS2 using a null gauge and an affine light-front coordinate. The SL(2,R) Casimir adds a curvature-dependent Legendre operator to the meson equation; the AdS spectrum and de Sitter resonances, boundary sectors, and chiral limits are explored.",
+      "authors": "Panos Betzios",
+      "abstract_collected": true,
+      "abs_url": "https://arxiv.org/abs/2610.37667v1",
+      "queue": "new_or_cross",
+      "metadata_status": "body_read_full_abstract_not_archived",
+      "announcement_date": "2026-10-29",
+      "site_announcement_date": "2026-10-28"
     }
   ],
   "coverage": {
     "complete": false,
-    "reason": "Both full listing pages and displayed section totals verified, but the automation could extract structured individual metadata for only three prioritized entries. Remaining titles and abstracts must be collected before global triage and deduplication can be asserted."
-  }
+    "id_list_complete": true,
+    "individual_version_complete": false,
+    "full_abstract_complete": false,
+    "authors_complete": false,
+    "reason": "Both official sections verified, all 120 raw new/cross appearances transcribed into 100 distinct base IDs. Other 97 versions and full abstracts not individually verified. Revisions count 65 raw appearances, ID list not yet transcribed."
+  },
+  "overlap_base_ids": [
+    "2610.35938",
+    "2610.36036",
+    "2610.36037",
+    "2610.36923",
+    "2610.37028",
+    "2610.37515",
+    "2610.35947",
+    "2610.36023",
+    "2610.36028",
+    "2610.36064",
+    "2610.36228",
+    "2610.36271",
+    "2610.36735",
+    "2610.36898",
+    "2610.36997",
+    "2610.37038",
+    "2610.37117",
+    "2610.37160",
+    "2610.37302",
+    "2610.37383"
+  ]
 }
