@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-29",
-  "phase": "reading",
+  "phase": "awaiting_resume",
   "announcement_status": "confirmed_no_updates",
   "started_at": null,
   "reading_started_at": "2026-10-29T05:38:54Z",
@@ -109,6 +109,12 @@
       "observed_at": "2026-10-29T07:41:19.001Z",
       "type": "tree_without_base_reverted",
       "note": "Temporary commit c2ff983 replaced tree instead of basing on main; immediately restored main to c9113fa via expected_sha and verified prior files. No prior artifacts lost."
+    },
+    {
+      "observed_at": "2026-10-29T07:41:43.175Z",
+      "type": "write_blocked",
+      "raw_error": "此工具调用被 OpenAI 的安全检查屏蔽。请仔细检查你发送的内容。",
+      "note": "Paper card committed but status and ledger remain unchanged; reconciliation required."
     }
   ],
   "recovery_requested_at": "2026-10-29T15:35:49+08:00",
@@ -116,9 +122,11 @@
   "reading_worker": {
     "owner": "chat-direct-resume-20261029",
     "started_at": "2026-10-29T07:41:19.001Z",
-    "heartbeat_at": "2026-10-29T07:41:19.001Z",
-    "lease_expires_at": "2026-10-29T08:01:19.001Z",
-    "ended_at": null,
-    "end_reason": null
-  }
+    "heartbeat_at": "2026-10-29T07:41:43.175Z",
+    "lease_expires_at": "2026-10-29T07:41:43.175Z",
+    "ended_at": "2026-10-29T07:41:43.175Z",
+    "end_reason": "checkpoint_after_write_policy_block"
+  },
+  "next_resume_at": "2026-10-29T16:00:00+08:00",
+  "resume_schedule_verified": true
 }
