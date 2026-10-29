@@ -149,12 +149,12 @@
     "2610.36045v1",
     "2610.36057v1",
     "2610.37009v1",
-    "2610.33134v1"
+    "2610.33134v1",
+    "2610.35983v1"
   ],
   "abstract_only_keys": [],
   "pending_keys": [
     "2607.27889v2",
-    "2610.35983v1",
     "2610.36024v1",
     "2610.36025v1",
     "2610.36029v1",
@@ -219,13 +219,13 @@
     "2610.37638v1"
   ],
   "blockers": [
-    "仍有 44 篇保留的 new/cross 论文尚未完成实际正文阅读，报告为 partial。",
+    "仍有 43 篇保留的 new/cross 论文尚未完成实际正文阅读，报告为 partial。",
     "源公告 gr-qc/hep-th 数量及100篇基础ID已核对，预分类有官方摘要及版本依据；完整英文原摘要并未全部结构化归档，部分作者元数据仍待补。新增正文卡按许可标明摘要英文要点转述。",
     "修订稿65次原始收录归并为53个基础ID，但新旧版本及内容差异未全量核查。"
   ],
-  "updated_at": "2026-10-29T07:56:02.520Z",
+  "updated_at": "2026-10-29T07:56:44.647Z",
   "report_status": "partial",
-  "reading_status_label": "10月28日旧批次：100篇分流，82需读，其中38正文已读、44待读、0仅摘要、18跳过；10月29日新文0。",
+  "reading_status_label": "10月28日旧批次：100篇分流，82需读，其中39正文已读、43待读、0仅摘要、18跳过；10月29日新文0。",
   "coverage": {
     "listing_categories_complete": true,
     "listing_sections_complete": true,
@@ -236,9 +236,9 @@
     "unique_target_total": 100,
     "requires_body_reading_total": 82,
     "known_requires_body": 82,
-    "known_body_reviewed": 38,
+    "known_body_reviewed": 39,
     "known_abstract_only": 0,
-    "known_pending": 44,
+    "known_pending": 43,
     "known_skipped": 18
   },
   "known_verified_body_sources": [
@@ -419,6 +419,11 @@
       "key": "2610.33134v1",
       "url": "https://arxiv.org/html/2610.33134v1",
       "sections": "Introduction; §§2–6; appendices 9–10 overview"
+    },
+    {
+      "key": "2610.35983v1",
+      "url": "https://arxiv.org/html/2610.35983v1",
+      "sections": "I–VI; Eqs. 1,15,18–27,34,36,50–52,59"
     }
   ],
   "all_base_ids_complete": true,

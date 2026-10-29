@@ -8,7 +8,7 @@
   "reading_started_at_provenance": "Earliest verified current-day prior-batch review commit, not asserted original job start",
   "source_checked_at": "2026-10-29T05:09:19Z",
   "next_source_check_at": null,
-  "last_progress_at": "2026-10-29T07:56:02.520Z",
+  "last_progress_at": "2026-10-29T07:56:44.647Z",
   "report_ready": false,
   "backlog_authorized": true,
   "paper_batch_date": "2026-10-28",
@@ -124,8 +124,8 @@
   "reading_worker": {
     "owner": "chat-direct-resume-safe-20261029",
     "started_at": "2026-10-29T07:55:25.406Z",
-    "heartbeat_at": "2026-10-29T07:55:25.406Z",
-    "lease_expires_at": "2026-10-29T08:15:25.406Z",
+    "heartbeat_at": "2026-10-29T07:56:44.647Z",
+    "lease_expires_at": "2026-10-29T08:11:44.647Z",
     "ended_at": null,
     "end_reason": null
   }

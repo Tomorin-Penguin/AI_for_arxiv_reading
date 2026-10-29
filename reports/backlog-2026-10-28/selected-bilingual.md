@@ -2,7 +2,7 @@
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
 
-**当前已有38篇正文已确认并核验关键段落；44篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的入选卡片不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有39篇正文已确认并核验关键段落；43篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的入选卡片不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -224,3 +224,9 @@
 **中文：** 作者以75道QFT题评测39个模型，强调正确终值不等于推导可靠；对理论引力计算可迁移的是独立复核中间公式的方法。
 
 **English:** This 75-question, 39-model QFT benchmark distinguishes final-answer accuracy from reasoning faithfulness. Its relevance to gravity research is methodological verification, not a new gravitational result.
+
+### 2610.35983v1 — dCS periodic orbits (I=3, R=3)
+
+**中文：** 受约束轨道扰动与周长半径构造可迁移到引力观测量研究；不构成直接的二维引力结果。
+
+**English:** Fixed-periodicity derivatives and circumferential radii illustrate transferable constrained perturbation and geometric-observable techniques, not a direct 2D-gravity result.

@@ -399,6 +399,17 @@
       "body_url": "https://arxiv.org/html/2610.33134v1",
       "sections": "Introduction; §§2–6; appendices 9–10 overview",
       "verified_version": true
+    },
+    "2610.35983v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "report_kind": "backlog",
+      "read_at_utc": "2026-10-29T07:56:44.647Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.35983v1.md",
+      "body_url": "https://arxiv.org/html/2610.35983v1",
+      "sections": "I–VI; Eqs. 1,15,18–27,34,36,50–52,59",
+      "verified_version": true
     }
   }
 }
