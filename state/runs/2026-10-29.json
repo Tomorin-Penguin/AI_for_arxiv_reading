@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-29",
-  "phase": "reading",
+  "phase": "awaiting_resume",
   "announcement_status": "confirmed_no_updates",
   "started_at": null,
   "reading_started_at": "2026-10-29T05:38:54Z",
@@ -73,7 +73,7 @@
       "next_action_if_still_partial": "send accurately labeled partial backlog digest within window"
     }
   ],
-  "notes": "2026-10-29 confirmed no updates; authorized 2026-10-28 backlog. Original 13:51 platform failure retained in platform_last_run and diagnostic_events. Later safe manual worker produced verified 39/82 checkpoint; awaiting saved 16:00 continuation, not currently reading.\n16:00 scheduled continuation claimed; previous batch only, verified remaining queue 43 at claim.\n2026-10-29T08:12:40.848Z Four previous-batch body cards verified: 2610.37223v1, 2610.36081v1, 2610.36025v1, 2610.36080v1. 43/82 completed, 39 pending; no new announcements.",
+  "notes": "2026-10-29 confirmed no updates; authorized 2026-10-28 backlog. Original 13:51 platform failure retained in platform_last_run and diagnostic_events. Later safe manual worker produced verified 39/82 checkpoint; awaiting saved 16:00 continuation, not currently reading.\n16:00 scheduled continuation claimed; previous batch only, verified remaining queue 43 at claim.\n2026-10-29T08:12:40.848Z Four previous-batch body cards verified: 2610.37223v1, 2610.36081v1, 2610.36025v1, 2610.36080v1. 43/82 completed, 39 pending; no new announcements.\n16:00 scheduled worker finished verified partial checkpoint 2026-10-29T08:14:45.464Z: 43 of 82 body-reviewed, 39 pending, all 18 skipped preserved, no new announcements, worker released; next same-day hourly reading trigger does not exist.",
   "platform_last_run": {
     "run_id": "f51b8b63-53f8-832a-8bb6-0c0cd8e8f26c",
     "status": "failed",
@@ -84,7 +84,7 @@
     "error_reason": null,
     "evidence_url": "https://chatgpt.com/c/6ae2f3e0-5ddc-83e8-8ea1-01a675be6cd7"
   },
-  "execution_health": "reading",
+  "execution_health": "awaiting_resume",
   "diagnostic_events": [
     {
       "observed_at": "2026-10-29T15:24:00+08:00",
@@ -132,11 +132,14 @@
   "reading_worker": {
     "owner": "arxiv-scheduled-20261029T1600-gpt6",
     "started_at": "2026-10-29T08:01:55.113Z",
-    "heartbeat_at": "2026-10-29T08:12:40.848Z",
-    "lease_expires_at": "2026-10-29T08:22:40.848Z",
-    "ended_at": null,
-    "end_reason": null
+    "heartbeat_at": "2026-10-29T08:14:45.464Z",
+    "lease_expires_at": "2026-10-29T08:14:45.464Z",
+    "ended_at": "2026-10-29T08:14:45.464Z",
+    "end_reason": "checkpoint"
   },
   "next_resume_at": null,
-  "resume_schedule_verified": true
+  "resume_schedule_verified": false,
+  "partial_snapshot_ready": true,
+  "partial_snapshot_checked_at": "2026-10-29T08:14:45.464Z",
+  "report_ready_kind": "verified_partial_snapshot_for_16_30_mail_decision"
 }

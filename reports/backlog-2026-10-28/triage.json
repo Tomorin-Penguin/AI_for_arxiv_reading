@@ -168,8 +168,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.36025v1",
       "reason": "热带曲线取样求三维φ³达325圈的渐近系数与瞬子数据，非微扰数值方法值得迁移。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "transferable_method"
+      "pretriage_status": "body_read_final",
+      "protected_by": "transferable_method",
+      "body_reviewed": true,
+      "final_interest_score": 4,
+      "final_research_score": 3,
+      "body_note_path": "reports/backlog-2026-10-28/papers/2610.36025v1.md"
     },
     {
       "key": "2610.36028v1",
@@ -446,8 +450,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.36080v1",
       "reason": "虚磁背景的非厄米Schwinger效应与proper-time积分极点结构，场论解析结构可迁移。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "transferable_method"
+      "pretriage_status": "body_read_final",
+      "protected_by": "transferable_method",
+      "body_reviewed": true,
+      "final_interest_score": 4,
+      "final_research_score": 3,
+      "body_note_path": "reports/backlog-2026-10-28/papers/2610.36080v1.md"
     },
     {
       "key": "2610.36081v1",
@@ -462,8 +470,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.36081v1",
       "reason": "标量势的custodial对称与moment map/Higgs branch辛几何对应，对约束和辛约化有方法价值。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "transferable_method"
+      "pretriage_status": "body_read_final",
+      "protected_by": "transferable_method",
+      "body_reviewed": true,
+      "final_interest_score": 4,
+      "final_research_score": 3,
+      "body_note_path": "reports/backlog-2026-10-28/papers/2610.36081v1.md"
     },
     {
       "key": "2610.36085v1",
@@ -1222,8 +1234,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.37223v1",
       "reason": "O(3)非线性sigma模型黑洞毛发分支与全局荷；标量和边界条件对照可能有用。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "transferable_method"
+      "pretriage_status": "body_read_final",
+      "protected_by": "transferable_method",
+      "body_reviewed": true,
+      "final_interest_score": 4,
+      "final_research_score": 3,
+      "body_note_path": "reports/backlog-2026-10-28/papers/2610.37223v1.md"
     },
     {
       "key": "2610.37263v1",
@@ -1657,7 +1673,7 @@
   "verified_version_count": 100,
   "pretriage_validated_count": 100,
   "skip_verified_count": 18,
-  "updated_at": "2026-10-29T05:33:43.225Z",
+  "updated_at": "2026-10-29T08:13:56.448Z",
   "report_kind": "backlog",
   "batch_beijing_date": "2026-10-28"
 }

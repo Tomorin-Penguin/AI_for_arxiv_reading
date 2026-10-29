@@ -1,11 +1,11 @@
-> **最新核验（2026-10-29 15:59 北京时间）：39/82篇正文完成，43篇待读，18篇预分类跳过；本日新文0。以下为2026-10-28上一批授权补读的部分成果，非完成日报。历史分批记录不代表最新总数。**
-> **Verified checkpoint: 39/82 body-reviewed, 43 pending, 18 triage skips. No new announcement today; partial authorized backlog from 2026-10-28.**
+> **最新核验（2026-10-29 16:15 北京时间）：43/82篇正文完成，39篇待读，18篇预分类跳过；本日新文0。以下为2026-10-28上一批授权补读的部分成果，非完成日报。历史分批记录不代表最新总数。**
+> **Verified checkpoint: 43/82 body-reviewed, 39 pending, 18 triage skips. No new announcement today; partial authorized backlog from 2026-10-28.**
 
 # 2026-10-28 旧批次补读｜双语精选
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
 
-**当前已有39篇正文已确认并核验关键段落；43篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的入选卡片不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有43篇正文已确认并核验关键段落；39篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的入选卡片不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -233,3 +233,20 @@ Historical fifth-batch checkpoint: 37/82 reviewed and 45 pending. Latest totals 
 **中文：** 受约束轨道扰动与周长半径构造可迁移到引力观测量研究；不构成直接的二维引力结果。
 
 **English:** Fixed-periodicity derivatives and circumferential radii illustrate transferable constrained perturbation and geometric-observable techniques, not a direct 2D-gravity result.
+
+
+## 最新兴趣精选：已核对正文、I4/R3 / Newly reviewed interest selections (I4, R3)
+
+### [Two types of hairy black holes in the (3+1)-dimensional O(3) sigma-model](https://arxiv.org/abs/2610.37223v1)
+**中文：** 具有负势区的 O(3) sigma 模型提供两种有毛黑洞族：Kerr 连接分支与 scalaron 支撑分支。两类解即使 ADM 总量相近，视界附近场和几何仍可能差异显著；该结论取决于所选势与数值解，稳定性未证。**English:** Two numerical hairy-black-hole families differ in local horizon structure despite potentially similar global charges. This is conditional on the scalar potential and stationary ansatz, not a general uniqueness or stability result. [阅读卡 / Note](papers/2610.37223v1.md).
+
+### [Custodial scalars and Higgs branch](https://arxiv.org/abs/2610.36081v1)
+**中文：** 用 moment-map 平方构造正半定标量势，并在稳定轨道上用辛商/GIT 商组织 Higgs-like 零势谷。群维数计数条件必要不充分，有限维真空商也非自动的引力规范约化。**English:** Squared moment-map scalar potentials create structured symmetry-breaking loci, with a symplectic/GIT quotient description only under regularity and stability assumptions. Counting conditions alone do not guarantee moduli. [阅读卡 / Note](papers/2610.36081v1.md).
+
+### [Instanton Structure from 325-Loop 3D φ³ Perturbation Theory](https://arxiv.org/abs/2610.36025v1)
+**中文：** 热带图抽样算到 325 圈，从 $\Gamma(L+b)$ 大阶恢复 bounce 瞬子作用量，和半经典数值一致；不能直接推广到 JT 引力。**English:** Tropical sampling resolves factorial asymptotics of massive 3D cubic scalar perturbation theory through 325 loops, supporting a semiclassical instanton interpretation within the model and scheme. [阅读卡 / Note](papers/2610.36025v1.md).
+
+### [Non-Hermitian Schwinger effect in an imaginary magnetic field](https://arxiv.org/abs/2610.36080v1)
+**中文：** 虚磁场带来额外 proper-time 极点，有理场强比的重合极点须另外取残数。非厄米有效作用量虚部的概率意义受到限制。**English:** Additional imaginary-magnetic proper-time poles and rational-ratio pole collisions reshape the one-loop effective action; its imaginary part is not automatically a positive decay probability in the non-Hermitian setting. [阅读卡 / Note](papers/2610.36080v1.md).
+
+四篇均实际核阅正文与关键式，但未独立重算全部推导。**总进度43/82，仍余39篇。今日无新公告，内容为10月28日授权补读。**
