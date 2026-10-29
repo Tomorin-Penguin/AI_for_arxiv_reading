@@ -574,8 +574,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.36129v1",
       "reason": "黑洞内部从几何主导转向标量动能主导并影响Cauchy结构，直接关联内部因果结构。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "pretriage_status": "body_read_final",
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.36129v1.md"
     },
     {
       "key": "2610.36137v1",
@@ -830,8 +834,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.36695v1",
       "reason": "因果集顺序与计数重建Riemann曲率、平行输运与法坐标，直接关联全局因果和几何工具。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "pretriage_status": "body_read_final",
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.36695v1.md"
     },
     {
       "key": "2610.36728v1",
@@ -1022,8 +1030,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.36997v1",
       "reason": "失衡玻璃/量子p-spin复制对称破缺，与SYK的无序平均和非平衡行为有可迁移方法。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "pretriage_status": "body_read_final",
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.36997v1.md"
     },
     {
       "key": "2610.37009v1",
@@ -1126,8 +1138,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.37096v1",
       "reason": "AdS₂弦世界面二圈配分函数的测度/正则化与全息Wilson环，和AdS₂量子边界计算相关但非JT。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "pretriage_status": "body_read_final",
+      "protected_by": "core_topic",
+      "final_interest_score": 5,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.37096v1.md"
     },
     {
       "key": "2610.37117v1",
@@ -1512,8 +1528,12 @@
       "user_requested_read": false,
       "source_url": "https://arxiv.org/abs/2610.37546v1",
       "reason": "开放Carroll–Weyl null string的反射约束代数与边界荷，辛/约束方法可直接借鉴。",
-      "pretriage_status": "official_full_abstract_read_and_version_verified",
-      "protected_by": "core_topic"
+      "pretriage_status": "body_read_final",
+      "protected_by": "core_topic",
+      "final_interest_score": 4,
+      "final_research_score": 4,
+      "body_reviewed": true,
+      "body_note_path": "reports/2026-10-29/papers/2610.37546v1.md"
     },
     {
       "key": "2610.37552v1",
@@ -1637,5 +1657,5 @@
   "verified_version_count": 100,
   "pretriage_validated_count": 100,
   "skip_verified_count": 18,
-  "updated_at": "2026-10-29T04:32:20.980Z"
+  "updated_at": "2026-10-29T05:02:57.127Z"
 }

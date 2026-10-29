@@ -1,6 +1,6 @@
 # 2026-10-29 双语精选 / Selected bilingual digest (partial)
 
-**当前已有14篇正文已确认并核验关键段落；68篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-29上午，对应美东2026-10-28；new/cross共120次收录，去重100篇。以下十四篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有19篇正文已确认并核验关键段落；63篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-29上午，对应美东2026-10-28；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -112,3 +112,51 @@
 **English:** Keeping the lapse yields the Friedmann constraint; the metric-independent BF interaction alters dynamics but not the stress tensor directly. Local Stueckelberg/Proca duality does not identify global flux sectors. The null Noether branch is accelerated by the scalar potential.
 
 **推荐段落 / Evidence:** 1–6; (2.13)–(2.15), (3.1)–(3.4), (3.18)–(3.41), (4.1), (4.19)–(4.27), (4.47) · [HTML](https://arxiv.org/html/2610.37278v1) · [中英正文卡](papers/2610.37278v1.md)。未独立重做数值图或完整证明。
+
+
+## 新增五篇正文精选 / Five additional body-verified picks
+
+### [定常边界输入下的黑洞内部标量—Kasner 转换](papers/2610.36129v1.md) — I5, R4
+
+**中文：** 在 Schwarzschild-like 和 Kerr–Newman-like 两条路径中以横截面积收缩追踪非线性转换；近内视界的诊断量正极小值在指定解族中阻止原零点，不能替代一般时空的全局因果判定。
+
+**English:** A common area-contraction variable organizes scalar-kinetic domination in Schwarzschild-like and Kerr–Newman-like stationary interiors. The positive nonlinear minimum of a metric diagnostic is conditional on the models and does not prove generic global horizon loss.
+
+**正文证据 / Body:** Eq. (3) area variable; Eq. (13) nonlinear diagnostic; Eq. (19) scalar–Kasner exponents. [官方 HTML](https://arxiv.org/html/2610.36129v1) · [具体模型、局限及下一步计算 / Full bilingual card](papers/2610.36129v1.md)。**未独立复算全部推导 / Full derivations not independently reproduced.**
+
+
+### [开放 Carroll–Weyl null string 的边界约束代数](papers/2610.37546v1.md) — I4, R4
+
+**中文：** 用半区间反射辛形式和联络修正的约束基建构弱第一类代数；可微生成元中的 primary-momentum improvements 对边界荷技术可迁移，但中心项排除仅限指定经典局域 cocycle 类。
+
+**English:** Reflected half-interval symplectic normalization and connection-dependent constraints yield differentiable gauge generators and a restricted boundary-current algebra. Exclusions of central terms apply only to a specified classical local-cocycle class.
+
+**正文证据 / Body:** §4 reflected symplectic normalization; §5.1 (5.12)–(5.14); App. B algebra. [官方 HTML](https://arxiv.org/html/2610.37546v1) · [具体模型、局限及下一步计算 / Full bilingual card](papers/2610.37546v1.md)。**未独立复算全部推导 / Full derivations not independently reproduced.**
+
+
+### [球形量子 p-spin 的 replica/RSB 与全息联系](papers/2610.36997v1.md) — I5, R4
+
+**中文：** 讲义系统展示 quenched 平均、replica、1RSB 和 retarded 关联函数的逐层建模；AdS₂ 喉道分裂只构成潜在类比，相关 quiver 系统并不必有玻璃相。
+
+**English:** Lecture notes develop quenched replica averaging, one-step replica symmetry breaking and quantum retarded correlators. Proposed relations to AdS throat fragmentation are analogies; relevant quiver systems need not exhibit genuine glassiness.
+
+**正文证据 / Body:** §3 eqs. (3.5),(3.21),(3.29); §4 (4.35)–(4.38); §5. [官方 HTML](https://arxiv.org/html/2610.36997v1) · [具体模型、局限及下一步计算 / Full bilingual card](papers/2610.36997v1.md)。**未独立复算全部推导 / Full derivations not independently reproduced.**
+
+
+### [AdS₂ 弦世界面二圈测度与 localization 有限项差异](papers/2610.37096v1.md) — I5, R4
+
+**中文：** 热核下 canonical measure 抵消局域接触发散，但共用 smearing 得到的有限二圈系数仍与 SYM/ABJM localization 不同；M2 KK 模对 ABJM 情形贡献不可忽略。此 AdS₂ 是世界面非 dynamical JT。
+
+**English:** Canonical measure contact terms cancel heat-kernel UV divergences, yet common-smearing finite two-loop coefficients fail to match the corresponding localization benchmarks. Missing M2 KK effects matter; the AdS2 saddle is a string worldsheet, not JT spacetime.
+
+**正文证据 / Body:** §2; §3 (3.11),(3.15); §4 (4.21)–(4.30); §5 (5.1). [官方 HTML](https://arxiv.org/html/2610.37096v1) · [具体模型、局限及下一步计算 / Full bilingual card](papers/2610.37096v1.md)。**未独立复算全部推导 / Full derivations not independently reproduced.**
+
+
+### [从因果偏序与计数重建完整 Riemann 张量](papers/2610.36695v1.md) — I5, R4
+
+**中文：** 以小因果区间计数估计固有时、由重叠法坐标估计平行输运，再在双尺度回路计算 holonomy；定理 4.9 给出随采样密度趋零的曲率误差界，假设固定光滑整体双曲背景、已知维数/密度及均匀计数。
+
+**English:** Causal interval counts give approximate proper time and normal charts; inter-chart transport around two-scale loops reconstructs the full Riemann tensor. The error theorem assumes a fixed smooth globally hyperbolic background and specified sampling conditions.
+
+**正文证据 / Body:** §4 Theorem 4.9 eq. (4.15); Cor. 4.10; §6 assumptions. [官方 HTML](https://arxiv.org/html/2610.36695v1) · [具体模型、局限及下一步计算 / Full bilingual card](papers/2610.36695v1.md)。**未独立复算全部推导 / Full derivations not independently reproduced.**
+
