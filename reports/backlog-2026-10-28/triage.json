@@ -1,6 +1,6 @@
 {
   "report_date": "2026-10-29",
-  "announcement_date": "2026-10-29",
+  "announcement_date": "2026-10-28",
   "source_announcement_date": "2026-10-28",
   "policy_version": "1.0",
   "interests_sha256": "2abb0032b86197cdb6e9363ba148bd6e4e0e3dfa4e83afdb647578eec9b0fcb6",
@@ -1657,5 +1657,7 @@
   "verified_version_count": 100,
   "pretriage_validated_count": 100,
   "skip_verified_count": 18,
-  "updated_at": "2026-10-29T05:02:57.127Z"
+  "updated_at": "2026-10-29T05:33:43.225Z",
+  "report_kind": "backlog",
+  "batch_beijing_date": "2026-10-28"
 }
