@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-29",
+  "phase": "reading",
+  "announcement_status": "confirmed_no_updates",
+  "started_at": null,
+  "reading_started_at": "2026-10-29T05:38:54Z",
+  "reading_started_at_provenance": "Earliest verified current-day prior-batch review commit, not asserted original job start",
+  "source_checked_at": "2026-10-29T05:09:19Z",
+  "next_source_check_at": null,
+  "last_progress_at": "2026-10-29T05:47:43Z",
+  "report_ready": false,
+  "backlog_authorized": true,
+  "paper_batch_date": "2026-10-28",
+  "blockers": [
+    "45 of 82 selected previous-batch manuscripts still awaiting body review",
+    "Complete report validation not yet satisfied; historical revision version differences remain to be verified"
+  ],
+  "mail_decision": "defer_until_15:15_normal_backlog_reading",
+  "last_mail_check_at": "2026-10-29T06:00:55.912Z",
+  "mail_check_events": [
+    {
+      "scheduled_at_beijing": "2026-10-29T14:00:00+08:00",
+      "checked_at_utc": "2026-10-29T06:00:55.912Z",
+      "checked_at_beijing": "2026-10-29 14:00:55",
+      "action": "defer",
+      "reason": "official_no_new_papers_but_authorized_backlog_reading_active",
+      "report_date": "2026-10-29",
+      "announcement_date": "2026-10-28",
+      "status_snapshot": {
+        "total": 100,
+        "body_queue": 82,
+        "body_reviewed": 37,
+        "abstract_only": 0,
+        "pending": 45,
+        "skipped": 18
+      },
+      "proof_commit": "80fb2f652f0b34ea6afacc1378eef5de25cbb429",
+      "gmail_sent_matches": 0,
+      "mail_sent": false
+    }
+  ],
+  "notes": "Today's 11:00 task launch not independently evidenced in the run file; real reading progress is independently verified by GitHub commits and backlog status, so absence of run metadata is not classified as execution failure."
+}
