@@ -1,0 +1,742 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-29",
+  "announcement_date_beijing": "2026-10-29",
+  "source_announcement_date_american_eastern": "2026-10-28",
+  "source_type": "official_new_listing_replacements_section",
+  "source_urls": [
+    "https://arxiv.org/list/gr-qc/new?show=2000",
+    "https://arxiv.org/list/hep-th/new?show=2000"
+  ],
+  "counts": {
+    "gr_qc_raw_replacements": 24,
+    "hep_th_raw_replacements": 41,
+    "total_raw_replacements": 65,
+    "cross_category_duplicate_replacements": 12,
+    "unique_replacement_base_ids": 53
+  },
+  "version_policy": "The listing marks 'replaced' but does not reliably provide its replacement version in the result header. Version null means unresolved; commentary-provided versions require abs-page verification before treating as confirmed.",
+  "cross_category_duplicate_ids": [
+    "2108.09524",
+    "2508.10959",
+    "2508.13235",
+    "2601.13171",
+    "2602.05130",
+    "2605.03922",
+    "2605.15429",
+    "2606.18349",
+    "2607.26686",
+    "2609.37293",
+    "2610.08904",
+    "2610.30049"
+  ],
+  "unique_base_ids": [
+    "1608.05270",
+    "2004.08910",
+    "2108.09524",
+    "2409.06657",
+    "2503.23741",
+    "2507.06294",
+    "2507.08588",
+    "2508.10959",
+    "2508.12392",
+    "2508.13235",
+    "2510.05198",
+    "2512.12557",
+    "2601.03257",
+    "2601.13171",
+    "2601.14939",
+    "2601.19251",
+    "2601.21502",
+    "2602.00203",
+    "2602.05130",
+    "2604.08511",
+    "2604.08512",
+    "2604.09500",
+    "2604.24866",
+    "2605.03922",
+    "2605.12479",
+    "2605.15429",
+    "2605.26617",
+    "2605.27519",
+    "2605.31602",
+    "2606.18248",
+    "2606.18349",
+    "2606.19480",
+    "2606.20353",
+    "2606.27113",
+    "2606.28086",
+    "2607.07831",
+    "2607.21397",
+    "2607.24940",
+    "2607.26686",
+    "2608.00758",
+    "2608.02912",
+    "2608.04346",
+    "2608.08766",
+    "2609.14096",
+    "2609.34777",
+    "2609.35455",
+    "2609.37293",
+    "2610.08904",
+    "2610.18344",
+    "2610.25972",
+    "2610.28725",
+    "2610.30049",
+    "2610.35798"
+  ],
+  "items": [
+    {
+      "id": "1608.05270",
+      "abs_url": "https://arxiv.org/abs/1608.05270",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2004.08910",
+      "abs_url": "https://arxiv.org/abs/2004.08910",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2108.09524",
+      "abs_url": "https://arxiv.org/abs/2108.09524",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2409.06657",
+      "abs_url": "https://arxiv.org/abs/2409.06657",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2503.23741",
+      "abs_url": "https://arxiv.org/abs/2503.23741",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2507.06294",
+      "abs_url": "https://arxiv.org/abs/2507.06294",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2507.08588",
+      "abs_url": "https://arxiv.org/abs/2507.08588",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2508.10959",
+      "abs_url": "https://arxiv.org/abs/2508.10959",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2508.12392",
+      "abs_url": "https://arxiv.org/abs/2508.12392",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2508.13235",
+      "abs_url": "https://arxiv.org/abs/2508.13235",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2510.05198",
+      "abs_url": "https://arxiv.org/abs/2510.05198",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2512.12557",
+      "abs_url": "https://arxiv.org/abs/2512.12557",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2601.03257",
+      "abs_url": "https://arxiv.org/abs/2601.03257",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2601.13171",
+      "abs_url": "https://arxiv.org/abs/2601.13171",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2601.14939",
+      "abs_url": "https://arxiv.org/abs/2601.14939",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2601.19251",
+      "abs_url": "https://arxiv.org/abs/2601.19251",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2601.21502",
+      "abs_url": "https://arxiv.org/abs/2601.21502",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2602.00203",
+      "abs_url": "https://arxiv.org/abs/2602.00203",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2602.05130",
+      "abs_url": "https://arxiv.org/abs/2602.05130",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2604.08511",
+      "abs_url": "https://arxiv.org/abs/2604.08511",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2604.08512",
+      "abs_url": "https://arxiv.org/abs/2604.08512",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2604.09500",
+      "abs_url": "https://arxiv.org/abs/2604.09500",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2604.24866",
+      "abs_url": "https://arxiv.org/abs/2604.24866",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2605.03922",
+      "abs_url": "https://arxiv.org/abs/2605.03922",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2605.12479",
+      "abs_url": "https://arxiv.org/abs/2605.12479",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2605.15429",
+      "abs_url": "https://arxiv.org/abs/2605.15429",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": 2,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2605.26617",
+      "abs_url": "https://arxiv.org/abs/2605.26617",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2605.27519",
+      "abs_url": "https://arxiv.org/abs/2605.27519",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": 2,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2605.31602",
+      "abs_url": "https://arxiv.org/abs/2605.31602",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": 2,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2606.18248",
+      "abs_url": "https://arxiv.org/abs/2606.18248",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": 3,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2606.18349",
+      "abs_url": "https://arxiv.org/abs/2606.18349",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2606.19480",
+      "abs_url": "https://arxiv.org/abs/2606.19480",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2606.20353",
+      "abs_url": "https://arxiv.org/abs/2606.20353",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2606.27113",
+      "abs_url": "https://arxiv.org/abs/2606.27113",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2606.28086",
+      "abs_url": "https://arxiv.org/abs/2606.28086",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2607.07831",
+      "abs_url": "https://arxiv.org/abs/2607.07831",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2607.21397",
+      "abs_url": "https://arxiv.org/abs/2607.21397",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2607.24940",
+      "abs_url": "https://arxiv.org/abs/2607.24940",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2607.26686",
+      "abs_url": "https://arxiv.org/abs/2607.26686",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2608.00758",
+      "abs_url": "https://arxiv.org/abs/2608.00758",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2608.02912",
+      "abs_url": "https://arxiv.org/abs/2608.02912",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2608.04346",
+      "abs_url": "https://arxiv.org/abs/2608.04346",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2608.08766",
+      "abs_url": "https://arxiv.org/abs/2608.08766",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2609.14096",
+      "abs_url": "https://arxiv.org/abs/2609.14096",
+      "announced_in": [
+        "gr-qc"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2609.34777",
+      "abs_url": "https://arxiv.org/abs/2609.34777",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2609.35455",
+      "abs_url": "https://arxiv.org/abs/2609.35455",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2609.37293",
+      "abs_url": "https://arxiv.org/abs/2609.37293",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2610.08904",
+      "abs_url": "https://arxiv.org/abs/2610.08904",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2610.18344",
+      "abs_url": "https://arxiv.org/abs/2610.18344",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2610.25972",
+      "abs_url": "https://arxiv.org/abs/2610.25972",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2610.28725",
+      "abs_url": "https://arxiv.org/abs/2610.28725",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2610.30049",
+      "abs_url": "https://arxiv.org/abs/2610.30049",
+      "announced_in": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": 2,
+      "not_new_cross_target": true
+    },
+    {
+      "id": "2610.35798",
+      "abs_url": "https://arxiv.org/abs/2610.35798",
+      "announced_in": [
+        "hep-th"
+      ],
+      "announcement_kind": "replacement",
+      "version": null,
+      "version_verified": false,
+      "comment_version_hint": null,
+      "not_new_cross_target": true
+    }
+  ],
+  "verified_ids": true,
+  "verified_versions": false,
+  "reading_status": "revisions_list_only_no_body_review",
+  "updated_at": "2026-10-29T04:45:23.518Z"
+}

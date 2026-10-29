@@ -45,7 +45,7 @@
         "appearances": 2
       }
     ],
-    "revisions_unique": null,
+    "revisions_unique": 53,
     "unique_versions": null,
     "known_deduped_base_ids": 100,
     "overlap_count": 20,
@@ -53,7 +53,8 @@
     "pending": 68,
     "version_verified": 100,
     "skipped_low_relevance": 18,
-    "requires_body_reading": 82
+    "requires_body_reading": 82,
+    "revisions_cross_category_duplicates": 12
   },
   "papers": [
     {
@@ -3243,7 +3244,9 @@
     "individual_version_complete": true,
     "full_abstract_complete": false,
     "authors_complete": false,
-    "reason": "100 complete official abstracts consulted and all versions individually verified for triage; 93 full abstract texts and several author arrays not yet archived, retained-body cards unfinished; revised-paper IDs not fully transcribed."
+    "reason": "100 new/cross base IDs verified and full abstracts reviewed for triage; 53 distinct revision base IDs archived separately, version and diff verification pending; 93 full abstract texts/authors not fully archived and retained-body queue unfinished.",
+    "revision_base_ids_complete": true,
+    "revision_versions_complete": false
   },
   "overlap_base_ids": [
     "2610.35938",
@@ -3267,5 +3270,6 @@
     "2610.37302",
     "2610.37383"
   ],
-  "triage_checkpoint_utc": "2026-10-29T04:32:20.980Z"
+  "triage_checkpoint_utc": "2026-10-29T04:32:20.980Z",
+  "revisions_index_path": "data/2026-10-29/revisions.json"
 }

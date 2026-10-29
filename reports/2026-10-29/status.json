@@ -221,9 +221,9 @@
   "blockers": [
     "68 篇保留论文尚未完成正文阅读卡；全量摘要预分类不等于正文阅读完毕。",
     "源公告两分类数量和100个基础ID已核对，100篇官方摘要已经审阅并核验版本；93篇完整摘要原文和部分作者元数据尚未归档至manifest。",
-    "原始65次修订收录已有分组数量，修订独立ID清单仍待转录，不能声称已逐篇复核修订内容。"
+    "已转录65次原始修订收录、合并为53个ID；具体替换版本、作者字段及新旧内容差异尚待逐篇核查。"
   ],
-  "updated_at": "2026-10-29T04:42:17.172Z",
+  "updated_at": "2026-10-29T04:45:23.917Z",
   "report_status": "partial",
   "reading_status_label": "100基础ID已有效预分类；正文已读14，待正文68，核验低相关跳过18",
   "coverage": {
@@ -301,5 +301,9 @@
       "sections": "1–6; (2.13)–(2.15), (3.1)–(3.4), (3.18)–(3.41), (4.1), (4.19)–(4.27), (4.47)"
     }
   ],
-  "all_base_ids_complete": true
+  "all_base_ids_complete": true,
+  "revision_raw_count": 65,
+  "revision_unique_base_id_count": 53,
+  "revision_index_path": "data/2026-10-29/revisions.json",
+  "revision_version_details_verified": false
 }
