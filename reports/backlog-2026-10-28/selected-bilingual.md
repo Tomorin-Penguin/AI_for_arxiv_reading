@@ -2,7 +2,7 @@
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
 
-**当前已有32篇正文已确认并核验关键段落；50篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有37篇正文已确认并核验关键段落；45篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -174,7 +174,7 @@
 
 **[The Disordered Universe 2025: Open Effective Field Theories](papers/2610.36898v1.md) — final I5/R5.** 中文：SK归一性、实部耗散/噪声分离、开放宇宙学EFT及§5的流体Stückelberg时钟，为关系探针协议提供可迁移思路，非已构造的JT量子时钟。 English: SK normalization, response–noise separation and the fluid Stückelberg-clock proposal supply a methodological bridge to relational probes, not a solved JT-clock theory. [HTML](https://arxiv.org/html/2610.36898v1).
 
-**Current prior batch / 目前旧批次:** 100 triaged; 82 retained for body; 32 body-reviewed; 50 pending; 18 skipped. **Today new papers = 0.** No equations independently recomputed.
+**Current prior batch / 目前旧批次:** 100 triaged; 82 retained for body; 37 body-reviewed; 45 pending; 18 skipped. **Today new papers = 0.** No equations independently recomputed.
 
 
 ## 新增四篇旧批次正文精选 / Four further verified prior-batch picks
@@ -187,7 +187,7 @@
 
 **[Quasinormal-mode stability bounds in gravitational EFT](papers/2610.28721v1.md) — I4/R4.** 中文：与高ℓ QNM衰减相关的“普适稳定性界”并不在标准幂计数下独立限制有效作用，必须同时控制高微分算符tower。 English: A proposed QNM damping bound adds no generic EFT Wilson-coefficient restriction under conventional power counting and truncation control. [HTML](https://arxiv.org/html/2610.28721v1).
 
-**Prior batch counts: 100 triaged, 82 retained, 32 body-reviewed, 50 pending, 18 skipped, no abstract-only; today zero new.** All summaries are independent reading interpretations, not independent recalculations.
+**Prior batch counts: 100 triaged, 82 retained, 37 body-reviewed, 45 pending, 18 skipped, no abstract-only; today zero new.** All summaries are independent reading interpretations, not independent recalculations.
 
 
 ## 五篇旧批次新正文精选 / Five further prior-batch selections
@@ -202,4 +202,19 @@
 
 **[Exact TbarT-Like flows in Integrable Sigma Models](papers/2610.37458v1.md) — I4/R4.** 中文：Courant–Hilbert受控可积Sigma族中存在精确应力不变量流，带明确临界参数窗口；非任意dilaton的普适形变。 English: Exact stress-invariant flows hold for specific Courant–Hilbert one-scale integrable sigma families and their regular domains, not arbitrary gravitational theories. [HTML](https://arxiv.org/html/2610.37458v1).
 
-**Old-batch tally: 100 classified, 82 required body, 32 reviewed, 50 pending, 0 abstract-only, 18 skipped. New papers on 29 Oct: zero.**
+**Old-batch tally: 100 classified, 82 required body, 32 reviewed, 45 pending, 0 abstract-only, 18 skipped. New papers on 29 Oct: zero.**
+
+
+## 五篇近期完成的历史补读 / Five further previous-batch reading cards
+
+**[Scalarized Einstein–Maxwell black holes in external scalar fields](papers/2610.36085v1.md) — I5/R4.** 中文：外部标量源对荷响应可多值或非单调，需区分边界源与black-hole scalar charge。 English: External scalar boundary data induce nonmonotonic or multivalued stationary EMS scalar-charge responses; the binary step uses leading companion fields. [HTML](https://arxiv.org/html/2610.36085v1).
+
+**[A Spin on Radiation Reaction with Cuts](papers/2610.37603v1.md) — I4/R4.** 中文：经典retarded自场与Compton割在自旋平方阶的EM辐射反冲吻合，不是引力记忆结论。 English: Spin-squared electromagnetic reaction agrees between worldline self-fields and on-shell Compton cuts, without establishing gravitational memory. [HTML](https://arxiv.org/html/2610.37603v1).
+
+**[Local Measures in Odd de Sitter](papers/2610.36045v1.md) — I5/R4.** 中文：奇维dS无质量树级波函数模方可局域，但非局域相位并未消失。 English: For selected massless tree-level theories in odd-dimensional dS, |Ψ|² is local although the phase retains nonlocal information. [HTML](https://arxiv.org/html/2610.36045v1).
+
+**[The Fate of 1/4-BPS States in the D1-D5 CFT](papers/2610.36057v1.md) — I4/R3.** 中文：有限N选择扇区的λ² lifting不是全体BPS态不变定理。 English: Exact-in-N lifting matrices at λ² leave ten selected right-spin-one primaries, not an unqualified all-state claim. [HTML](https://arxiv.org/html/2610.36057v1).
+
+**[Momentum-space entanglement and mutual information in Kaluza–Klein reduction](papers/2610.37009v1.md) — I5/R4.** 中文：局域EFT振幅退耦不排除可访问零模的量子态与重塔纠缠。 English: Low-energy amplitude decoupling does not force the reduced zero-mode state to factorize from the heavy KK tower. [HTML](https://arxiv.org/html/2610.37009v1).
+
+**Backlog now: 100 triaged, 82 retained, 37 body-reviewed, 45 pending, 18 skipped, zero abstract-only. Today new zero.**

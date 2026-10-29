@@ -10,7 +10,7 @@
   "pending_keys": [],
   "skipped_low_relevance_keys": [],
   "blockers": [],
-  "updated_at": "2026-10-29T05:44:50.440Z",
+  "updated_at": "2026-10-29T05:47:39.739Z",
   "source_check_path": "state/source-checks/2026-10-29.json",
   "raw_announcement_count": 0,
   "raw_new_cross_count": 0,
@@ -26,9 +26,9 @@
   "backlog_counts": {
     "all": 100,
     "required": 82,
-    "body": 32,
+    "body": 37,
     "abstract_only": 0,
-    "pending": 50,
+    "pending": 45,
     "skipped": 18
   },
   "next_announcement_beijing": "2026-10-30T08:00:00+08:00"

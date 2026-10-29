@@ -143,7 +143,12 @@
     "2610.37515v1",
     "2610.37063v1",
     "2610.36031v1",
-    "2610.37458v1"
+    "2610.37458v1",
+    "2610.36085v1",
+    "2610.37603v1",
+    "2610.36045v1",
+    "2610.36057v1",
+    "2610.37009v1"
   ],
   "abstract_only_keys": [],
   "pending_keys": [
@@ -156,15 +161,12 @@
     "2610.36035v1",
     "2610.36036v1",
     "2610.36037v1",
-    "2610.36045v1",
     "2610.36052v1",
     "2610.36054v1",
-    "2610.36057v1",
     "2610.36063v1",
     "2610.36064v1",
     "2610.36080v1",
     "2610.36081v1",
-    "2610.36085v1",
     "2610.36087v1",
     "2610.36094v1",
     "2610.36113v1",
@@ -183,7 +185,6 @@
     "2610.36845v1",
     "2610.36923v1",
     "2610.36975v1",
-    "2610.37009v1",
     "2610.37064v1",
     "2610.37160v1",
     "2610.37165v1",
@@ -195,7 +196,6 @@
     "2610.37460v1",
     "2610.37501v1",
     "2610.37525v1",
-    "2610.37603v1",
     "2610.37610v1"
   ],
   "skipped_low_relevance_keys": [
@@ -219,13 +219,13 @@
     "2610.37638v1"
   ],
   "blockers": [
-    "仍有 50 篇保留的 new/cross 论文尚未完成实际正文阅读，报告为 partial。",
+    "仍有 45 篇保留的 new/cross 论文尚未完成实际正文阅读，报告为 partial。",
     "源公告 gr-qc/hep-th 数量及100篇基础ID已核对，预分类有官方摘要及版本依据；完整英文原摘要并未全部结构化归档，部分作者元数据仍待补。新增正文卡按许可标明摘要英文要点转述。",
     "修订稿65次原始收录归并为53个基础ID，但新旧版本及内容差异未全量核查。"
   ],
-  "updated_at": "2026-10-29T05:44:50.440Z",
+  "updated_at": "2026-10-29T05:47:39.739Z",
   "report_status": "partial",
-  "reading_status_label": "北京10月28日旧批次100篇中需读正文82；已正文阅读32，待读50，仅摘要0，跳过18；10月29日当天没有新公告。",
+  "reading_status_label": "10月28日旧批次：100篇分流，82需读，其中37正文已读、45待读、0仅摘要、18跳过；10月29日新文0。",
   "coverage": {
     "listing_categories_complete": true,
     "listing_sections_complete": true,
@@ -236,9 +236,9 @@
     "unique_target_total": 100,
     "requires_body_reading_total": 82,
     "known_requires_body": 82,
-    "known_body_reviewed": 32,
+    "known_body_reviewed": 37,
     "known_abstract_only": 0,
-    "known_pending": 50,
+    "known_pending": 45,
     "known_skipped": 18
   },
   "known_verified_body_sources": [
@@ -389,6 +389,31 @@
       "key": "2610.37458v1",
       "url": "https://arxiv.org/html/2610.37458v1",
       "sections": "§§1–3 Courant–Hilbert, §§4–7 model examples, §8 arbitrary-d stress invariants, §9 commuting root flow, §10 conclusions; Eqs. (94)–(95), Table 4"
+    },
+    {
+      "key": "2610.36085v1",
+      "url": "https://arxiv.org/html/2610.36085v1",
+      "sections": "§§I–IV; Appendix A pseudospectral construction, B charge/mass identity, C zero-mode scaling"
+    },
+    {
+      "key": "2610.37603v1",
+      "url": "https://arxiv.org/html/2610.37603v1",
+      "sections": "§§1–5; §2.1–2.3, §3 worldline self-field/regularization, §4 KMOC/Compton cuts, §5 comparison; Eqs. (55),(83),(86)"
+    },
+    {
+      "key": "2610.36045v1",
+      "url": "https://arxiv.org/html/2610.36045v1",
+      "sections": "§§1–4; §2 EAdS argument and gravity/YM/NLSM; §3 Lorentzian/CPT checks, §4 limitations"
+    },
+    {
+      "key": "2610.36057v1",
+      "url": "https://arxiv.org/html/2610.36057v1",
+      "sections": "§§1–6; §2 twisted-sector spectrum and short multiplets, §3 marginal conformal deformation, §4 cover maps/OPE, §5 three tilde-j sectors, §6 count; Appendix A–D overview"
+    },
+    {
+      "key": "2610.37009v1",
+      "url": "https://arxiv.org/html/2610.37009v1",
+      "sections": "§§1–10; §2 KK level partitions/free limit, §§3–6 O(λ²) channel counting and mutual information, §§7–8 EFT operational implications, §10 limitations; Appendix B kernel"
     }
   ],
   "all_base_ids_complete": true,
