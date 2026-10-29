@@ -16,6 +16,6 @@
 
 | 原公告批次 | 总目标 | 已读正文 / 需读 | 仅摘要 / 待读 | 跳过 | 中文补读 | 双语补读 | 状态 |
 | --- | ---: | --- | --- | ---: | --- | --- | --- |
-| 2026-10-28 北京上午 | 100 | **23 / 82** | **0 / 59** | 18 | [中文](backlog-2026-10-28/daily-zh.md) | [双语](backlog-2026-10-28/selected-bilingual.md) | **partial** |
+| 2026-10-28 北京上午 | 100 | **27 / 82** | **0 / 55** | 18 | [中文](backlog-2026-10-28/daily-zh.md) | [双语](backlog-2026-10-28/selected-bilingual.md) | **partial** |
 
 [旧批完整清单](../data/backlog-2026-10-28/manifest.json) · [100篇预分类](backlog-2026-10-28/triage.json) · [18篇跳过理由](backlog-2026-10-28/skipped.md) · [53个修订ID](backlog-2026-10-28/revisions.md) · [补读四状态](backlog-2026-10-28/status.json)。

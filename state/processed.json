@@ -234,6 +234,50 @@
       "body_url": "https://arxiv.org/html/2610.36898v1",
       "sections": "§§1–3 (in-in/SK, quadratic dissipative scalar, propagators); §4 (open inflation EFT, locality, power spectrum/non-Gaussianities); §§5–6 (gauge symmetry, gravitational waves and fluid clocks); Eqs. (3.12)–(3.14),(3.23)–(3.25),(3.59)–(3.63),(4.47),(5.2)–(5.3)",
       "verified_version": true
+    },
+    "2610.35938v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "report_kind": "backlog",
+      "read_at_utc": "2026-10-29T05:41:53.211Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.35938v1.md",
+      "body_url": "https://arxiv.org/html/2610.35938v1",
+      "sections": "§§I–IV, V static/axial/quadratic shell, VI torus, VII–IX; Theorem 1 (145)–(146), Proposition 1, (144), (mass/charge completion)",
+      "verified_version": true
+    },
+    "2610.36271v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "report_kind": "backlog",
+      "read_at_utc": "2026-10-29T05:41:53.211Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.36271v1.md",
+      "body_url": "https://arxiv.org/html/2610.36271v1",
+      "sections": "§§1–6; §2.4 Landau (2.12)–(2.17), §2.5 Coleman–Norton, §3 discontinuities, §4.3 hierarchy (4.9), §5 symbols/elliptics, §6.1 bootstrap (6.1),(6.2),(6.22)",
+      "verified_version": true
+    },
+    "2610.37449v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "report_kind": "backlog",
+      "read_at_utc": "2026-10-29T05:41:53.211Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.37449v1.md",
+      "body_url": "https://arxiv.org/html/2610.37449v1",
+      "sections": "Main text Introduction, Eqs. (1)–(3), evidence summary Table 1; supplements S1–S5, S6–S7 overview; especially S5.1 Eqs. (S58)–(S63)",
+      "verified_version": true
+    },
+    "2610.28721v1": {
+      "status": "body_reviewed",
+      "report_date": "2026-10-29",
+      "batch_beijing_date": "2026-10-28",
+      "report_kind": "backlog",
+      "read_at_utc": "2026-10-29T05:41:53.211Z",
+      "note_path": "reports/backlog-2026-10-28/papers/2610.28721v1.md",
+      "body_url": "https://arxiv.org/html/2610.28721v1",
+      "sections": "§§1–5, App. A WKB method, App. B EFT validity scale, App. C EdGB; especially main §2 proposed bound, §3.2 power-counting and ℓmax, §3.3 scalar–tensor exception, §4 Einstein–Maxwell",
+      "verified_version": true
     }
   }
 }

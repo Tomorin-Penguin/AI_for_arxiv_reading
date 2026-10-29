@@ -2,7 +2,7 @@
 
 **日期纠正：此清单是北京时间10月28日上午已发布的上一批，不是10月29日新公告；10月29日新文为0。以下阅读结果归档为补读。**
 
-**当前已有23篇正文已确认并核验关键段落；59篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
+**当前已有27篇正文已确认并核验关键段落；55篇保留论文仍待读，18篇严格预分类后跳过正文。** 公告批次为北京时间2026-10-28上午；new/cross共120次收录，去重100篇。以下已完成的十九篇不代表对其余论文的最终排名，所有新候选须正文阅读后才可入选。
 
 ## 科研密切相关 / Strong research relevance (R≥4, body verified)
 
@@ -174,4 +174,17 @@
 
 **[The Disordered Universe 2025: Open Effective Field Theories](papers/2610.36898v1.md) — final I5/R5.** 中文：SK归一性、实部耗散/噪声分离、开放宇宙学EFT及§5的流体Stückelberg时钟，为关系探针协议提供可迁移思路，非已构造的JT量子时钟。 English: SK normalization, response–noise separation and the fluid Stückelberg-clock proposal supply a methodological bridge to relational probes, not a solved JT-clock theory. [HTML](https://arxiv.org/html/2610.36898v1).
 
-**Current prior batch / 目前旧批次:** 100 triaged; 82 retained for body; 23 body-reviewed; 59 pending; 18 skipped. **Today new papers = 0.** No equations independently recomputed.
+**Current prior batch / 目前旧批次:** 100 triaged; 82 retained for body; 27 body-reviewed; 55 pending; 18 skipped. **Today new papers = 0.** No equations independently recomputed.
+
+
+## 新增四篇旧批次正文精选 / Four further verified prior-batch picks
+
+**[Closure of Traceful Radiation-Gauge Reconstruction with Matter](papers/2610.35938v1.md) — I4/R5.** 中文：沿Kerr null方向的源驱动输运链有条件局部唯一，全球存在须另证算子估计及完整Ricci、边界和零模数据。 English: The matter-coupled hierarchy is locally solvable after compatible data and gauge/completion fixing; global invertibility remains conditional. [HTML](https://arxiv.org/html/2610.35938v1).
+
+**[Analytic Properties of Amplitudes and Correlators](papers/2610.36271v1.md) — I5/R4.** 中文：Landau夹逼、α-positive、嵌套不连续和symbol构成重建积分的可迁移方法，不自动给出二维引力记忆核。 English: Pinches, physical-sheet constraints and discontinuities help bootstrap integrals, but do not determine gravitational-memory response without its dynamics. [HTML](https://arxiv.org/html/2610.36271v1).
+
+**[Entanglement Bounds on Cardy Growth in Higher Dimensions](papers/2610.37449v1.md) — I5/R3 (interest only).** 中文：高维CFT热熵f的普适界是受控模型检验支持的猜想；Einstein-scalar+NEC下存在可证明的定温黑膜熵界。 English: General higher-dimensional Cardy bounds remain conjectural; a classical Einstein-scalar holographic inequality holds under explicit energy assumptions. [HTML](https://arxiv.org/html/2610.37449v1).
+
+**[Quasinormal-mode stability bounds in gravitational EFT](papers/2610.28721v1.md) — I4/R4.** 中文：与高ℓ QNM衰减相关的“普适稳定性界”并不在标准幂计数下独立限制有效作用，必须同时控制高微分算符tower。 English: A proposed QNM damping bound adds no generic EFT Wilson-coefficient restriction under conventional power counting and truncation control. [HTML](https://arxiv.org/html/2610.28721v1).
+
+**Prior batch counts: 100 triaged, 82 retained, 27 body-reviewed, 55 pending, 18 skipped, no abstract-only; today zero new.** All summaries are independent reading interpretations, not independent recalculations.
