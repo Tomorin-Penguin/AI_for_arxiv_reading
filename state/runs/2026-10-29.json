@@ -14,10 +14,10 @@
   "paper_batch_date": "2026-10-28",
   "blockers": [
     "45 of 82 selected previous-batch manuscripts still awaiting body review",
-    "Complete report validation not yet satisfied; historical revision version differences remain to be verified"
+    "Historical revision version differences still unverified; incomplete author/English original-abstract metadata"
   ],
-  "mail_decision": "defer_until_15:15_normal_backlog_reading",
-  "last_mail_check_at": "2026-10-29T06:00:55.912Z",
+  "mail_decision": "defer_until_16:30_partial_backlog_pending",
+  "last_mail_check_at": "2026-10-29T07:15:17.140Z",
   "mail_check_events": [
     {
       "scheduled_at_beijing": "2026-10-29T14:00:00+08:00",
@@ -38,6 +38,39 @@
       "proof_commit": "80fb2f652f0b34ea6afacc1378eef5de25cbb429",
       "gmail_sent_matches": 0,
       "mail_sent": false
+    },
+    {
+      "scheduled_at_beijing": "2026-10-29T15:15:00+08:00",
+      "checked_at_utc": "2026-10-29T07:15:17.140Z",
+      "checked_at_beijing": "2026-10-29T15:15:17",
+      "action": "defer",
+      "reason": "authorized_previous_batch_still_partial_after_preflight; no evidence_of_execution_failure",
+      "report_date": "2026-10-29",
+      "announcement_date": "2026-10-28",
+      "status_snapshot": {
+        "total": 100,
+        "body_queue": 82,
+        "body_reviewed": 37,
+        "abstract_only": 0,
+        "pending": 45,
+        "skipped": 18
+      },
+      "preflight": {
+        "official_no_update_verified": true,
+        "previous_batch_id_version_matches": 100,
+        "previous_batch_new_versions": 0,
+        "mutually_exclusive_four_states": true,
+        "triage_covers_all": true,
+        "skipped_rules_pass": true,
+        "selected_bilingual_present": true,
+        "eight_selected_body_cards_sampled": true,
+        "full_report_ready": false,
+        "revision_diffs_fully_verified": false
+      },
+      "gmail_sent_matches": 0,
+      "mail_sent": false,
+      "next_check_beijing": "2026-10-29T16:30:00+08:00",
+      "next_action_if_still_partial": "send accurately labeled partial backlog digest within window"
     }
   ],
   "notes": "Today's 11:00 task launch not independently evidenced in the run file; real reading progress is independently verified by GitHub commits and backlog status, so absence of run metadata is not classified as execution failure."
