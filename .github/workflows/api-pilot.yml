@@ -1,0 +1,75 @@
+name: arXiv API pilot (10 papers, USD 5 maximum)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Prepare sources only, or run the authorized paid trial
+        type: choice
+        options:
+          - prepare
+          - paid
+        default: prepare
+      confirmation:
+        description: For paid mode enter RUN_10_PAPERS_MAX_USD_5
+        type: string
+        default: ''
+
+concurrency:
+  group: arxiv-api-pilot-20261029
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install document parsers
+        run: python -m pip install -r config/api-pilot-requirements.txt
+      - name: Offline validation
+        run: python -m unittest discover -s tests -p test_api_pilot.py -v
+      - name: Prepare 10 unread papers without model calls
+        run: python scripts/api_pilot.py prepare
+      - name: Refresh the official completed-reading ledger
+        if: inputs.mode == 'paid'
+        run: |
+          git fetch origin main
+          git restore --source=origin/main -- state/processed.json reports
+      - name: Claim this paid pilot once, permanently
+        if: inputs.mode == 'paid'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PILOT_CONFIRMATION: ${{ inputs.confirmation }}
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo 'Configure the OPENAI_API_KEY repository secret first'; exit 1; }
+          test "$PILOT_CONFIRMATION" = RUN_10_PAPERS_MAX_USD_5 || { echo 'Paid confirmation is missing'; exit 1; }
+          test "$GITHUB_RUN_ATTEMPT" = 1 || { echo 'Paid reruns require review, not a fresh USD 5 allowance'; exit 1; }
+          marker=refs/heads/api-pilot-20261029-used
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --allow-empty -m "Claim one USD 5 arXiv pilot: run $GITHUB_RUN_ID"
+          git push --force-with-lease="$marker:" origin "HEAD:$marker"
+          echo 'ARXIV_PILOT_CLAIMED=arxiv-api-20261029-10' >> "$GITHUB_ENV"
+      - name: Run two parallel readers within the approved budget
+        if: inputs.mode == 'paid'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PILOT_CONFIRMATION: ${{ inputs.confirmation }}
+        run: python scripts/api_pilot.py run --confirm "$PILOT_CONFIRMATION"
+      - name: Preserve source manifest, reading drafts and cost ledger
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-api-pilot-${{ github.run_id }}-${{ github.run_attempt }}
+          path: pilot-output/
+          retention-days: 30
+          if-no-files-found: ignore
