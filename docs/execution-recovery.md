@@ -23,3 +23,9 @@ state/runs/YYYY-MM-DD.json 中 reading_worker 记录 owner（可用平台run id�
 scripts/reading_health.py 返回活跃平台证据、活跃工作记录、待续跑、短期未验证进度、停滞或失败；scripts/delivery_policy.py 结合窗口处理。调用前必须刷新真实平台证据，不能凭缓存伪造观测时间。14:00已知失败应告知；14:00后才发现，窗口内及时告知并说明实际发现时间，可附已完成部分。同日仍最多一封主邮件。正在恢复且有新证据，则按完成窗口发送。邮件任务不承担论文正文阅读，也不更新阅读心跳。
 
 修复验收不能只看日程或提示词已保存：必须观察新的运行、真实正文成果提交，以及之后小时触发是否能接管未完成队列。底层终止原因没有证据时保持未知。
+
+## 仓库增量写入的完整性门禁
+
+【仓库提交完整性，2026-10-29新增最高优先级】任何GitHub写入前先读最新main为H，再取H的commit.tree.sha为T。create_tree必须显式base_tree_sha=T，只传本批预定修改；禁止省略base_tree_sha。创建新提交前获取T和新tree的完整recursive树（truncated必须false），核对原有所有文件仍在、未修改文件mode/type/sha完全相同、新增/修改路径严格等于本批清单且blob与预定内容相符；可运行scripts/publication_guard.py或逐项等价校验，不能验证则停止发布并保留草稿。create_commit的parent_sha=H；update_ref必须expected_sha=H且force=false。并发冲突后重新读main并合并，禁止force更新、回退分支或自行回滚。写后读main和目标文件确认。仓库完整性事故已恢复；旧的临时停止指令只针对当时出错会话，不取消用户已明确授权的后续续读。正式阅读计数必须与阅读卡和ledger一致；发现孤立卡先核验补登记，不能重复读或虚报完成。
+
+2026-10-29手动恢复时，执行器省略base_tree_sha，把只含状态文件的树提交到main，造成当前快照仅剩1个文件。此前127个文件的历史完整，已通过非强制提交255913060c668f6f6e75de7cab1cccaa19080e4f恢复，逐项验证0缺失。此事故与13:51的平台failed是两件事，不能据此推断早先运行的底层失败原因。
