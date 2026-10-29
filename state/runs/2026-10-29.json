@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-29",
-  "phase": "reading",
+  "phase": "blocked",
   "announcement_status": "confirmed_no_updates",
   "started_at": null,
   "reading_started_at": "2026-10-29T05:38:54Z",
@@ -14,9 +14,10 @@
   "paper_batch_date": "2026-10-28",
   "blockers": [
     "45 of 82 selected previous-batch manuscripts still awaiting body review",
-    "Historical revision version differences still unverified; incomplete author/English original-abstract metadata"
+    "Historical revision version differences still unverified; incomplete author/English original-abstract metadata",
+    "Platform run failed at 13:51:57 Beijing; low-level reason unavailable. Old reading label is not liveness evidence."
   ],
-  "mail_decision": "defer_until_16:30_partial_backlog_pending",
+  "mail_decision": "reassess_after_confirmed_failure_or_verified_recovery",
   "last_mail_check_at": "2026-10-29T07:15:17.140Z",
   "mail_check_events": [
     {
@@ -73,5 +74,23 @@
       "next_action_if_still_partial": "send accurately labeled partial backlog digest within window"
     }
   ],
-  "notes": "Today's 11:00 task launch not independently evidenced in the run file; real reading progress is independently verified by GitHub commits and backlog status, so absence of run metadata is not classified as execution failure."
+  "notes": "Today's 11:00 task launch not independently evidenced in the run file; real reading progress is independently verified by GitHub commits and backlog status, so absence of run metadata is not classified as execution failure.",
+  "platform_last_run": {
+    "run_id": "f51b8b63-53f8-832a-8bb6-0c0cd8e8f26c",
+    "status": "failed",
+    "scheduled_at": "2026-10-29T04:00:12Z",
+    "started_at": "2026-10-29T05:26:54.171Z",
+    "finished_at": "2026-10-29T05:51:57.261Z",
+    "observed_at": "2026-10-29T15:24:00+08:00",
+    "error_reason": null,
+    "evidence_url": "https://chatgpt.com/c/6ae2f3e0-5ddc-83e8-8ea1-01a675be6cd7"
+  },
+  "execution_health": "failed",
+  "diagnostic_events": [
+    {
+      "observed_at": "2026-10-29T15:24:00+08:00",
+      "type": "confirmed_failed_run",
+      "note": "Correct prior active-reading inference; preserve both mail check events as history. Recovery not yet claimed."
+    }
+  ]
 }

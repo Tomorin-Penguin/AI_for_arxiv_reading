@@ -5,6 +5,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from reading_health import reading_health
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 
@@ -23,7 +24,7 @@ def delivery_action(run, now, already_sent=False):
     if not run or run.get("report_date") != local.date().isoformat():
         return "send_failure"
     phase = run.get("phase")
-    if phase not in {"waiting_source", "reading", "complete", "no_updates", "blocked"}:
+    if phase not in {"waiting_source", "reading", "awaiting_resume", "complete", "no_updates", "blocked"}:
         raise ValueError("Unknown run phase")
     for key in ("backlog_authorized", "report_ready"):
         if type(run.get(key, False)) is not bool:
@@ -44,6 +45,8 @@ def delivery_action(run, now, already_sent=False):
         return "send_digest"
     if minute == 16 * 60 + 30:
         return "send_partial"
+    if reading_health(run, now) in {"failed", "stale"}:
+        return "send_failure"
     return "wait_reading"
 
 

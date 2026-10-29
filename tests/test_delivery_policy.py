@@ -12,6 +12,9 @@ class DeliveryPolicyTests(unittest.TestCase):
         state = dict(report_date="2026-10-30", phase="reading",
                      announcement_status="confirmed_new", reading_started_at="2026-10-30T11:05:00+08:00",
                      report_ready=False, backlog_authorized=False)
+        state["reading_worker"] = dict(owner="test-run", started_at="2026-10-30T13:50:00+08:00",
+                                        heartbeat_at="2026-10-30T13:55:00+08:00",
+                                        lease_expires_at="2026-10-30T14:20:00+08:00")
         state.update(changes)
         return state
 
@@ -41,6 +44,8 @@ class DeliveryPolicyTests(unittest.TestCase):
 
     def test_completion_is_not_enough_without_validated_report(self):
         state = self.run_state(phase="complete")
+        state["reading_worker"].update(heartbeat_at="2026-10-30T15:10:00+08:00",
+                                       lease_expires_at="2026-10-30T15:35:00+08:00")
         self.assertEqual(delivery_action(state, self.at("15:15")), "wait_reading")
         state["report_ready"] = True
         self.assertEqual(delivery_action(state, self.at("15:15")), "send_digest")
