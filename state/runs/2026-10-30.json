@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-30",
+  "phase": "not_started",
+  "announcement_status": "unverified",
+  "started_at": null,
+  "reading_started_at": null,
+  "source_checked_at": null,
+  "last_progress_at": null,
+  "report_ready": false,
+  "execution_health": "paused",
+  "reading_automation_enabled": false,
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-10-30T05:59:59.206Z",
+    "source": "mcp__Automations__peek",
+    "reading_automation_enabled": false,
+    "next_run_time": null
+  },
+  "blockers": [
+    "Existing reading automation is disabled; today's 11:00 reading did not execute.",
+    "No verified Oct 30 announcement manifest, triage, paper cards or digest. arXiv source listing is stale and RSS could not be verified."
+  ],
+  "mail_decision": "exception_notice_sending_lease_claimed",
+  "last_mail_check_at": "2026-10-30T06:00:45.046Z",
+  "mail_check_events": [
+    {
+      "scheduled_at_beijing": "2026-10-30T14:00:00+08:00",
+      "checked_at_utc": "2026-10-30T06:00:45.046Z",
+      "checked_at_beijing": "2026-10-30 14:00:45",
+      "action": "claim_exception_delivery",
+      "reason": "reading_automation_disabled; source_not_verified",
+      "gmail_sent_matches": 0,
+      "mail_sent": false,
+      "platform_last_run": {
+        "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+        "status": "completed",
+        "started_at": "2026-10-29T08:00:37.826542Z",
+        "finished_at": "2026-10-29T08:16:02.784197Z",
+        "observed_at": "2026-10-30T05:59:59.206Z",
+        "source": "mcp__Automations__peek",
+        "reading_automation_enabled": false,
+        "next_run_time": null
+      }
+    }
+  ],
+  "previous_batch_reference": {
+    "announcement_date": "2026-10-28",
+    "report_status": "partial",
+    "total": 100,
+    "body_queue": 82,
+    "body_reviewed": 43,
+    "abstract_only": 0,
+    "pending": 39,
+    "skipped": 18,
+    "not_a_today_report": true
+  },
+  "notes": "Mail-only diagnosis. Reading task currently disabled, not an active failed worker. No Oct 30 reader heartbeat; source not independently verified as an announcement."
+}

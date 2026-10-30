@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-30",
+  "status": "sending_exception_notice",
+  "sent": false,
+  "mail_type": "execution_exception",
+  "recipient": "1468610627@qq.com",
+  "lease": {
+    "owner": "email-check-2026-10-30-14h-2026-10-30T06:00:45.046Z",
+    "acquired_at_utc": "2026-10-30T06:00:45.046Z",
+    "expires_at_utc": "2026-10-30T06:25:45.046Z"
+  },
+  "claimed_at_utc": "2026-10-30T06:00:45.046Z",
+  "scheduled_check_at_beijing": "2026-10-30T14:00:00+08:00",
+  "actual_check_at_beijing": "2026-10-30 14:00:45",
+  "reading_automation_enabled": false,
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-10-30T05:59:59.206Z",
+    "source": "mcp__Automations__peek",
+    "reading_automation_enabled": false,
+    "next_run_time": null
+  },
+  "source_status": "unverified",
+  "today_counts": {
+    "announcements": null,
+    "body_queue": null,
+    "body_reviewed": null,
+    "abstract_only": null,
+    "pending": null,
+    "skipped": null
+  },
+  "previous_batch_reference": {
+    "announcement_date": "2026-10-28",
+    "total": 100,
+    "body_queue": 82,
+    "body_reviewed": 43,
+    "abstract_only": 0,
+    "pending": 39,
+    "skipped": 18,
+    "not_today": true
+  },
+  "message_id": null,
+  "reason": "Reading automation disabled; no verified current-day source or report. One exception notice permitted inside the mail window."
+}
