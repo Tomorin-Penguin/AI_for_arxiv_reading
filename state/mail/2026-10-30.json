@@ -1,14 +1,16 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-30",
-  "status": "sending_exception_notice",
-  "sent": false,
+  "status": "sent_exception_notice",
+  "sent": true,
   "mail_type": "execution_exception",
   "recipient": "1468610627@qq.com",
   "lease": {
     "owner": "email-check-2026-10-30-14h-2026-10-30T06:00:45.046Z",
     "acquired_at_utc": "2026-10-30T06:00:45.046Z",
-    "expires_at_utc": "2026-10-30T06:25:45.046Z"
+    "expires_at_utc": "2026-10-30T06:25:45.046Z",
+    "closed_at_utc": "2026-10-30T06:02:19.846Z",
+    "release_reason": "sent_verified"
   },
   "claimed_at_utc": "2026-10-30T06:00:45.046Z",
   "scheduled_check_at_beijing": "2026-10-30T14:00:00+08:00",
@@ -43,6 +45,17 @@
     "skipped": 18,
     "not_today": true
   },
-  "message_id": null,
-  "reason": "Reading automation disabled; no verified current-day source or report. One exception notice permitted inside the mail window."
+  "message_id": "1a18b6629751da02",
+  "reason": "Reading automation disabled; no verified current-day source or report. One exception notice permitted inside the mail window.",
+  "thread_id": "1a18b6629751da02",
+  "subject": "[arXiv 日报] 2026-10-30 阅读任务暂停｜来源未核实（异常通知）",
+  "sent_at_utc": "2026-10-30T06:01:30Z",
+  "sent_at_beijing": "2026-10-30T14:01:30+08:00",
+  "checked_at_utc": "2026-10-30T06:02:19.846Z",
+  "gmail_sent_matches": 1,
+  "mail_snapshot_path": "reports/2026-10-30/mail.html",
+  "report_commit_sha": null,
+  "report_commit_reason": "No 2026-10-30 daily report exists because reading was paused; this is an exception notice",
+  "delivery_verification": "Gmail read_email labels include SENT, single recipient, sent search returns exactly one arXiv daily message on report date",
+  "reference_commit_sha": "78af6d7b81dbcec66412fecfd0a2b6dce7749549"
 }

@@ -24,17 +24,17 @@
     "Existing reading automation is disabled; today's 11:00 reading did not execute.",
     "No verified Oct 30 announcement manifest, triage, paper cards or digest. arXiv source listing is stale and RSS could not be verified."
   ],
-  "mail_decision": "exception_notice_sending_lease_claimed",
-  "last_mail_check_at": "2026-10-30T06:00:45.046Z",
+  "mail_decision": "exception_notice_sent_no_repeat",
+  "last_mail_check_at": "2026-10-30T06:02:19.846Z",
   "mail_check_events": [
     {
       "scheduled_at_beijing": "2026-10-30T14:00:00+08:00",
       "checked_at_utc": "2026-10-30T06:00:45.046Z",
       "checked_at_beijing": "2026-10-30 14:00:45",
-      "action": "claim_exception_delivery",
+      "action": "exception_sent",
       "reason": "reading_automation_disabled; source_not_verified",
-      "gmail_sent_matches": 0,
-      "mail_sent": false,
+      "gmail_sent_matches": 1,
+      "mail_sent": true,
       "platform_last_run": {
         "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
         "status": "completed",
@@ -44,7 +44,11 @@
         "source": "mcp__Automations__peek",
         "reading_automation_enabled": false,
         "next_run_time": null
-      }
+      },
+      "message_id": "1a18b6629751da02",
+      "sent_at_utc": "2026-10-30T06:01:30Z",
+      "sent_at_beijing": "2026-10-30T14:01:30+08:00",
+      "mail_snapshot_path": "reports/2026-10-30/mail.html"
     }
   ],
   "previous_batch_reference": {
