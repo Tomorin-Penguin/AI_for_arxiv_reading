@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-31",
+  "checked_at_utc": "2026-10-31T06:01:50.974Z",
+  "checked_by": "mail_checker_only",
+  "source_status": "unverified",
+  "announcement_date": null,
+  "all_announcements": null,
+  "categories": {
+    "gr_qc": {
+      "new_listing": "not_accessible",
+      "rss": "not_accessible"
+    },
+    "hep_th": {
+      "new_listing": "not_accessible",
+      "rss": "not_accessible"
+    }
+  },
+  "status_page": "https://status.arxiv.org/",
+  "status_note": "Oct 29 maintenance status visible, not proof of Oct 31 announcement state",
+  "previous_batch_reference": {
+    "announcement_date": "2026-10-28",
+    "last_report_date": "2026-10-29",
+    "all_announcements": 100,
+    "body_queue": 82,
+    "body_reviewed": 43,
+    "abstract_only": 0,
+    "pending": 39,
+    "skipped": 18,
+    "report_status": "partial",
+    "not_today": true
+  },
+  "reason": "Source inaccessible through present web tools. No current-day manifest, no ID/version comparison."
+}
