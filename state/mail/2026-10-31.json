@@ -1,14 +1,16 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-31",
-  "status": "sending_lease_claimed",
-  "sent": false,
+  "status": "sent_exception_notice",
+  "sent": true,
   "mail_type": "execution_exception",
   "recipient": "1468610627@qq.com",
   "lease": {
     "owner": "arxiv-mail-2026-10-31-2026-10-31T06:01:50.974Z",
     "acquired_at_utc": "2026-10-31T06:01:50.974Z",
-    "expires_at_utc": "2026-10-31T06:21:50.974Z"
+    "expires_at_utc": "2026-10-31T06:21:50.974Z",
+    "closed_at_utc": "2026-10-31T06:02:46.624Z",
+    "release_reason": "sent_verified"
   },
   "claimed_at_utc": "2026-10-31T06:01:50.974Z",
   "scheduled_check_at_beijing": "2026-10-31T14:00:00+08:00",
@@ -45,10 +47,17 @@
     "report_status": "partial",
     "not_today": true
   },
-  "message_id": null,
+  "message_id": "1a1908d4cec262f5",
   "subject": "[arXiv 日报] 2026-10-31 阅读任务暂停｜来源未核实（异常通知）",
-  "gmail_sent_matches": 0,
+  "gmail_sent_matches": 1,
   "report_commit_sha": null,
-  "report_commit_reason": "No Oct 31 verified reading report; exception only",
-  "reason": "Reading automation disabled; current source and digest unverified."
+  "report_commit_reason": "No Oct 31 complete official report (reading automation disabled)",
+  "reason": "Reading automation disabled; current source and digest unverified.",
+  "thread_id": "1a1908d4cec262f5",
+  "sent_at_utc": "2026-10-31T06:02:21Z",
+  "sent_at_beijing": "2026-10-31T14:02:21+08:00",
+  "checked_at_utc": "2026-10-31T06:02:46.624Z",
+  "mail_snapshot_path": "reports/2026-10-31/mail.html",
+  "reference_commit_sha": "320115e237703a8df2ff21f3997190abea351e6c",
+  "delivery_verification": "Gmail read_email returns SENT; sole recipient 1468610627@qq.com; zero CC; same-day sent search exactly one"
 }
