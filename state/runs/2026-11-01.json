@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-01",
+  "phase": "no_updates",
+  "announcement_status": "confirmed_no_updates",
+  "started_at": null,
+  "reading_started_at": null,
+  "reading_automation_enabled": false,
+  "execution_health": "paused",
+  "source_checked_at": "2026-11-01T06:09:27.351Z",
+  "last_progress_at": null,
+  "report_ready": true,
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-01T06:09:27.351Z",
+    "enabled": false,
+    "next_run_time": null
+  },
+  "mail_decision": "lease_claimed_send_no_updates_with_pause_notice",
+  "mail_check_events": [
+    {
+      "scheduled_at_beijing": "2026-11-01T14:00:00+08:00",
+      "checked_at_utc": "2026-11-01T06:09:27.351Z",
+      "action": "claim_sending_lease",
+      "reason": "verified_no_updates_and_reading_paused"
+    }
+  ],
+  "blockers": [
+    "Oct 30 visible batch unprocessed because reading task paused",
+    "RSS unavailable"
+  ]
+}

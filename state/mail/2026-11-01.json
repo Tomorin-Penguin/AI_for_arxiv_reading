@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-01",
+  "status": "sending",
+  "sent": false,
+  "mail_type": "verified_no_updates_with_reading_paused",
+  "recipient": "1468610627@qq.com",
+  "subject": "[arXiv 日报] 2026-11-01 | gr-qc / hep-th（无新论文；阅读暂停）",
+  "lease": {
+    "owner": "mail-2026-11-01-2026-11-01T06:09:27.351Z",
+    "acquired_at_utc": "2026-11-01T06:09:27.351Z",
+    "expires_at_utc": "2026-11-01T06:29:27.351Z"
+  },
+  "actual_check_at_utc": "2026-11-01T06:09:27.351Z",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-01T06:09:27.351Z",
+    "enabled": false,
+    "next_run_time": null
+  },
+  "source_status": "verified_no_updates",
+  "today_counts": {
+    "announcements": 0,
+    "body_queue": 0,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": 0,
+    "skipped": 0
+  },
+  "snapshot_path": "reports/2026-11-01/mail.html"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-01",
+  "checked_at_utc": "2026-11-01T06:09:27.351Z",
+  "source_status": "verified_no_updates",
+  "announcement_date": null,
+  "all_announcements": 0,
+  "official_evidence": {
+    "gr_qc_latest_listing_date": "2026-10-30",
+    "hep_th_latest_listing_date": "2026-10-30",
+    "gr_qc": "https://arxiv.org/list/gr-qc/new",
+    "hep_th": "https://arxiv.org/list/hep-th/new",
+    "schedule": "https://info.arxiv.org/help/availability.html",
+    "next_beijing_announcement": "2026-11-02T09:00:00+08:00",
+    "rss": "inaccessible_in_this_check"
+  },
+  "id_version_comparison": {
+    "nov1": "no_new_local_day_listing",
+    "oct30": "not_completed_reading_paused"
+  },
+  "unprocessed_visible_batch": "2026-10-30",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-01T06:09:27.351Z",
+    "enabled": false,
+    "next_run_time": null
+  },
+  "note": "This verifies no new papers on Beijing reporting date 2026-11-01, NOT coverage of the last visible Oct 30 batch."
+}
