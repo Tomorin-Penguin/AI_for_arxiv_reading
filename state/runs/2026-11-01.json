@@ -19,17 +19,28 @@
     "enabled": false,
     "next_run_time": null
   },
-  "mail_decision": "lease_claimed_send_no_updates_with_pause_notice",
+  "mail_decision": "sent_no_updates_with_paused_reading_no_repeat",
   "mail_check_events": [
     {
       "scheduled_at_beijing": "2026-11-01T14:00:00+08:00",
       "checked_at_utc": "2026-11-01T06:09:27.351Z",
       "action": "claim_sending_lease",
       "reason": "verified_no_updates_and_reading_paused"
+    },
+    {
+      "scheduled_at_beijing": "2026-11-01T14:00:00+08:00",
+      "checked_at_utc": "2026-11-01T06:10:24.548Z",
+      "action": "sent_and_verified",
+      "message_id": "1a195ba86e73b07d",
+      "sent_at_utc": "2026-11-01T06:09:51Z",
+      "sent_at_beijing": "2026-11-01T14:09:51+08:00",
+      "gmail_sent_matches": 1,
+      "report_commit_sha": "1592170f76abbd9758a568efba59ff860e15e396"
     }
   ],
   "blockers": [
     "Oct 30 visible batch unprocessed because reading task paused",
     "RSS unavailable"
-  ]
+  ],
+  "last_mail_check_at": "2026-11-01T06:10:24.548Z"
 }
