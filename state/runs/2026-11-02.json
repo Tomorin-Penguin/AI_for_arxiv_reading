@@ -29,14 +29,24 @@
     "2026-10-30 batch also remains unprocessed"
   ],
   "source_completeness": "official_listing_verified_manifest_incomplete",
-  "mail_decision": "claim_abnormal_notification",
+  "mail_decision": "sent_abnormal_notification_no_repeat",
   "mail_check_events": [
     {
       "scheduled_at_beijing": "2026-11-02T14:00:00+08:00",
       "checked_at_utc": "2026-11-02T06:06:56.885Z",
       "action": "claim_sending_lease",
       "reason": "reading automation paused; current new announcement exists but collection/triage not executed"
+    },
+    {
+      "scheduled_at_beijing": "2026-11-02T14:00:00+08:00",
+      "checked_at_utc": "2026-11-02T06:09:37.771Z",
+      "action": "sent_and_verified",
+      "message_id": "1a19adf8b006f111",
+      "sent_at_utc": "2026-11-02T06:08:23.000Z",
+      "sent_at_beijing": "2026-11-02T14:08:23.000+08:00",
+      "gmail_sent_matches": 1,
+      "report_commit_sha": "c89971f0588b70ab33fb1c416f52f67e5a3628f7"
     }
   ],
-  "last_mail_check_at": "2026-11-02T06:06:56.885Z"
+  "last_mail_check_at": "2026-11-02T06:09:37.771Z"
 }

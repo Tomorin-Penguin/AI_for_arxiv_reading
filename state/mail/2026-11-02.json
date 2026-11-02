@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-02",
-  "status": "sending_lease_acquired",
-  "sent": false,
+  "status": "sent_abnormal_notification",
+  "sent": true,
   "mail_type": "reading_paused_current_announcement_unprocessed",
   "recipient": "1468610627@qq.com",
   "subject": "[arXiv 日报] 2026-11-02 阅读任务暂停｜当日新公告未处理（异常通知）",
@@ -10,7 +10,8 @@
     "owner": "mail-2026-11-02-2026-11-02T06:06:56.885Z",
     "acquired_at_utc": "2026-11-02T06:06:56.885Z",
     "expires_at_utc": "2026-11-02T06:26:56.885Z",
-    "closed_at_utc": null
+    "closed_at_utc": "2026-11-02T06:09:37.771Z",
+    "release_reason": "sent_verified"
   },
   "actual_check_at_utc": "2026-11-02T06:06:56.885Z",
   "platform_last_run": {
@@ -50,10 +51,15 @@
     "note": "79 includes cross-category duplication; 0 reviewed means no 2026-11-02 reading evidence, not that 0 papers require review"
   },
   "summary": "Today listing is confirmed new; no processed manifest or report. Read count for today's batch is 0 verified, pending and skipped unquantified.",
-  "snapshot_path": null,
-  "message_id": null,
-  "thread_id": null,
-  "checked_at_utc": "2026-11-02T06:06:56.885Z",
-  "gmail_sent_matches": 0,
-  "delivery_verification": "pre-send Gmail sent search found 0 matching 2026-11-02 main emails"
+  "snapshot_path": "reports/2026-11-02/mail.html",
+  "message_id": "1a19adf8b006f111",
+  "thread_id": "1a19adf8b006f111",
+  "checked_at_utc": "2026-11-02T06:09:37.771Z",
+  "gmail_sent_matches": 1,
+  "delivery_verification": "Gmail read_email returned SENT, exactly one recipient, CC/BCC empty; sent search matched one current-date main email",
+  "sent_at_utc": "2026-11-02T06:08:23.000Z",
+  "sent_at_beijing": "2026-11-02T14:08:23.000+08:00",
+  "report_commit_sha": "c89971f0588b70ab33fb1c416f52f67e5a3628f7",
+  "report_ready": false,
+  "reports_available": false
 }
