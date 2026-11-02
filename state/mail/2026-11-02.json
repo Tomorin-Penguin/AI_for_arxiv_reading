@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-02",
+  "status": "sending_lease_acquired",
+  "sent": false,
+  "mail_type": "reading_paused_current_announcement_unprocessed",
+  "recipient": "1468610627@qq.com",
+  "subject": "[arXiv 日报] 2026-11-02 阅读任务暂停｜当日新公告未处理（异常通知）",
+  "lease": {
+    "owner": "mail-2026-11-02-2026-11-02T06:06:56.885Z",
+    "acquired_at_utc": "2026-11-02T06:06:56.885Z",
+    "expires_at_utc": "2026-11-02T06:26:56.885Z",
+    "closed_at_utc": null
+  },
+  "actual_check_at_utc": "2026-11-02T06:06:56.885Z",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-02T06:06:56.885Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "source_status": "confirmed_new_listings_manifest_incomplete",
+  "category_counts": {
+    "gr_qc": {
+      "listing_total": 65,
+      "new_submissions": 21,
+      "cross_submissions": 16,
+      "replacements": 28,
+      "new_plus_cross": 37
+    },
+    "hep_th": {
+      "listing_total": 78,
+      "new_submissions": 23,
+      "cross_submissions": 19,
+      "replacements": 36,
+      "new_plus_cross": 42
+    },
+    "sum_category_new_plus_cross": 79,
+    "distinct_ids": null,
+    "distinct_versions": null,
+    "body_queue": null,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": null,
+    "skipped": null,
+    "note": "79 includes cross-category duplication; 0 reviewed means no 2026-11-02 reading evidence, not that 0 papers require review"
+  },
+  "summary": "Today listing is confirmed new; no processed manifest or report. Read count for today's batch is 0 verified, pending and skipped unquantified.",
+  "snapshot_path": null,
+  "message_id": null,
+  "thread_id": null,
+  "checked_at_utc": "2026-11-02T06:06:56.885Z",
+  "gmail_sent_matches": 0,
+  "delivery_verification": "pre-send Gmail sent search found 0 matching 2026-11-02 main emails"
+}
