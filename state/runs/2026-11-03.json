@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-03",
+  "phase": "blocked",
+  "announcement_status": "unverified",
+  "reading_automation_enabled": false,
+  "execution_health": "paused",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-03T06:00:16.447Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "source_checked_at": "2026-11-03T06:00:16.447Z",
+  "last_progress_at": null,
+  "report_ready": false,
+  "backlog_authorized": false,
+  "paper_batch_date": null,
+  "blockers": [
+    "reading automation paused since 2026-10-29",
+    "RSS unavailable",
+    "no current-date ID/version reconciliation or report"
+  ],
+  "mail_decision": "preflight_lease_claim_no_sending_before_14",
+  "mail_check_events": [
+    {
+      "checked_at_utc": "2026-11-03T06:00:16.447Z",
+      "action": "preflight",
+      "reason": "reading paused; source date unverified; mail window not started"
+    }
+  ],
+  "last_mail_check_at": "2026-11-03T06:00:16.447Z"
+}

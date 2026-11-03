@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-03",
+  "announcement_date": null,
+  "source_status": "current_announcement_unverified",
+  "verified_at_utc": "2026-11-03T06:00:16.447Z",
+  "official_listing_date": "Monday, 2 November 2026",
+  "prior_listing_counts": {
+    "gr_qc": {
+      "total": 65,
+      "new": 21,
+      "cross": 16,
+      "replacements": 28
+    },
+    "hep_th": {
+      "total": 78,
+      "new": 23,
+      "cross": 19,
+      "replacements": 36
+    }
+  },
+  "rss_status": "both_inaccessible",
+  "previous_batch_reference": "2026-11-02 same listing",
+  "id_version_diff_status": "not_verified",
+  "today_counts": {
+    "all_announcement": null,
+    "body_queue": null,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": null,
+    "skipped": null
+  },
+  "blockers": [
+    "reading automation paused since 2026-10-29",
+    "RSS unavailable",
+    "no current-date ID/version reconciliation or report"
+  ],
+  "urls": [
+    "https://arxiv.org/list/gr-qc/new",
+    "https://arxiv.org/list/hep-th/new",
+    "https://status.arxiv.org/"
+  ]
+}
