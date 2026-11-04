@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-04",
+  "announcement_date": null,
+  "source_status": "current_announcement_unverified_access_blocked",
+  "verified_at_utc": "2026-11-04T06:05:32.965Z",
+  "checks": [
+    {
+      "url": "https://status.arxiv.org/",
+      "result": "site up, search and export up; no scheduled outage; not evidence of daily announcement status"
+    },
+    {
+      "url": "https://arxiv.org/list/gr-qc/new?show=2000",
+      "result": "web open DisabledError"
+    },
+    {
+      "url": "https://arxiv.org/list/hep-th/new?show=2000",
+      "result": "web open DisabledError"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/gr-qc",
+      "result": "web RSS inaccessible"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/hep-th",
+      "result": "web RSS inaccessible"
+    }
+  ],
+  "last_repo_source_check": "2026-11-03 current_announcement_unverified; last verified category listing Monday 2026-11-02",
+  "previous_batch_reference": "2026-11-03 source record and 2026-11-02 official listing; no current ID/version reconciliation",
+  "id_version_diff_status": "not_verified",
+  "today_counts": {
+    "all_announcement": null,
+    "body_queue": null,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": null,
+    "skipped": null
+  },
+  "blockers": [
+    "阅读自动化 6ae1d5d4b0d88190985f3671e1eb0542 已暂停，最近一次运行是 2026-10-29；今日无新运行",
+    "2026-11-04 gr-qc / hep-th 公告页及 RSS 当前无法通过可用网页接口读取，来源未核实",
+    "未建立今日跨分类去重 ID/版本清单、预分类和正式报告，今日正文未执行"
+  ]
+}
