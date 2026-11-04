@@ -25,14 +25,24 @@
     "2026-11-04 gr-qc / hep-th 公告页及 RSS 当前无法通过可用网页接口读取，来源未核实",
     "未建立今日跨分类去重 ID/版本清单、预分类和正式报告，今日正文未执行"
   ],
-  "mail_decision": "send_abnormal_notification",
+  "mail_decision": "sent_abnormal_notification_no_repeat",
   "mail_check_events": [
     {
       "checked_at_utc": "2026-11-04T06:05:32.965Z",
       "scheduled_at_beijing": "2026-11-04T14:00:00+08:00",
       "action": "lease_requested",
       "reason": "reading paused, sources unverified, no current report"
+    },
+    {
+      "checked_at_utc": "2026-11-04T06:07:15.619Z",
+      "scheduled_at_beijing": "2026-11-04T14:00:00+08:00",
+      "action": "sent_and_verified",
+      "message_id": "1a1a52a747ab761a",
+      "sent_at_utc": "2026-11-04T06:06:25Z",
+      "source_record_commit_sha": "df579390d1a4a44c8a67288dee8a83faea800ad9",
+      "report_commit_sha": null,
+      "gmail_sent_matches": 1
     }
   ],
-  "last_mail_check_at": "2026-11-04T06:05:32.965Z"
+  "last_mail_check_at": "2026-11-04T06:07:15.619Z"
 }
