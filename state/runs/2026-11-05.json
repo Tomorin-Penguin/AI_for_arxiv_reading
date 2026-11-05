@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-05",
+  "phase": "blocked",
+  "announcement_status": "partially_verified",
+  "reading_automation_enabled": false,
+  "execution_health": "paused_not_execution_failure",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-05T06:00:29.332Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "source_checked_at": "2026-11-05T06:00:29.332Z",
+  "last_progress_at": null,
+  "report_ready": false,
+  "backlog_authorized": false,
+  "paper_batch_date": null,
+  "blockers": [
+    "阅读自动化已暂停（is_enabled=false），2026-11-05 没有新的正文阅读运行；最近一次运行于 2026-10-29 正常结束。",
+    "官方 hep-th 2026-11-05 列表可见，但 gr-qc new 页面本轮无法读取、两类 RSS 不可用；完整去重 ID/版本清单和预分类未核验。",
+    "当天尚无正式中文报告、双语精选或阅读卡，无法发送已完成日报。"
+  ],
+  "mail_decision": "sending_abnormal_notification",
+  "mail_check_events": [
+    {
+      "checked_at_utc": "2026-11-05T06:00:29.332Z",
+      "scheduled_at_beijing": "2026-11-05T14:00:00+08:00",
+      "action": "preflight_and_lease_requested",
+      "reason": "reading paused; incomplete source, no current report, no current-date mail"
+    }
+  ],
+  "last_mail_check_at": "2026-11-05T06:00:29.332Z"
+}
