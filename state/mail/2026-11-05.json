@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-05",
-  "status": "sending",
-  "sent": false,
+  "status": "sent_abnormal_notification",
+  "sent": true,
   "mail_type": "reading_paused_partial_source",
   "recipient": "1468610627@qq.com",
   "subject": "[arXiv 日报] 2026-11-05 阅读任务暂停｜公告仅部分核实（异常通知）",
   "lease": {
     "owner": "mail-2026-11-05-2026-11-05T06:00:29.332Z",
     "acquired_at_utc": "2026-11-05T06:00:29.332Z",
-    "expires_at_utc": "2026-11-05T06:20:29.332Z"
+    "expires_at_utc": "2026-11-05T06:20:29.332Z",
+    "closed_at_utc": "2026-11-05T06:05:21.416Z",
+    "release_reason": "sent_verified"
   },
   "platform_last_run": {
     "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
@@ -23,8 +25,16 @@
   },
   "source_status": "partial_hep_th_verified_grqc_rss_incomplete",
   "actual_check_at_utc": "2026-11-05T06:00:29.332Z",
-  "gmail_sent_matches": 0,
+  "gmail_sent_matches": 1,
   "report_ready": false,
   "reports_available": false,
-  "report_commit_sha": null
+  "report_commit_sha": null,
+  "message_id": "1a1aa4ee541f9d6a",
+  "thread_id": "1a1aa4ee541f9d6a",
+  "sent_at_utc": "2026-11-05T06:04:19Z",
+  "sent_at_beijing": "2026-11-05T14:04:19+08:00",
+  "checked_at_utc": "2026-11-05T06:05:21.416Z",
+  "source_record_commit_sha": "fc4b4a06d50d5d946e8d3b98525b16b20fb66f67",
+  "snapshot_path": "reports/2026-11-05/mail.html",
+  "delivery_verification": "Gmail read_email returned SENT, single recipient, no Cc/Bcc; sent search exactly one same-date mail"
 }
