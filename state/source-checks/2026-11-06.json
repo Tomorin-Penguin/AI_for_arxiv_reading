@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-06",
+  "announcement_date": "2026-11-06",
+  "source_status": "both_official_listings_verified_rss_and_id_version_incomplete",
+  "verified_at_utc": "2026-11-06T06:02:15.269Z",
+  "checks": [
+    {
+      "url": "https://status.arxiv.org/",
+      "result": "Main site Up, no planned outages; not by itself a proof of daily updates"
+    },
+    {
+      "url": "https://arxiv.org/list/gr-qc/new",
+      "result": "official listing: Friday 6 November 2026; new 27, cross 11, replacements 29, total 67"
+    },
+    {
+      "url": "https://arxiv.org/list/hep-th/new",
+      "result": "official listing: Friday 6 November 2026; new 30, cross 18, replacements 34, total 82"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/gr-qc",
+      "result": "not accessible via web tool"
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/hep-th",
+      "result": "not accessible via web tool"
+    }
+  ],
+  "category_listings": {
+    "gr_qc": {
+      "new": 27,
+      "cross": 11,
+      "replacements": 29,
+      "total": 67
+    },
+    "hep_th": {
+      "new": 30,
+      "cross": 18,
+      "replacements": 34,
+      "total": 82
+    }
+  },
+  "category_record_totals": {
+    "all": 149,
+    "new_plus_cross": 86,
+    "replacements": 63
+  },
+  "previous_batch_reference": "state/source-checks/2026-11-05.json; previously incomplete, full ID/version diff not verified",
+  "id_version_diff_status": "not_verified",
+  "today_counts": {
+    "all_announcement": null,
+    "body_queue": null,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": null,
+    "skipped": null
+  },
+  "blockers": [
+    "原阅读自动化已暂停（is_enabled=false，next_run_time=null），2026-11-06 未执行新的正文阅读；最近运行是 2026-10-29 completed，暂停并非新的平台失败。",
+    "官方11月6日 gr-qc、hep-th 分类公告日期与分类条目数量可见，但两路 RSS 不能读取；未执行跨分类去重和与上次ID/版本清单的逐项比对。",
+    "当日没有由阅读任务生成的正式正文阅读卡、全量预分类和通过校验的中文/双语正式简报。"
+  ]
+}

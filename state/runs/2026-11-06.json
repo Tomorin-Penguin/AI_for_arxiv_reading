@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-06",
+  "phase": "blocked",
+  "announcement_status": "both_listings_verified_rss_and_version_comparison_incomplete",
+  "reading_automation_enabled": false,
+  "execution_health": "paused_not_execution_failure",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-06T06:02:15.269Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "source_checked_at": "2026-11-06T06:02:15.269Z",
+  "last_progress_at": null,
+  "report_ready": false,
+  "backlog_authorized": false,
+  "paper_batch_date": "2026-11-06",
+  "blockers": [
+    "原阅读自动化已暂停（is_enabled=false，next_run_time=null），2026-11-06 未执行新的正文阅读；最近运行是 2026-10-29 completed，暂停并非新的平台失败。",
+    "官方11月6日 gr-qc、hep-th 分类公告日期与分类条目数量可见，但两路 RSS 不能读取；未执行跨分类去重和与上次ID/版本清单的逐项比对。",
+    "当日没有由阅读任务生成的正式正文阅读卡、全量预分类和通过校验的中文/双语正式简报。"
+  ],
+  "mail_decision": "lease_acquired_prepare_abnormal_notification",
+  "mail_check_events": [
+    {
+      "checked_at_utc": "2026-11-06T06:02:15.269Z",
+      "scheduled_at_beijing": "2026-11-06T14:00:00+08:00",
+      "action": "preflight_and_lease_requested",
+      "reason": "reading task disabled; official new listings confirmed but no current reading output or verified all-paper manifest"
+    }
+  ],
+  "last_mail_check_at": "2026-11-06T06:02:15.269Z"
+}
