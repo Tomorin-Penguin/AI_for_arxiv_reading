@@ -1,14 +1,16 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-06",
-  "status": "sending",
-  "sent": false,
+  "status": "sent_abnormal_notification",
+  "sent": true,
   "mail_type": "reading_paused_official_new_listings",
   "recipient": "1468610627@qq.com",
   "lease": {
     "owner": "mail-2026-11-06-2026-11-06T06:02:15.269Z",
     "acquired_at_utc": "2026-11-06T06:02:15.269Z",
-    "expires_at_utc": "2026-11-06T06:22:15.269Z"
+    "expires_at_utc": "2026-11-06T06:22:15.269Z",
+    "closed_at_utc": "2026-11-06T06:06:14.744Z",
+    "release_reason": "sent_verified"
   },
   "platform_last_run": {
     "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
@@ -22,9 +24,16 @@
   },
   "source_status": "both_official_listings_verified_rss_and_id_version_incomplete",
   "actual_check_at_utc": "2026-11-06T06:02:15.269Z",
-  "gmail_sent_matches": 0,
+  "gmail_sent_matches": 1,
   "report_ready": false,
   "reports_available": false,
   "report_commit_sha": null,
-  "message_id": null
+  "message_id": "1a1af74a71793913",
+  "thread_id": "1a1af74a71793913",
+  "sent_at_utc": "2026-11-06T06:03:40.000Z",
+  "sent_at_beijing": "2026-11-06T14:03:40.000+08:00",
+  "checked_at_utc": "2026-11-06T06:06:14.744Z",
+  "snapshot_path": "reports/2026-11-06/mail.html",
+  "source_record_commit_sha": "398bf26cb24bb9dd15c0ba6046b8d14ae099ee6a",
+  "delivery_verification": "Gmail read_email confirmed SENT, one recipient, no Cc/Bcc, exact single same-date sent search"
 }
