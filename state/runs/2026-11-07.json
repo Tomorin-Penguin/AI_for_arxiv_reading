@@ -24,14 +24,23 @@
     "Original reading automation disabled and Nov 6 batch remains unprocessed.",
     "RSS inaccessible; Nov 6 full ID/version reconciliation unavailable."
   ],
-  "mail_decision": "sending_lease_acquired_no_updates",
+  "mail_decision": "sent_no_updates_no_repeat",
   "mail_check_events": [
     {
       "checked_at_utc": "2026-11-07T06:01:42.325Z",
       "scheduled_at_beijing": "2026-11-07T14:00:00+08:00",
       "action": "verified_no_updates_prepared_and_mail_lease",
       "reason": "Official schedule and unchanged Nov 6 listings; reading paused, no fresh batch to review."
+    },
+    {
+      "checked_at_utc": "2026-11-07T06:03:37.852Z",
+      "scheduled_at_beijing": "2026-11-07T14:00:00+08:00",
+      "action": "sent_and_verified",
+      "message_id": "1a1b49a58fc84d41",
+      "sent_at_utc": "2026-11-07T06:02:56Z",
+      "report_commit_sha": "bc059f4c10917b7d8065194c2acf4241bb88593e",
+      "gmail_sent_matches": 1
     }
   ],
-  "last_mail_check_at": "2026-11-07T06:01:42.325Z"
+  "last_mail_check_at": "2026-11-07T06:03:37.852Z"
 }

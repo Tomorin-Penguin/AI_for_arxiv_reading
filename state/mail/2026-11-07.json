@@ -1,15 +1,17 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-07",
-  "status": "sending",
-  "sent": false,
+  "status": "sent_no_updates_with_reading_paused",
+  "sent": true,
   "mail_type": "verified_no_updates_with_reading_paused",
   "recipient": "1468610627@qq.com",
   "subject": "[arXiv 日报] 2026-11-07 | gr-qc / hep-th（无新论文；阅读暂停）",
   "lease": {
     "owner": "mail-2026-11-07-2026-11-07T06:01:42.325Z",
     "acquired_at_utc": "2026-11-07T06:01:42.325Z",
-    "expires_at_utc": "2026-11-07T06:21:42.325Z"
+    "expires_at_utc": "2026-11-07T06:21:42.325Z",
+    "closed_at_utc": "2026-11-07T06:03:37.852Z",
+    "release_reason": "sent_verified"
   },
   "actual_check_at_utc": "2026-11-07T06:01:42.325Z",
   "platform_last_run": {
@@ -32,8 +34,13 @@
     "skipped": 0
   },
   "report_ready": true,
-  "report_commit_sha": null,
+  "report_commit_sha": "bc059f4c10917b7d8065194c2acf4241bb88593e",
   "snapshot_path": "reports/2026-11-07/mail.html",
-  "message_id": null,
-  "sent_at_utc": null
+  "message_id": "1a1b49a58fc84d41",
+  "sent_at_utc": "2026-11-07T06:02:56Z",
+  "thread_id": "1a1b49a58fc84d41",
+  "sent_at_beijing": "2026-11-07T14:02:56+08:00",
+  "checked_at_utc": "2026-11-07T06:03:37.852Z",
+  "gmail_sent_matches": 1,
+  "delivery_verification": "Gmail read_email SENT exact recipient no Cc/Bcc; date-specific sent search one match"
 }
