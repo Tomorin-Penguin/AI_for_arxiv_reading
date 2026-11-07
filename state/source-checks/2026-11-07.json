@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "announcement_date": null,
+  "source_status": "verified_no_updates",
+  "checked_at_utc": "2026-11-07T06:01:42.325Z",
+  "official_evidence": {
+    "arxiv_schedule": "https://info.arxiv.org/help/availability.html",
+    "schedule_result": "Official announcement schedule normally has no Friday or Saturday announcements (US/Eastern), and Saturday November 7 in Beijing has no new batch.",
+    "gr_qc_url": "https://arxiv.org/list/gr-qc/new",
+    "gr_qc_latest_listing_date": "2026-11-06",
+    "gr_qc_counts": {
+      "new": 27,
+      "cross": 11,
+      "replacements": 29,
+      "total": 67
+    },
+    "hep_th_url": "https://arxiv.org/list/hep-th/new",
+    "hep_th_latest_listing_date": "2026-11-06",
+    "hep_th_counts": {
+      "new": 30,
+      "cross": 18,
+      "replacements": 34,
+      "total": 82
+    },
+    "system_status_url": "https://status.arxiv.org/",
+    "system_status": "Main site Up; no planned outages",
+    "rss_gr_qc": "inaccessible_via_web",
+    "rss_hep_th": "inaccessible_via_web"
+  },
+  "previous_batch_reference": "state/source-checks/2026-11-06.json",
+  "comparison": {
+    "latest_listing_dates_unchanged": true,
+    "latest_category_counts_unchanged": true,
+    "id_version_full_comparison": "not_available_no_prior_complete_manifest_or_rss",
+    "note": "No new Saturday announcement under the official schedule; this does NOT verify or clear the unprocessed Nov 6 batch."
+  },
+  "today_counts": {
+    "all_announcement": 0,
+    "body_queue": 0,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": 0,
+    "skipped": 0
+  },
+  "historical_unprocessed_batch": "2026-11-06",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-07T06:01:42.325Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "limitations": [
+    "RSS feeds inaccessible; existing November 6 batch not reconciled by complete ID/version list.",
+    "Reading automation disabled since October 29; no new body-review work."
+  ]
+}

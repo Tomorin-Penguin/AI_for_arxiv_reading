@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "report_date": "2026-11-07",
+  "announcement_date": null,
+  "source_status": "verified_no_updates",
+  "report_status": "no_updates",
+  "all_target_keys": [],
+  "body_reviewed_keys": [],
+  "abstract_only_keys": [],
+  "pending_keys": [],
+  "skipped_low_relevance_keys": [],
+  "raw_announcement_count": 0,
+  "unique_target_count": 0,
+  "updated_at": "2026-11-07T06:01:42.325Z",
+  "blockers": [
+    "Reading automation disabled; Nov 6 visible batch not processed.",
+    "RSS inaccessible; Nov 6 ID/version reconciliation incomplete."
+  ],
+  "historical_backlog": {
+    "announcement_date": "2026-10-28",
+    "all": 100,
+    "body_queue": 82,
+    "body_reviewed": 43,
+    "abstract_only": 0,
+    "pending": 39,
+    "skipped": 18
+  }
+}

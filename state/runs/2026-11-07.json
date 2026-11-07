@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "phase": "no_updates",
+  "announcement_status": "confirmed_no_updates",
+  "reading_automation_enabled": false,
+  "execution_health": "paused_not_execution_failure",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-07T06:01:42.325Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "source_checked_at": "2026-11-07T06:01:42.325Z",
+  "last_progress_at": null,
+  "report_ready": true,
+  "backlog_authorized": false,
+  "paper_batch_date": null,
+  "blockers": [
+    "Original reading automation disabled and Nov 6 batch remains unprocessed.",
+    "RSS inaccessible; Nov 6 full ID/version reconciliation unavailable."
+  ],
+  "mail_decision": "sending_lease_acquired_no_updates",
+  "mail_check_events": [
+    {
+      "checked_at_utc": "2026-11-07T06:01:42.325Z",
+      "scheduled_at_beijing": "2026-11-07T14:00:00+08:00",
+      "action": "verified_no_updates_prepared_and_mail_lease",
+      "reason": "Official schedule and unchanged Nov 6 listings; reading paused, no fresh batch to review."
+    }
+  ],
+  "last_mail_check_at": "2026-11-07T06:01:42.325Z"
+}
