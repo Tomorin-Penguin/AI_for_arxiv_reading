@@ -24,14 +24,23 @@
     "两类官方 new 列表和 RSS 在本轮均无法直接读取；只能依据官方公告日程判断无计划新批次，不能宣称已逐项核实。",
     "原阅读自动化 is_enabled=false，自 10 月 29 日最后一次运行后没有新阅读；11 月 6 日公告批次尚未正式处理。"
   ],
-  "mail_decision": "send_source_incomplete_and_reading_paused_warning",
+  "mail_decision": "sent_source_incomplete_no_repeat",
   "mail_check_events": [
     {
       "checked_at_utc": "2026-11-08T06:06:03.470Z",
       "scheduled_at_beijing": "2026-11-08T14:00:00+08:00",
       "action": "source_incomplete_prepared_and_mail_lease",
       "reason": "Official schedule: no scheduled Saturday-Eastern announcement; live list/RSS inaccessible; reading task disabled."
+    },
+    {
+      "checked_at_utc": "2026-11-08T06:08:04.045Z",
+      "scheduled_at_beijing": "2026-11-08T14:00:00+08:00",
+      "action": "sent_and_verified",
+      "message_id": "1a1b9c4cb7d6664c",
+      "sent_at_utc": "2026-11-08T06:07:24Z",
+      "report_commit_sha": "2c755b340e17fdf59ead508a18dd5f9c985be214",
+      "gmail_sent_matches": 1
     }
   ],
-  "last_mail_check_at": "2026-11-08T06:06:03.470Z"
+  "last_mail_check_at": "2026-11-08T06:08:04.045Z"
 }
