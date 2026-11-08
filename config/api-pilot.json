@@ -1,0 +1,21 @@
+{
+  "pilot_id": "arxiv-api-20261029-10",
+  "budget_usd": "5.00",
+  "paper_limit": 10,
+  "concurrency": 2,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "max_input_tokens": 80000,
+  "max_output_tokens": 8000,
+  "service_tier": "default",
+  "prices_verified_on": "2026-10-29",
+  "prices_valid_through": "2026-11-05",
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "input_usd_per_million": "2.00",
+  "cached_input_usd_per_million": "0.10",
+  "cache_write_usd_per_million": "2.50",
+  "output_usd_per_million": "10.00",
+  "manifest_path": "data/backlog-2026-10-28/manifest.json",
+  "triage_path": "reports/backlog-2026-10-28/triage.json",
+  "seed": 20261029
+}
