@@ -2,14 +2,15 @@
 
 [返回首页](../README.md)
 
-## 最新一期：2026-11-07
+## 最新一期：2026-11-08
 
-**[本日无新公告](2026-11-07/daily-zh.md)** · [双语说明](2026-11-07/selected-bilingual.md) · [状态](2026-11-07/status.json) · [来源](../state/source-checks/2026-11-07.json)。阅读任务暂停；11月6日可见批次未处理。
+**[今日来源核验不完整](2026-11-08/daily-zh.md)** · [双语说明](2026-11-08/selected-bilingual.md) · [状态](2026-11-08/status.json) · [来源](../state/source-checks/2026-11-08.json)。官方日程无计划公告；列表/RSS不可读，阅读任务暂停。
 
 ## 当日报告
 
 | 北京时间 | 结果 | 新文去重 | 需读正文 / 已读 / 待读 / 跳过 | 中文 | 双语 |
 | --- | --- | ---: | --- | --- | --- |
+| 2026-11-08 | **source_incomplete；按日程预计无新批次，阅读暂停** | 未核实（预期0） | **未核实 / 0 / 未核实 / 未核实** | [中文](2026-11-08/daily-zh.md) | [双语](2026-11-08/selected-bilingual.md) |
 | 2026-11-07 | **verified_no_updates；阅读暂停** | **0** | **0 / 0 / 0 / 0** | [中文](2026-11-07/daily-zh.md) | [双语](2026-11-07/selected-bilingual.md) |
 | 2026-11-01 | **verified_no_updates；阅读暂停** | **0** | **0 / 0 / 0 / 0** | [中文](2026-11-01/daily-zh.md) | [双语](2026-11-01/selected-bilingual.md) |
 | 2026-10-29 | **verified_no_updates** | **0** | **0 / 0 / 0 / 0** | [中文](2026-10-29/daily-zh.md) | [双语](2026-10-29/selected-bilingual.md) |

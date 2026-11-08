@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-08",
+  "status": "sending_lease",
+  "sent": false,
+  "mail_type": "source_incomplete_reading_paused_warning",
+  "recipient": "1468610627@qq.com",
+  "subject": "[arXiv 日报] 2026-11-08 | 公告核验不完整、阅读任务暂停（异常通知）",
+  "lease": {
+    "owner": "mail-2026-11-08-1400-2026-11-08T06:06:03.470Z",
+    "acquired_at_utc": "2026-11-08T06:06:03.470Z",
+    "expires_at_utc": "2026-11-08T06:26:03.470Z"
+  },
+  "actual_check_at_utc": "2026-11-08T06:06:03.470Z",
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-08T06:06:03.470Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "source_status": "source_incomplete_schedule_indicates_no_new",
+  "today_counts": {
+    "all_announcement": null,
+    "body_queue": null,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": null,
+    "skipped": null
+  },
+  "report_ready": false
+}

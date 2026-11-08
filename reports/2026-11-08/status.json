@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "report_date": "2026-11-08",
+  "announcement_date": null,
+  "source_status": "source_incomplete",
+  "report_status": "partial",
+  "all_target_keys": [],
+  "body_reviewed_keys": [],
+  "abstract_only_keys": [],
+  "pending_keys": [],
+  "skipped_low_relevance_keys": [],
+  "raw_announcement_count": null,
+  "unique_target_count": null,
+  "unknown_target_count": true,
+  "scheduled_new_announcements_expected": 0,
+  "updated_at": "2026-11-08T06:06:03.470Z",
+  "blockers": [
+    "两类官方 new 列表和 RSS 在本轮均无法直接读取；只能依据官方公告日程判断无计划新批次，不能宣称已逐项核实。",
+    "原阅读自动化 is_enabled=false，自 10 月 29 日最后一次运行后没有新阅读；11 月 6 日公告批次尚未正式处理。"
+  ],
+  "historic_unprocessed_batch": "2026-11-06",
+  "historical_backlog": {
+    "announcement_date": "2026-10-28",
+    "all": 100,
+    "body_queue": 82,
+    "body_reviewed": 43,
+    "abstract_only": 0,
+    "pending": 39,
+    "skipped": 18
+  }
+}

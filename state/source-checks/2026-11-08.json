@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-08",
+  "announcement_date": null,
+  "source_status": "source_incomplete_schedule_indicates_no_new",
+  "checked_at_utc": "2026-11-08T06:06:03.470Z",
+  "official_evidence": {
+    "announcement_schedule_url": "https://info.arxiv.org/help/availability.html",
+    "announcement_schedule": "Official postings Sunday–Thursday 20:00 US Eastern; no postings on Friday/Saturday US Eastern. At Beijing 2026-11-08 14:00, US Eastern is Saturday 2026-11-07 01:00, thus zero scheduled new announcements.",
+    "schedule_based_new_announcements_expected": 0,
+    "gr_qc_url": "https://arxiv.org/list/gr-qc/new?show=2000",
+    "hep_th_url": "https://arxiv.org/list/hep-th/new?show=2000",
+    "gr_qc_live": "web.open DisabledError; current listing not inspected",
+    "hep_th_live": "web.open DisabledError; current listing not inspected",
+    "rss_gr_qc": "not accessible via web.open",
+    "rss_hep_th": "not accessible via web.open",
+    "system_status_url": "https://status.arxiv.org/",
+    "system_status": "main site Up; no planned outage visible, not proof of new-list availability"
+  },
+  "previous_batch_reference": "state/source-checks/2026-11-07.json",
+  "last_verified_listings": {
+    "observed_on": "2026-11-07",
+    "gr_qc_date": "2026-11-06",
+    "hep_th_date": "2026-11-06",
+    "gr_qc_category_records": 67,
+    "hep_th_category_records": 82
+  },
+  "comparison": {
+    "schedule_expected_no_new_batch": true,
+    "today_listings_compared": false,
+    "per_id_version_compared": false,
+    "reason": "live category listings and RSS unavailable; cannot assert fresh page match or full ID/version comparison"
+  },
+  "today_counts": {
+    "all_announcement": null,
+    "body_queue": null,
+    "body_reviewed": 0,
+    "abstract_only": 0,
+    "pending": null,
+    "skipped": null
+  },
+  "platform_last_run": {
+    "run_id": "3e4aaca0-c63c-832d-ae15-647a63c2020a",
+    "status": "completed",
+    "started_at": "2026-10-29T08:00:37.826542Z",
+    "finished_at": "2026-10-29T08:16:02.784197Z",
+    "observed_at": "2026-11-08T06:06:03.470Z",
+    "enabled": false,
+    "next_run_time": null,
+    "source": "mcp__Automations__peek"
+  },
+  "reading_automation_enabled": false,
+  "limitations": [
+    "Official schedule strongly indicates no new Beijing-Sunday batch, but present-day gr-qc/hep-th listings could not be independently accessed; official source verification incomplete.",
+    "Reading automation is disabled; no new body reading occurred. Historic 2026-11-06 batch remains unprocessed and un-reconciled."
+  ],
+  "historical_unprocessed_batch": "2026-11-06",
+  "backlog_authorized_today": false
+}
